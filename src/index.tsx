@@ -11,9 +11,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 const store = createStore(reducers, applyMiddleware(thunk))
 
-const app = (
-    console.log('app')
-    
+const app = (    
     <Provider store={store}>
         <BrowserRouter>
         <LastLocationProvider>
