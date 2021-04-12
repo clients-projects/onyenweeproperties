@@ -3,7 +3,7 @@ const Features = () => {
         <section className="features">
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-global"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-global"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">World's best luxury homes</h4>
             <p className="feature__text">
@@ -13,7 +13,7 @@ const Features = () => {
         </div>
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-trophy"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-trophy"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">Only the best properties</h4>
             <p className="feature__text">
@@ -23,7 +23,7 @@ const Features = () => {
         </div>
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-map-pin"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">All homes in top locations</h4>
             <p className="feature__text">
@@ -33,7 +33,7 @@ const Features = () => {
         </div>
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-key"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-key"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">New home in one week</h4>
             <p className="feature__text">
@@ -43,7 +43,7 @@ const Features = () => {
         </div>
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-presentation"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-presentation"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">Top 1% realtors</h4>
             <p className="feature__text">
@@ -53,7 +53,7 @@ const Features = () => {
         </div>
         <div className="feature">
             <svg className="feature__icon">
-                <use xlinkHref="img/sprite.svg#icon-lock"></use>
+                {/* <use xlinkHref="img/sprite.svg#icon-lock"></use> */}
             </svg>
             <h4 className="heading-4 heading-4--dark">Secure payments on XXX</h4>
             <p className="feature__text">
