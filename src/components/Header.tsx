@@ -1,3 +1,8 @@
+import LogoBBC from '../sass/img/logo-bbc.png'
+import LogoForbes from '../sass/img/logo-forbes.png'
+import LogoTechcrunch from '../sass/img/logo-techcrunch.png'
+import LogoBi from '../sass/img/logo-bi.png'
+
 const Header = () => {
     return (
          <header className="header">
@@ -7,10 +12,10 @@ const Header = () => {
         <button className="btn header__btn">View our properties</button>
         <div className="header__seenon-text">As seen on</div>
         <div className="header__seenon-logos">
-            <img src="img/logo-bbc.png" alt="Seen on 1"/>
-            <img src="img/logo-forbes.png" alt="Seen on 2"/>
-            <img src="img/logo-techcrunch.png" alt="Seen on 3"/>
-            <img src="img/logo-bi.png" alt="Seen on 4"/>
+            <img src={LogoBBC} alt="Seen on 1"/>
+            <img src={LogoForbes} alt="Seen on 2"/>
+            <img src={LogoTechcrunch} alt="Seen on 3"/>
+            <img src={LogoBi} alt="Seen on 4"/>
         </div>
     </header>
     )
