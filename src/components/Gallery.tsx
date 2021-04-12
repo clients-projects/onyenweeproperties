@@ -1,8 +1,18 @@
+import Gal1 from '../sass/img/gal-1.jpeg'
+import Gal2 from '../sass/img/gal-2.jpeg'
+import Gal3 from '../sass/img/gal-3.jpeg'
+import Gal4 from '../sass/img/gal-4.jpeg'
+import Gal5 from '../sass/img/gal-5.jpeg'
+import Gal6 from '../sass/img/gal-6.jpeg'
+import Gal7 from '../sass/img/gal-7.jpeg'
+import Gal8 from '../sass/img/gal-8.jpeg'
+import Gal9 from '../sass/img/gal-9.jpeg'
+
 const Gallery = () => {
     return (
         <section className="gallery">
         <figure className="gallery_item gallery__item--1">
-            <img src="img/gal-1.jpeg" alt="1" className="gallery__img"/>
+            <img src={Gal1} alt="1" className="gallery__img"/>
         </figure>
         <figure className="gallery_item gallery__item--2">
             <img src="img/gal-2.jpeg" alt="2" className="gallery__img"/>
