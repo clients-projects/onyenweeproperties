@@ -58,10 +58,8 @@ function Layout(props: LayoutProps) {
 
      toRender = (
          <>
-             <div className='sidebar'>
-                 <button className='nav-btn'></button>
-             </div>
-             <main className='component'>{props.children}</main>
+             
+             <main className='container'>{props.children}</main>
              <div className='footer'>
                  <Footer />
              </div>{' '}
