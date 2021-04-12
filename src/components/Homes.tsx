@@ -1,15 +1,22 @@
+import House1 from '../sass/img/house-1.jpeg'
+import House2 from '../sass/img/house-2.jpeg'
+import House3 from '../sass/img/house-3.jpeg'
+import House4 from '../sass/img/house-4.jpeg'
+import House5 from '../sass/img/house-5.jpeg'
+import House6 from '../sass/img/house-6.jpeg'
+
 const Homes = () => {
     return (
         <section className="homes">
         <div className="home">
-            <img src="img/house-1.jpeg" alt="House 1" className="home__img"/>
+            <img src={House1} alt="House 1" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
             <h5 className="home__name">Beautiful Family Home</h5>
             <div className="home__location">
                 <svg>
-                    <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
+                    {/* <use xlinkHref="img/sprite.svg#icon-map-pin"></use> */}
                 </svg>
                 <p>USA</p>
             </div>
@@ -38,7 +45,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src="img/house-2.jpeg" alt="House 1" className="home__img"/>
+            <img src={House2} alt="House 1" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
@@ -74,7 +81,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src="img/house-3.jpeg" alt="House 3" className="home__img"/>
+            <img src={House3} alt="House 3" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
@@ -110,7 +117,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src="img/house-1.jpeg" alt="House 1" className="home__img"/>
+            <img src={House1} alt="House 1" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
@@ -146,7 +153,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src="img/house-5.jpeg" alt="House 5" className="home__img"/>
+            <img src={House5} alt="House 5" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
@@ -182,7 +189,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src="img/house-6.jpeg" alt="House 6" className="home__img"/>
+            <img src={House6} alt="House 6" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>

@@ -1,10 +1,14 @@
+import Realtor1 from '../sass/img/realtor-1.jpeg'
+import Realtor2 from '../sass/img/realtor-2.jpeg'
+import Realtor3 from '../sass/img/realtor-3.jpeg'
+
 const Realtors = () => {
     return (
         <div className='realtors'>
             <h3 className='heading-3'>Top Realtors</h3>
             <div className='realtors__list'>
                 <img
-                    src='img/realtor-1.jpeg'
+                    src={Realtor1}
                     alt='Realtor 1'
                     className='realtors__img'
                 />
@@ -13,7 +17,7 @@ const Realtors = () => {
                     <p className='realtors__sold'>245 houses sold</p>
                 </div>
                 <img
-                    src='img/realtor-2.jpeg'
+                    src={Realtor2}
                     alt='Realtor 2'
                     className='realtors__img'
                 />
@@ -22,7 +26,7 @@ const Realtors = () => {
                     <p className='realtors__sold'>212 houses sold</p>
                 </div>
                 <img
-                    src='img/realtor-3.jpeg'
+                    src={Realtor3}
                     alt='Realtor 3'
                     className='realtors__img'
                 />
