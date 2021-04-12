@@ -3,7 +3,6 @@ import { LastLocationType } from 'react-router-last-location'
 
 // import { useLastLocation } from 'react-router-last-location'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
 
 interface LayoutProps {
     isAdmin: LastLocationType
