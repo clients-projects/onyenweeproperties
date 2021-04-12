@@ -1,14 +1,17 @@
+import Story1 from '../sass/img/story-1.jpeg'
+import Story2 from '../sass/img/story-2.jpeg'
+
 const Story = () => {
     return (
         <>
             <div className='story__pictures'>
                 <img
-                    src='./img/story-1.jpeg'
+                    src={Story1}
                     alt='Couple with a new house'
                     className='story__img--1'
                 />
                 <img
-                    src='./img/story-2.jpeg'
+                    src={Story2}
                     alt='New house'
                     className='story__img--2'
                 />
