@@ -63,7 +63,7 @@ function Layout(props: LayoutProps) {
                  <button className='nav-btn'></button>
              </div>
              <main className='component'>{props.children}</main>
-             <div className='section-footer'>
+             <div className='footer'>
                  <Footer />
              </div>{' '}
          </>
