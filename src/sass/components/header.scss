@@ -1,69 +1,65 @@
 .header {
-    & > :link,
-    & > :visited {
-        text-decoration: none;
-        color: $color-grey-dark;
+  background-image: linear-gradient(rgba($color-secondary, .93),
+        rgba($color-secondary, .93) ), 
+        url(../img/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 8rem;
+  padding-top: 4rem;
+  grid-column: full-start/col-end 6;
+
+  display: grid;
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-gap: 1.5rem;
+  justify-content: center;
+
+
+  &__logo {
+    height: 3rem;
+    justify-self: center;
+  }
+
+  &__btn {
+    align-self:start;
+    justify-self: start;
+  }
+
+  &__seenon-text {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+    align-items: center;
+    font-size: 1.6rem;
+    color: $color-grey-light-2;
+
+    &::before,
+    &::after {
+      background-color:currentColor;
+      height: 1px;
+      content: "";
+      display:block;   
     }
-    &_input-box {
-        display: flex;
-        align-items: center;
-        position: relative;
-        justify-self: stretch;
+  }
 
-        &_input {
-            border-radius: 3rem;
-            padding: 0.7rem 1rem;
-            outline: none;
-            border: 1px solid rgb(63, 62, 62);
-            width: 100%;
-            padding-left: 2.5rem;
-        }
-        &_searchIcon {
-            position: absolute;
-            width: 3rem;
-        }
+  &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    justify-items: center;
+    align-items: center;
+
+    img {
+      max-height: 2.5rem;
+      max-width:100%;
+      filter: brightness(70%);
     }
+  }
+  @media only screen and (max-width: $bp-md){
+    grid-column: 1/-1;
+  }
 
-    &_list {
-        display: flex;
-        list-style: none;
-        justify-content: space-around;
-        margin-left: 2rem;
-        margin-right: 0.5rem;
-
-        & > * {
-            padding: 1rem 0.5rem;
-        }
-
-        &-item {
-            &--1:link,
-            &--1:visited,
-            &--2:link,
-            &--2:visited {
-                text-decoration: none;
-                padding: 0.5rem 1rem;
-                border-radius: 5px;
-            }
-
-            &--1 {
-                border: 1px solid $color-secondary;
-                &:link,
-                &:visited{
-                     color: $color-secondary;
-                     font-weight: 600;
-                     
-                }
-            }
-            &--2 {
-                background-color: $color-secondary;
-
-                &:link,
-                &:visited{
-                    color: white;
-                                         font-weight: 600;
-
-                }
-            }
-        }
-    }
+  @media only screen and (max-width: $bp-sm){
+    padding:5rem;
+  }
 }
