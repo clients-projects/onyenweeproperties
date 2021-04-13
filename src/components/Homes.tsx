@@ -4,6 +4,7 @@ import House3 from '../sass/img/house-3.jpeg'
 import House4 from '../sass/img/house-4.jpeg'
 import House5 from '../sass/img/house-5.jpeg'
 import House6 from '../sass/img/house-6.jpeg'
+// import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
 
 const Homes = () => {
     console.log('home logs')
@@ -12,7 +13,7 @@ const Homes = () => {
         <div className="home">
             <img src={House1} alt="House 1" className="home__img"/>
             <svg className="home__like">
-                {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
+                 {/* <use xlinkHref={SpriteHeartFull}></use>  */}
             </svg>
             <h5 className="home__name">Beautiful Family Home</h5>
             <div className="home__location">
