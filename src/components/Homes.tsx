@@ -117,7 +117,7 @@ const Homes = () => {
         </div>
 
         <div className="home">
-            <img src={House1} alt="House 1" className="home__img"/>
+            <img src={House4} alt="House 1" className="home__img"/>
             <svg className="home__like">
                 {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
             </svg>
