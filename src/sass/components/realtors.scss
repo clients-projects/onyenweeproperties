@@ -24,9 +24,11 @@
   }
 
   &__img {
-    width: 7rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     display: block;
+    object-fit: cover;
   }
 
   &__sold {
