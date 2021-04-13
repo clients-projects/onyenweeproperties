@@ -6,6 +6,7 @@ import House5 from '../sass/img/house-5.jpeg'
 import House6 from '../sass/img/house-6.jpeg'
 
 const Homes = () => {
+    console.log('home logs')
     return (
         <section className="homes">
         <div className="home">
