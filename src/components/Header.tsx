@@ -3,7 +3,8 @@ import LogoForbes from '../sass/img/logo-forbes.png'
 import LogoTechcrunch from '../sass/img/logo-techcrunch.png'
 import LogoBi from '../sass/img/logo-bi.png'
 import Logo from '../sass/img/logo.png'
-import {FaFacebook} from 'react-icons/fa'
+import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
+import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 
 const Header = () => {
     return (
@@ -15,10 +16,10 @@ const Header = () => {
         <div className="header__seenon-text">Follow us on</div>
         <div className="header__seenon-logos">
             <FaFacebook/>
-            {/* <img src={LogoBBC} alt="Seen on 1"/> */}
-            <img src={LogoForbes} alt="Seen on 2"/>
-            <img src={LogoTechcrunch} alt="Seen on 3"/>
-            <img src={LogoBi} alt="Seen on 4"/>
+            <FaInstagramSquare/>
+            <AiFillTwitterCircle/>
+            <AiFillLinkedin/>
+          
         </div>
     </header>
     )
