@@ -1,6 +1,6 @@
 
-import Realtor1 from '../sass/img/gal-1.jpeg'
-import Realtor2 from '../sass/img/gal-2.jpeg'
+import Realtor1 from '../sass/img/gal-2.jpeg'
+import Realtor2 from '../sass/img/gal-1.jpeg'
 import Realtor3 from '../sass/img/gal-3.jpeg'
 
 
