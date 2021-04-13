@@ -13,8 +13,8 @@ const Header = () => {
         <h3 className="heading-3">Your own home:</h3>
         <h1 className="heading-1">The ultimate personal freedom</h1>
         <button className="btn header__btn">View our properties</button>
-        <div className="header__seenon-text">Follow us on</div>
-        <div className="header__seenon-logos">
+        <div className="header__followon-text">Follow us on</div>
+        <div className="header__followon-logos">
             <FaFacebook/>
             <FaInstagramSquare/>
             <AiFillTwitterCircle/>
