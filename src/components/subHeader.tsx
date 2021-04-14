@@ -1,7 +1,7 @@
 const subHeader = () => {
     return (
         <div className='sidebar'>
-            <button className='nav-btn'>hhsf</button>
+            <button className='nav-btn'></button>
         </div>
     )
 }
