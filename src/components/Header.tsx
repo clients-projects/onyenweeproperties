@@ -1,4 +1,3 @@
-import Logo from '../sass/img/logo.png'
 import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
