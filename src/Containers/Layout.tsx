@@ -10,10 +10,9 @@ interface LayoutProps {
 }
 
 function Layout(props: LayoutProps) {
-
     console.log('layout props', props)
-   // const lastLocation = useLastLocation()
-   // const history = useHistory()
+    // const lastLocation = useLastLocation()
+    // const history = useHistory()
 
     //let fromlocationPath = ''
     // for (let i in lastLocation) {
@@ -22,7 +21,6 @@ function Layout(props: LayoutProps) {
     //     }
     // }
     //const fromLocationSplit = fromlocationPath.split(' ')
-
 
     //Check how this can be added to redux and called from there
     let toRender
@@ -36,13 +34,11 @@ function Layout(props: LayoutProps) {
     //         history.push('/admin/dashboard')
     //     }
 
-      
-
     //     toRender = props.children
     // } else {
     //     if (fromLocationSplit[0].includes('admin')) {
     //         window.location.reload()
-    //     } 
+    //     }
     //     toRender = (
     //         <>
     //             <div className='section-subHeader'>
@@ -56,15 +52,14 @@ function Layout(props: LayoutProps) {
     //     )
     // }
 
-     toRender = (
-         <>
-             
-             <main className='container'>{props.children}</main>
-             <div className='footer'>
-                 <Footer />
-             </div>{' '}
-         </>
-     )
+    toRender = (
+        <>
+            <main className='container'>{props.children}</main>
+            <div className='footer'>
+                <Footer />
+            </div>{' '}
+        </>
+    )
 
     return <>{toRender}</>
 }
