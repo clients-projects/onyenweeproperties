@@ -14,11 +14,12 @@
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
-    @media only screen and (max-width:$bp-md) {
+
+    @media only screen and (max-width:$bp-large) {
       grid-template-columns: repeat(3, min-content max-content);
     }
     
-    @media only screen and (max-width:$bp-sm) {
+    @media only screen and (max-width:$bp-md) {
       grid-template-columns: min-content max-content;
     }
   }
@@ -37,7 +38,7 @@
     margin-top: -3px;
   }
   
-  @media only screen and (max-width: $bp-md){
+  @media only screen and (max-width: $bp-large){
     grid-column: 1/-1;
   }
 

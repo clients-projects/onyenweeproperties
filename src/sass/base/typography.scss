@@ -1,6 +1,6 @@
 .container {
     display: grid;
-background-color: #f1f1f1;
+    background-color: #f1f1f1;
     // Row Tracks
     grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
 
@@ -14,7 +14,10 @@ background-color: #f1f1f1;
         [center-end] minmax(6rem, 1fr) [full-end];
 
     @media only screen and (max-width: $bp-large) {
-        grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
+        grid-template-rows: max-content 80vh min-content 40vw repeat(
+                3,
+                min-content
+            );
         grid-template-columns:
             [full-start] minmax(6rem, 1fr) [center-start] repeat(
                 8,
@@ -24,7 +27,7 @@ background-color: #f1f1f1;
     }
 
     @media only screen and (max-width: $bp-md) {
-        grid-template-rows: 6rem calc(100vh - 6rem);
+        grid-template-rows: max-content calc(100vh - 6rem);
     }
 }
 

@@ -5,6 +5,14 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <img src={Logo} alt='logo' className='sidebar-logo' />
+
+            <label htmlFor='check'>
+                <input type='checkbox' id='check' />
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
             <ul className='sidebar-nav'>
                 <li>
                     <Link to='/' className='sidebar-nav__item'>
