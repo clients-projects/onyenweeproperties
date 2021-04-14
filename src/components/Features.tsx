@@ -1,4 +1,4 @@
-import {GrMapLocation} from 'react-icons/gr'
+import { ImLocation2 } from 'react-icons/im'
 import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
 
 const Features = () => {
@@ -8,9 +8,7 @@ const Features = () => {
                 <figure className='feature__icon'>
                     <GiVikingLonghouse />
                 </figure>
-                <h4 className='heading-4 heading-4--dark'>
-                    Best luxury homes
-                </h4>
+                <h4 className='heading-4 heading-4--dark'>Best luxury homes</h4>
                 <p className='feature__text'>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Tenetur distinctio necessitatibus pariatur voluptatibus.
@@ -30,8 +28,7 @@ const Features = () => {
             </div>
             <div className='feature'>
                 <figure className='feature__icon'>
-                    {/* <use xlinkHref="img/sprite.svg#icon-map-pin"></use> */}
-                    <GrMapLocation />
+                    <ImLocation2 />
                 </figure>
                 <h4 className='heading-4 heading-4--dark'>
                     All homes in top locations
