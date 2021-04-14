@@ -5,12 +5,12 @@ import Header from '../components/Header'
 import Homes from '../components/Homes'
 import Realtors from '../components/Realtors'
 import Story from '../components/Story'
-import SubHeader from '../components/subHeader'
+import Sidebar from '../components/Sidebar'
 
 const Home = () => {
     return (
         <>
-            <SubHeader />
+            <Sidebar />
             <Header />
             <Realtors />
             <Features />
