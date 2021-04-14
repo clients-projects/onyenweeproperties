@@ -28,9 +28,10 @@
     margin-bottom: 0;
   }
   display: grid;
-  grid-template-columns: min-content 1fr;
-  grid-row-gap: 1.5rem;
-  grid-column-gap: 2rem;
+ // grid-template-columns: min-content 1fr;
+  //grid-row-gap: 1.5rem;
+  //grid-column-gap: 2rem;
+  justify-items: center;
 
   &__icon {
     height: 4.5rem;
@@ -42,6 +43,7 @@
 
   &__text {
     font-size: 1.7rem;
+    text-align: center;
     // grid-column: text-start/text-end; this can also be used;
   }
 }
