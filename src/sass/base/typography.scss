@@ -2,7 +2,7 @@
     display: grid;
 
     // Row Tracks
-    grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+    grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
 
     // Column Tracks
     grid-template-columns:

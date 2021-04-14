@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 const subHeader = () => {
     return (
         <div className='sidebar'>
-            <img src={Logo} alt="logo"/>
-            <ul className="sidebar-nav">
+            <img src={Logo} alt='logo' className='sidebar-logo' />
+            <ul className='sidebar-nav'>
                 <li>
                     <Link to='/'>Hello</Link>
                 </li>
