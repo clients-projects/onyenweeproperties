@@ -9,10 +9,11 @@
     display: grid;
 
     grid-template-columns: 10rem 0.6fr;
-    // @media only screen and (max-width: $bp-large){
-    //   align-items: center;
-    //   justify-content: flex-end;
-    // }
+    @media only screen and (max-width: $bp-largest){
+
+            grid-template-columns: 15rem 1fr;
+
+    }
 
     &-logo {
         width: 8rem;
