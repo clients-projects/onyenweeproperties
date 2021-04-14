@@ -1,6 +1,6 @@
 .container {
     display: grid;
-
+background-color: #f1f1f1;
     // Row Tracks
     grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
 
