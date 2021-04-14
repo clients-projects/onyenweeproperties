@@ -9,11 +9,17 @@
   grid-column: full-start/col-end 6;
 
   display: grid;
-  grid-template-rows:  min-content min-content minmax(6rem, min-content) 1fr;
+  grid-template-rows:  1fr 1fr min-content;
   grid-template-columns: minmax(min-content, max-content);
   grid-gap: 1.5rem;
   justify-content: center;
 
+
+  &__1{
+    display: grid;
+    align-content: center;
+    line-height: 3;
+  }
 
   &__logo {
     height: 3rem;

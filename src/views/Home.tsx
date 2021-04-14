@@ -1,5 +1,4 @@
 import Features from '../components/Features'
-import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
 import Header from '../components/Header'
 import Homes from '../components/Homes'
@@ -17,7 +16,6 @@ const Home = () => {
             <Story />
             <Homes />
             <Gallery />
-            <Footer />
         </>
     )
 }
