@@ -43,7 +43,7 @@ const Homes = () => {
                 </svg>
                 <p>$1,200,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
         <div className="home">
@@ -79,7 +79,7 @@ const Homes = () => {
                 </svg>
                 <p>$2,750,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
         <div className="home">
@@ -115,7 +115,7 @@ const Homes = () => {
                 </svg>
                 <p>$850,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
         <div className="home">
@@ -151,7 +151,7 @@ const Homes = () => {
                 </svg>
                 <p>$1,950,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
         <div className="home">
@@ -187,7 +187,7 @@ const Homes = () => {
                 </svg>
                 <p>$9,500,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
         <div className="home">
@@ -223,7 +223,7 @@ const Homes = () => {
                 </svg>
                 <p>$600,000</p>
             </div>
-            <button className="btn home__btn">Contact Realtor</button>
+            <button className="btn home__btn">View Property</button>
         </div>
 
     </section>
