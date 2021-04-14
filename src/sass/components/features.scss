@@ -34,8 +34,7 @@
   justify-items: center;
 
   &__icon {
-    height: 4.5rem;
-    width: 4.5rem;
+    font-size: 8rem;
     fill: $color-primary;
     grid-row: 1/ span 2; //this is the alternative;
     transform: translateY(-.5rem);
