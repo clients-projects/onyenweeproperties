@@ -7,22 +7,24 @@ const Sidebar = () => {
         console.log('loaded')
         const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId),
-        bodySelector = document.getElementById(bodyId)
+        bodySelector = document.getElementById(bodyId),
+        header = document.getElementById(headerId)
 
         console.log('the toggles',toggle, nav)
 
-        if(toggle && nav && bodySelector){
+        if(toggle && nav && bodySelector && header){
             toggle.addEventListener('click', () => {
                 console.log('clicked toggle')
                 nav.classList.toggle('show')
-                toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
+                header.classList.toggle('bodyI')
             })
         } 
     }
 
-    showNavBar('header-toggle', 'nav-bar', 'bodyId')
+    showNavBar('header-toggle', 'nav-bar', 'bodyId','header')
 
+    const linkColor = document.querySelectorAll('.nav')
 
     return (
         <>
@@ -44,31 +46,31 @@ const Sidebar = () => {
                             </Link>
 
                             <div className='nav__list'>
-                                <Link to='/' className='nav__logo'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Collins
                                     </span>
                                 </Link>
-                                <Link to='/' className='nav__logo'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Bedimcode
                                     </span>
                                 </Link>
-                                <Link to='/' className='nav__logo'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Bedimcode
                                     </span>
                                 </Link>
-                                <Link to='/' className='nav__logo'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Bedimcode
                                     </span>
                                 </Link>
-                                <Link to='/' className='nav__logo'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Bedimcode
