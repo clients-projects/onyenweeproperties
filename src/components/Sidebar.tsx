@@ -2,6 +2,25 @@ import Logo from '../sass/img/logo.png'
 import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
+
+    const showNavBar = (toggleId:string, navId: string) => {
+        console.log('loaded')
+        const toggle = document.getElementById(toggleId),
+        nav = document.getElementById(navId)
+
+        console.log(toggle, nav)
+
+        if(toggle && nav){
+            toggle.addEventListener('click', () => {
+                console.log('clicked toggle')
+                nav.classList.toggle('show')
+            })
+        } 
+    }
+
+    showNavBar('header-toggle', 'nav-bar')
+
+
     return (
         <>
                     <header className='header' id='header'>
@@ -57,7 +76,7 @@ const Sidebar = () => {
                     </nav>
                 </div>
             </header>
-        <div className='sidebar'>
+        {/* <div className='sidebar'>
             <img src={Logo} alt='logo' className='sidebar-logo' />
 
             <label htmlFor='check'>
@@ -101,7 +120,7 @@ const Sidebar = () => {
             </ul>
 
 
-        </div>
+        </div> */}
         </>
     )
 }
