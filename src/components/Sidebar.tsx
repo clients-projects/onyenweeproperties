@@ -1,45 +1,54 @@
 import Logo from '../sass/img/logo.png'
 import { Link } from 'react-router-dom'
 
-const Sidebar = () => {
+import { useEffect } from 'react'
 
-    const showNavBar = (toggleId:string, navId: string, bodyId: string, headerId: string) => {
+const Sidebar = () => {
+    useEffect(() => {
+        showNavBar('header-toggle', 'nav-bar', 'bodyId', 'header')
+
+        const linkColor = document.querySelectorAll('.nav__link')
+
+        console.log('link color1', linkColor)
+
+        const colorLink = () => {
+            if (linkColor) {
+                linkColor.forEach((i) => i.classList.remove('active'))
+
+                console.log('link color', linkColor)
+                // this!.classList.add('active')
+            }
+        }
+        linkColor.forEach((i) => i.addEventListener('click', colorLink))
+    }, [])
+
+    const showNavBar = (
+        toggleId: string,
+        navId: string,
+        bodyId: string,
+        headerId: string
+    ) => {
         console.log('loaded')
         const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId),
-        bodySelector = document.getElementById(bodyId),
-        header = document.getElementById(headerId)
+            nav = document.getElementById(navId),
+            bodySelector = document.getElementById(bodyId),
+            header = document.getElementById(headerId)
 
-        console.log('the toggles',toggle, nav)
+        console.log('the toggles', toggle, nav)
 
-        if(toggle && nav && bodySelector && header){
+        if (toggle && nav && bodySelector && header) {
             toggle.addEventListener('click', () => {
                 console.log('clicked toggle')
                 nav.classList.toggle('show')
                 bodySelector.classList.toggle('bodyId')
                 header.classList.toggle('bodyI')
             })
-        } 
-    }
-
-    showNavBar('header-toggle', 'nav-bar', 'bodyId','header')
-
-    const linkColor = document.querySelectorAll('.nav__link')
-
-    const colorLink = () => {
-        if(linkColor){
-            linkColor.forEach(i => i.classList.remove('active'))
-
-            //this.classList.add('active')
-            
         }
-    }  
-
-    linkColor.forEach(i => i.addEventListener('click', colorLink))
+    }
 
     return (
         <>
-                    <header className='header' id='header'>
+            <header className='header' id='header'>
                 <div className='header__toggle'>
                     <i className='bx bx-menu' id='header-toggle'></i>
                 </div>
@@ -51,9 +60,7 @@ const Sidebar = () => {
                         <div>
                             <Link to='/' className='nav__logo'>
                                 <i className='bx bx-layer nav__logo-icon'></i>
-                                <span className='nav__logo-name'>
-                                    Onyewee
-                                </span>
+                                <span className='nav__logo-name'>Onyewee</span>
                             </Link>
 
                             <div className='nav__list'>
@@ -65,9 +72,7 @@ const Sidebar = () => {
                                 </Link>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
-                                    <span className='nav__logo-name'>
-                                        Home
-                                    </span>
+                                    <span className='nav__logo-name'>Home</span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
@@ -92,7 +97,7 @@ const Sidebar = () => {
                     </nav>
                 </div>
             </header>
-        {/* <div className='sidebar'>
+            {/* <div className='sidebar'>
             <img src={Logo} alt='logo' className='sidebar-logo' />
 
             <label htmlFor='check'>
