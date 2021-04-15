@@ -24,7 +24,18 @@ const Sidebar = () => {
 
     showNavBar('header-toggle', 'nav-bar', 'bodyId','header')
 
-    const linkColor = document.querySelectorAll('.nav')
+    const linkColor = document.querySelectorAll('.nav__link')
+
+    const colorLink = () => {
+        if(linkColor){
+            linkColor.forEach(i => i.classList.remove('active'))
+
+            //this.classList.add('active')
+            
+        }
+    }  
+
+    linkColor.forEach(i => i.addEventListener('click', colorLink))
 
     return (
         <>
@@ -41,12 +52,12 @@ const Sidebar = () => {
                             <Link to='/' className='nav__logo'>
                                 <i className='bx bx-layer nav__logo-icon'></i>
                                 <span className='nav__logo-name'>
-                                    Bedimcode
+                                    Onyewee
                                 </span>
                             </Link>
 
                             <div className='nav__list'>
-                                <Link to='/' className='nav__link'>
+                                <Link to='/' className='nav__link active'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Collins
@@ -55,25 +66,25 @@ const Sidebar = () => {
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
-                                        Bedimcode
+                                        Home
                                     </span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
-                                        Bedimcode
+                                        Construction
                                     </span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
-                                        Bedimcode
+                                        Buildings
                                     </span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
-                                        Bedimcode
+                                        Interiors
                                     </span>
                                 </Link>
                             </div>
