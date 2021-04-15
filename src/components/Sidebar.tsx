@@ -13,13 +13,6 @@ const Sidebar = () => {
                 <span></span>
             </label>
 
-            <ul className='sidebar-mobile'>
-                <li>Home mobile</li>
-                <li>Home mobile</li>
-                <li>Home mobile</li>
-                <li>Home mobile</li>
-            </ul>
-
             <ul className='sidebar-nav'>
                 <li>
                     <Link to='/' className='sidebar-nav__item'>
@@ -52,6 +45,15 @@ const Sidebar = () => {
                     </Link>
                 </li>
             </ul>
+
+            <header className='header' id='header'>
+                <div className='header__toggle'>
+                    <i class='bx bx-menu' id='header-toggle'></i>
+                </div>
+                <div className="header__img">
+                    <img src={Logo} alt="logo"/>
+                </div>
+            </header>
         </div>
     )
 }
