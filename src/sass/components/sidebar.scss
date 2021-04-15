@@ -13,6 +13,11 @@
     &-logo {
         width: 8rem;
         height: 8rem;
+
+        @media only screen and (max-width: $bp-md) {
+            width: 5rem;
+            height: 5rem;
+        }
     }
 
     &-nav {
@@ -47,16 +52,17 @@
         label {
             display: flex;
             flex-direction: column;
-            width: 70px;
+            width: 40px;
             cursor: pointer;
             justify-content: center;
+            align-items: flex-end;
         }
 
         label span {
             background: $color-secondary;
             border-radius: 10px;
-            height: 6px;
-            margin: 6px 0;
+            height: 5px;
+            margin: 5px 0;
             transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
         }
 
@@ -89,7 +95,8 @@
         input[type='checkbox']:checked ~ span:nth-of-type(3) {
             transform-origin: bottom;
             width: 50%;
-            transform: translate(30px, -11px) rotatez(45deg);
+            //transform: translate(30px, -11px) rotatez(45deg);
+            transform: translate(19px, -11px) rotatez(45deg);
         }
     }
 
@@ -100,6 +107,6 @@
     @media only screen and (max-width: $bp-md) {
         direction: rtl;
         grid-template-columns: 1fr max-content;
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 }
