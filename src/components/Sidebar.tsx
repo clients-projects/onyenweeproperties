@@ -13,6 +13,13 @@ const Sidebar = () => {
                 <span></span>
             </label>
 
+            <ul className='sidebar-mobile'>
+                <li>Home mobile</li>
+                <li>Home mobile</li>
+                <li>Home mobile</li>
+                <li>Home mobile</li>
+            </ul>
+
             <ul className='sidebar-nav'>
                 <li>
                     <Link to='/' className='sidebar-nav__item'>
