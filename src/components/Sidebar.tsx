@@ -3,22 +3,25 @@ import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
 
-    const showNavBar = (toggleId:string, navId: string) => {
+    const showNavBar = (toggleId:string, navId: string, bodyId: string, headerId: string) => {
         console.log('loaded')
         const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId)
+        nav = document.getElementById(navId),
+        bodySelector = document.getElementById(bodyId)
 
-        console.log(toggle, nav)
+        console.log('the toggles',toggle, nav)
 
-        if(toggle && nav){
+        if(toggle && nav && bodySelector){
             toggle.addEventListener('click', () => {
                 console.log('clicked toggle')
                 nav.classList.toggle('show')
+                toggle.classList.toggle('bx-x')
+                bodySelector.classList.toggle('bodyId')
             })
         } 
     }
 
-    showNavBar('header-toggle', 'nav-bar')
+    showNavBar('header-toggle', 'nav-bar', 'bodyId')
 
 
     return (

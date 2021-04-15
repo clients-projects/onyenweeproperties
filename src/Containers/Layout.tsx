@@ -54,7 +54,7 @@ function Layout(props: LayoutProps) {
 
     toRender = (
         <>
-            <main className='container'>{props.children}</main>
+            <main className='container' id='bodyId'>{props.children}</main>
             <div className='footer'>
                 <Footer />
             </div>{' '}
