@@ -45,9 +45,6 @@
         }
     }
 
-    
-    
-
     @media only screen and (max-width: $bp-largest) {
         grid-template-columns: 0.5fr 1fr;
     }
@@ -89,9 +86,9 @@
         transition: 0.4s;
         z-index: 88;
 
-         @media only screen and (max-width: $bp-sm) {
-        width: $sidebar-width + 30vw;
-    }
+        @media only screen and (max-width: $bp-sm) {
+            width: $sidebar-width + 30vw;
+        }
     }
 
     .nav {
@@ -143,19 +140,28 @@
         font-size: 1.3rem;
     }
 
+   
     .show {
         left: 0;
     }
 
-    .toggleLogo {
-        width: 0;
+    @media only screen and (min-width: $bp-md) {
+        display: none;
     }
-    .toggleMenu {
-        background-color: red;
-        left: $sidebar-width;
-    }
+}
 
-    .backdrop {
+.bodyId {
+    background-color: green;
+}
+
+.toggleLogo {
+    width: 0;
+}
+.toggleMenu {
+    background-color: red;
+    left: $sidebar-width;
+}
+ .backdrop {
         position: fixed;
         top: 0;
         left: 0;
@@ -164,9 +170,3 @@
         background-color: #13090949;
         // z-index: 88;
     }
-
-    @media only screen and (min-width: $bp-md) {
-    
-        display: none;
-    }
-}
