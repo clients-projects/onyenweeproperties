@@ -166,9 +166,6 @@
     color: white;
 }
 
-.toggleBackdrop {
-    display: block;
-}
 .backdrop {
     position: fixed;
     top: 0;
@@ -178,4 +175,8 @@
     background-color: #13090949;
     display: none;
     // z-index: 88;
+}
+
+.toggleBackdrop {
+    display: block;
 }
