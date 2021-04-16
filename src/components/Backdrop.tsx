@@ -1,6 +1,6 @@
 const Backdrop = (props: any) => {
     return (
-        <div className='backdrop'>
+        <div className='backdrop' id='backdrop'>
             {props.children}
         </div>
     )
