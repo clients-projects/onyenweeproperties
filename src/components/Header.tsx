@@ -12,7 +12,8 @@ const Header = () => {
             'bodyId',
             'sidebar',
             'header-body',
-            'header-logo'
+            'header-logo',
+            'backdrop'
         )
     }, [])
 
@@ -22,14 +23,16 @@ const Header = () => {
         bodyId: string,
         sidebarId: string,
         headerId: string,
-        logoId: string
+        logoId: string,
+        backdropId: string
     ) => {
         const toggle = document.getElementById(toggleId),
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
             sidebar = document.getElementById(sidebarId),
             header = document.getElementById(headerId),
-            logo = document.getElementById(logoId)
+            logo = document.getElementById(logoId),
+            getBackdrop = document.getElementById(backdropId)
 
 
         if (toggle && nav && bodySelector && sidebar && header) {
@@ -41,6 +44,7 @@ const Header = () => {
                 sidebar.classList.toggle('toggleMenu')
                 sidebar.classList.toggle('toggleColor')
                 logo!.classList.toggle('toggleLogo')
+                getBackdrop!.classList.toggle('toggleBackdrop')
 
                 console.log('sidebar')
             })
