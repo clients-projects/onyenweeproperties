@@ -36,9 +36,7 @@ const Sidebar = () => {
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
-                <div className='sidebar__img'>
-                    <img src={Logo} alt='logo' />
-                </div>
+                
                 <div className='navbar1' id='nav-bar'>
                     <nav className='nav'>
                         <div>
