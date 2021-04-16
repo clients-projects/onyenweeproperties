@@ -81,14 +81,7 @@ const Sidebar = () => {
             </section>
             <div className='header'>
                 <img src={Logo} alt='logo' className='header-logo' />
-
-                <label htmlFor='check'>
-                    <input type='checkbox' id='check' />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-
+                
                 <ul className='header-nav'>
                     <li>
                         <Link to='/' className='header-nav__item'>
