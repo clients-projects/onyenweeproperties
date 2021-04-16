@@ -25,7 +25,7 @@ const Header = () => {
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
             sidebar = document.getElementById(sidebarId),
-            header = document.getElementById(headerId),
+            header = document.getElementById(headerId)
 
 
         if (toggle && nav && bodySelector && sidebar && header) {
@@ -34,13 +34,14 @@ const Header = () => {
                 toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
                 sidebar.classList.toggle('bodyId')
-                header.classList.toggle('backdrop')
+               // header.classList.toggle('backdrop')
             })
         }
     }
 
     return (
         <>
+        
             <section className='sidebar' id='sidebar'>
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>

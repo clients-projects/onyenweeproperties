@@ -129,11 +129,12 @@
         font-size: 2rem;
         cursor: pointer;
     }
+
 }
 .navbar1 {
     position: fixed;
     top: 0;
-    left: -30%;
+    left: -100%;
     width: $sidebar-width;
     height: 100vh;
     padding: 0.5rem 1rem 0 0;
@@ -148,6 +149,10 @@
     flex-direction: column;
     justify-content: space-around;
     overflow: hidden;
+}
+
+.rootApp{
+    background-color: red;
 }
 
 .nav__logo,
@@ -200,8 +205,8 @@
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #2b16164a;
-    z-index: 88;
+    background-color: #13090949;
+   // z-index: 88;
 }
 
 
