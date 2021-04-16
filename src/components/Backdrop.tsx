@@ -1,7 +1,7 @@
-const Backdrop = () => {
+const Backdrop = (props: any) => {
     return (
         <div>
-            <p>hello world</p>
+            {props.children}
         </div>
     )
 }

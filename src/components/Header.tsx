@@ -2,6 +2,7 @@ import Logo from '../sass/img/logo.png'
 import { Link } from 'react-router-dom'
 
 import { useEffect } from 'react'
+import Backdrop from './Backdrop'
 
 const Header = () => {
     useEffect(() => {
@@ -49,6 +50,7 @@ const Header = () => {
 
     return (
         <>
+        <Backdrop>
             <section className='sidebar' id='sidebar'>
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
@@ -103,6 +105,7 @@ const Header = () => {
                     </nav>
                 </div>
             </section>
+            </Backdrop>
             <div className='header' id='header-body'>
                 <img
                     src={Logo}
