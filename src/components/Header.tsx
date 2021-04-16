@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 
 const Sidebar = () => {
     useEffect(() => {
-        showNavBar('header-toggle', 'nav-bar', 'bodyId', 'header')
+        showNavBar('sidebar-toggle', 'nav-bar', 'bodyId', 'sidebar')
     }, [])
 
     const showNavBar = (
@@ -32,11 +32,11 @@ const Sidebar = () => {
 
     return (
         <>
-            <section className='header-mobile' id='header-mobile'>
-                <div className='header__toggle'>
-                    <i className='bx bx-menu' id='header-toggle'></i>
+            <section className='sidebar' id='sidebar'>
+                <div className='sidebar__toggle'>
+                    <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
-                <div className='header__img'>
+                <div className='sidebar__img'>
                     <img src={Logo} alt='logo' />
                 </div>
                 <div className='navbar1' id='nav-bar'>
@@ -81,8 +81,8 @@ const Sidebar = () => {
                     </nav>
                 </div>
             </section>
-            <div className='sidebar'>
-                <img src={Logo} alt='logo' className='sidebar-logo' />
+            <div className='header'>
+                <img src={Logo} alt='logo' className='header-logo' />
 
                 <label htmlFor='check'>
                     <input type='checkbox' id='check' />
@@ -91,34 +91,34 @@ const Sidebar = () => {
                     <span></span>
                 </label>
 
-                <ul className='sidebar-nav'>
+                <ul className='header-nav'>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Real Estate
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Property Management
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Construction
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Interior
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='sidebar-nav__item'>
+                        <Link to='/' className='header-nav__item'>
                             Contact us
                         </Link>
                     </li>
