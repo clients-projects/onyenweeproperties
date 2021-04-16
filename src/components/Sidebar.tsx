@@ -9,14 +9,17 @@ const Sidebar = () => {
 
         const linkColor = document.querySelectorAll('.nav__link')
 
-        console.log('link color1', linkColor)
-
-        const colorLink = () => {
+        const colorLink = (e: any) => {
             if (linkColor) {
-                linkColor.forEach((i) => i.classList.remove('active'))
+                e.target.classList.add('active')
+
+                linkColor.forEach((i) => {
+                    console.log('link items', i.classList.contains('active'))
+                    i.classList.remove('active')
+                })
 
                 console.log('link color', linkColor)
-                // this!.classList.add('active')
+                console.log('the selected', e)
             }
         }
         linkColor.forEach((i) => i.addEventListener('click', colorLink))
@@ -40,6 +43,7 @@ const Sidebar = () => {
             toggle.addEventListener('click', () => {
                 console.log('clicked toggle')
                 nav.classList.toggle('show')
+                toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
                 header.classList.toggle('bodyI')
             })
