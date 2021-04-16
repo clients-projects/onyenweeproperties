@@ -38,10 +38,11 @@ const Header = () => {
                 bodySelector.classList.toggle('bodyId')
                 sidebar.classList.toggle('bodyId')
                 sidebar.classList.toggle('toggleMenu')
+                sidebar.classList.toggle('toggleColor')
                 header.classList.toggle('backdrop')
                 logo!.classList.toggle('toggleLogo')
 
-                console.log('sidebar', sidebar.classList)
+                console.log('sidebar')
             })
         }
     }

@@ -2,7 +2,6 @@
     //background-color: $color-primary;
     grid-column: 1/-1;
     grid-row: 1/2;
-
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -64,15 +63,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-color: black;
     z-index: 88;
     transition: 0.4s;
-
+    color: black;
+    
+    //  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    //  box-shadow:  10px 10px 20px #797979,
+    //               -10px -10px 20px #ffffff;
     &__toggle {
-        color: white;
         z-index: 100;
-        font-size: 2rem;
+        font-size: 3rem;
         cursor: pointer;
+        align-self: center;
     }
 
     .navbar1 {
@@ -140,7 +142,6 @@
         font-size: 1.3rem;
     }
 
-   
     .show {
         left: 0;
     }
@@ -151,7 +152,7 @@
 }
 
 .bodyId {
-    background-color: green;
+    padding: 3rem;
 }
 
 .toggleLogo {
@@ -159,14 +160,17 @@
 }
 .toggleMenu {
     background-color: red;
-    left: $sidebar-width;
+    left: $sidebar-width + 10vw;
 }
- .backdrop {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background-color: #13090949;
-        // z-index: 88;
-    }
+.toggleColor{
+    color: white;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #13090949;
+    // z-index: 88;
+}
