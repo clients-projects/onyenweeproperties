@@ -37,6 +37,7 @@ const Header = () => {
                 toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
                 sidebar.classList.toggle('bodyId')
+                sidebar.classList.toggle('toggleMenu')
                 header.classList.toggle('backdrop')
                 logo!.classList.toggle('toggleLogo')
 
