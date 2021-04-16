@@ -8,12 +8,12 @@ const Backdrop = (props: any) => {
 
       if (toggle && nav && bodySelector && sidebar && header) {
           toggle.addEventListener('click', () => {
-              nav.classList.toggle('show')
-              toggle.classList.toggle('bx-x')
-              bodySelector.classList.toggle('bodyId')
-              sidebar.classList.toggle('bodyId')
-              sidebar.classList.toggle('toggleMenu')
-              sidebar.classList.toggle('toggleColor')
+              nav.classList.remove('show')
+              toggle.classList.remove('bx-x')
+              bodySelector.classList.remove('bodyId')
+              sidebar.classList.remove('bodyId')
+              sidebar.classList.remove('toggleMenu')
+              sidebar.classList.remove('toggleColor')
 
           })
       }
