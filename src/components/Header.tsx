@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { useEffect } from 'react'
 
-const Sidebar = () => {
+const Header = () => {
     useEffect(() => {
         showNavBar('sidebar-toggle', 'nav-bar', 'bodyId', 'sidebar')
     }, [])
@@ -12,12 +12,12 @@ const Sidebar = () => {
         toggleId: string,
         navId: string,
         bodyId: string,
-        headerId: string
+        sidebarId: string
     ) => {
         const toggle = document.getElementById(toggleId),
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
-            header = document.getElementById(headerId)
+            header = document.getElementById(sidebarId)
 
 
         if (toggle && nav && bodySelector && header) {
@@ -81,7 +81,7 @@ const Sidebar = () => {
             </section>
             <div className='header'>
                 <img src={Logo} alt='logo' className='header-logo' />
-                
+
                 <ul className='header-nav'>
                     <li>
                         <Link to='/' className='header-nav__item'>
@@ -119,4 +119,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar
+export default Header
