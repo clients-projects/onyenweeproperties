@@ -36,7 +36,7 @@ const Header = () => {
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
-                
+
                 <div className='navbar1' id='nav-bar'>
                     <nav className='nav'>
                         <div>
@@ -79,7 +79,7 @@ const Header = () => {
                     </nav>
                 </div>
             </section>
-            <div className='header'>
+            <div className='header backdrop'>
                 <img src={Logo} alt='logo' className='header-logo' />
 
                 <ul className='header-nav'>
