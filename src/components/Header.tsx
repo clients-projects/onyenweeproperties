@@ -41,7 +41,7 @@ const Header = () => {
                 header.classList.toggle('backdrop')
                 logo!.classList.toggle('toggleLogo')
 
-                console.log('logo', logo)
+                console.log('sidebar', sidebar.classList)
             })
         }
     }
@@ -56,38 +56,45 @@ const Header = () => {
                 <div className='navbar1' id='nav-bar'>
                     <nav className='nav'>
                         <div>
-                            <Link to='/' className='nav__logo'>
+                            {/* <Link to='/' className='nav__logo'>
                                 <i className='bx bx-layer nav__logo-icon'></i>
                                 <span className='nav__logo-name'>Onyewee</span>
-                            </Link>
+                            </Link> */}
 
                             <div className='nav__list'>
                                 <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
-                                    <span className='nav__logo-name'>
-                                        Collins
-                                    </span>
-                                </Link>
-                                <Link to='/' className='nav__link'>
-                                    <i className='bx bx-layer nav__logo-icon'></i>
+
                                     <span className='nav__logo-name'>Home</span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
-                                    <i className='bx bx-layer nav__logo-icon'></i>
+                                    <i className='bx bxs-home-smile'></i>
+                                    <span className='nav__logo-name'>
+                                        Real Estate
+                                    </span>
+                                </Link>
+                                <Link to='/' className='nav__link'>
+                                    <i className='bx bxs-city'></i>
+                                    <span className='nav__logo-name'>
+                                        Property Management
+                                    </span>
+                                </Link>
+                                <Link to='/' className='nav__link'>
+                                    <i className='bx bxs-traffic-cone'></i>
                                     <span className='nav__logo-name'>
                                         Construction
                                     </span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
-                                    <i className='bx bx-layer nav__logo-icon'></i>
+                                    <i className='bx bxs-florist'></i>{' '}
                                     <span className='nav__logo-name'>
-                                        Buildings
+                                        Interior
                                     </span>
                                 </Link>
                                 <Link to='/' className='nav__link'>
-                                    <i className='bx bx-layer nav__logo-icon'></i>
+                                    <i className='bx bxs-chat'></i>{' '}
                                     <span className='nav__logo-name'>
-                                        Interiors
+                                        Contact Us
                                     </span>
                                 </Link>
                             </div>
