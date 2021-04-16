@@ -13,6 +13,7 @@
     &-logo {
         width: 8rem;
         height: 8rem;
+        transition: .5s;
 
         @media only screen and (max-width: $bp-md) {
             width: 5rem;
@@ -112,7 +113,7 @@
 }
 .sidebar {
     // width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -197,6 +198,10 @@
 
 .show {
     left: 0;
+}
+
+.showLogo{
+    width: 0;
 }
 
 .backdrop{

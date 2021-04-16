@@ -10,7 +10,8 @@ const Header = () => {
             'nav-bar',
             'bodyId',
             'sidebar',
-            'header-body'
+            'header-body',
+            'header-logo'
         )
     }, [])
 
@@ -19,13 +20,15 @@ const Header = () => {
         navId: string,
         bodyId: string,
         sidebarId: string,
-        headerId: string
+        headerId: string,
+        logoId: string
     ) => {
         const toggle = document.getElementById(toggleId),
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
             sidebar = document.getElementById(sidebarId),
-            header = document.getElementById(headerId)
+            header = document.getElementById(headerId),
+            logo = document.getElementById(logoId)
 
 
         if (toggle && nav && bodySelector && sidebar && header) {
@@ -34,14 +37,16 @@ const Header = () => {
                 toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
                 sidebar.classList.toggle('bodyId')
-               // header.classList.toggle('backdrop')
+                header.classList.toggle('backdrop')
+                logo!.classList.toggle('showLogo')
+
+                console.log('logo', logo)
             })
         }
     }
 
     return (
         <>
-        
             <section className='sidebar' id='sidebar'>
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
@@ -90,7 +95,12 @@ const Header = () => {
                 </div>
             </section>
             <div className='header' id='header-body'>
-                <img src={Logo} alt='logo' className='header-logo' />
+                <img
+                    src={Logo}
+                    alt='logo'
+                    className='header-logo'
+                    id='header-logo'
+                />
 
                 <ul className='header-nav'>
                     <li>
