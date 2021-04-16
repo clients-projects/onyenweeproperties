@@ -1,16 +1,16 @@
 import Features from '../components/Features'
 import Gallery from '../components/Gallery'
-import Header from '../components/Header'
+import Hero from '../components/Hero'
 import Homes from '../components/Homes'
 import Realtors from '../components/Realtors'
 import Story from '../components/Story'
-import Sidebar from '../components/Sidebar'
+import Header from '../components/Header'
 
 const Home = () => {
     return (
         <>
-            <Sidebar />
             <Header />
+            <Hero />
             <Realtors />
             <Features />
             <Story />
