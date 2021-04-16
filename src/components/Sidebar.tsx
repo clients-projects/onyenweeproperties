@@ -32,7 +32,7 @@ const Sidebar = () => {
 
     return (
         <>
-            <header className='header' id='header'>
+            <section className='header-mobile' id='header-mobile'>
                 <div className='header__toggle'>
                     <i className='bx bx-menu' id='header-toggle'></i>
                 </div>
@@ -80,52 +80,50 @@ const Sidebar = () => {
                         </div>
                     </nav>
                 </div>
-            </header>
-            {/* <div className='sidebar'>
-            <img src={Logo} alt='logo' className='sidebar-logo' />
+            </section>
+            <div className='sidebar'>
+                <img src={Logo} alt='logo' className='sidebar-logo' />
 
-            <label htmlFor='check'>
-                <input type='checkbox' id='check' />
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
+                <label htmlFor='check'>
+                    <input type='checkbox' id='check' />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
 
-            <ul className='sidebar-nav'>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Real Estate
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Property Management
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Construction
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Interior
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/' className='sidebar-nav__item'>
-                        Contact us
-                    </Link>
-                </li>
-            </ul>
-
-
-        </div> */}
+                <ul className='sidebar-nav'>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Real Estate
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Property Management
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Construction
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Interior
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/' className='sidebar-nav__item'>
+                            Contact us
+                        </Link>
+                    </li>
+                </ul>
+            </div>
         </>
     )
 }
