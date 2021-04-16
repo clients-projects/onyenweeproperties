@@ -139,7 +139,7 @@
     width: $sidebar-width;
     height: 100vh;
     padding: 0.5rem 1rem 0 0;
-    background-color: purple;
+    background-color: $color-secondary;
     transition: 0.4s;
     z-index: 88;
 }
@@ -148,13 +148,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow: hidden;
 }
 
-.rootApp{
-    background-color: red;
-}
 
 .nav__logo,
 .nav__link {
