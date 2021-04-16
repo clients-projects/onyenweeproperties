@@ -6,23 +6,6 @@ import { useEffect } from 'react'
 const Sidebar = () => {
     useEffect(() => {
         showNavBar('header-toggle', 'nav-bar', 'bodyId', 'header')
-
-        const linkColor = document.querySelectorAll('.nav__link')
-
-        const colorLink = (e: any) => {
-            if (linkColor) {
-                e.target.classList.add('active')
-
-                linkColor.forEach((i) => {
-                    console.log('link items', i.classList.contains('active'))
-                    i.classList.remove('active')
-                })
-
-                console.log('link color', linkColor)
-                console.log('the selected', e)
-            }
-        }
-        linkColor.forEach((i) => i.addEventListener('click', colorLink))
     }, [])
 
     const showNavBar = (
@@ -31,21 +14,18 @@ const Sidebar = () => {
         bodyId: string,
         headerId: string
     ) => {
-        console.log('loaded')
         const toggle = document.getElementById(toggleId),
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
             header = document.getElementById(headerId)
 
-        console.log('the toggles', toggle, nav)
 
         if (toggle && nav && bodySelector && header) {
             toggle.addEventListener('click', () => {
-                console.log('clicked toggle')
                 nav.classList.toggle('show')
                 toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
-                header.classList.toggle('bodyI')
+                header.classList.toggle('bodyId')
             })
         }
     }
@@ -68,7 +48,7 @@ const Sidebar = () => {
                             </Link>
 
                             <div className='nav__list'>
-                                <Link to='/' className='nav__link active'>
+                                <Link to='/' className='nav__link'>
                                     <i className='bx bx-layer nav__logo-icon'></i>
                                     <span className='nav__logo-name'>
                                         Collins
