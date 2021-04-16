@@ -200,8 +200,11 @@
     left: 0;
 }
 
-.showLogo{
+.toggleLogo{
     width: 0;
+}
+.toggleMenu{
+    left: calc($sidebar-width + 1rem);
 }
 
 .backdrop{
