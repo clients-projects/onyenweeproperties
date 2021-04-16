@@ -5,27 +5,36 @@ import { useEffect } from 'react'
 
 const Header = () => {
     useEffect(() => {
-        showNavBar('sidebar-toggle', 'nav-bar', 'bodyId', 'sidebar')
+        showNavBar(
+            'sidebar-toggle',
+            'nav-bar',
+            'bodyId',
+            'sidebar',
+            'header-body'
+        )
     }, [])
 
     const showNavBar = (
         toggleId: string,
         navId: string,
         bodyId: string,
-        sidebarId: string
+        sidebarId: string,
+        headerId: string
     ) => {
         const toggle = document.getElementById(toggleId),
             nav = document.getElementById(navId),
             bodySelector = document.getElementById(bodyId),
-            header = document.getElementById(sidebarId)
+            sidebar = document.getElementById(sidebarId),
+            header = document.getElementById(headerId),
 
 
-        if (toggle && nav && bodySelector && header) {
+        if (toggle && nav && bodySelector && sidebar && header) {
             toggle.addEventListener('click', () => {
                 nav.classList.toggle('show')
                 toggle.classList.toggle('bx-x')
                 bodySelector.classList.toggle('bodyId')
-                header.classList.toggle('bodyId')
+                sidebar.classList.toggle('bodyId')
+                header.classList.toggle('backdrop')
             })
         }
     }
@@ -79,7 +88,7 @@ const Header = () => {
                     </nav>
                 </div>
             </section>
-            <div className='header backdrop'>
+            <div className='header' id='header-body'>
                 <img src={Logo} alt='logo' className='header-logo' />
 
                 <ul className='header-nav'>
