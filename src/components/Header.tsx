@@ -49,12 +49,12 @@ const Header = () => {
 
     return (
         <>
-        <Backdrop>
             <section className='sidebar' id='sidebar'>
                 <div className='sidebar__toggle'>
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
 
+        <Backdrop>
                 <div className='navbar1' id='nav-bar'>
                     <nav className='nav'>
                         <div>
@@ -103,8 +103,8 @@ const Header = () => {
                         </div>
                     </nav>
                 </div>
-            </section>
             </Backdrop>
+            </section>
             <div className='header' id='header-body'>
                 <img
                     src={Logo}
