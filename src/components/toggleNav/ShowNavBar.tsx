@@ -25,6 +25,10 @@ export const showNavBar = (
             sidebar.classList.toggle('toggleColor')
             logo!.classList.toggle('toggleLogo')
             getBackdrop!.classList.toggle('toggleBackdrop')
+
+            console.log('nav bar items', toggle, nav, sidebar)
         })
     }
+    
+    console.log("nav bar")
 }

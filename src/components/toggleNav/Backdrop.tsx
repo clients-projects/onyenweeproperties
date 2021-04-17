@@ -15,7 +15,7 @@ const Backdrop = (props: any) => {
    }, [])
 
     return (
-        <div className='backdrop' id='backdrop' onClick={handleBackdrop}>
+        <div className='backdrop' id='backdrop'>
             {props.children}
         </div>
     )
