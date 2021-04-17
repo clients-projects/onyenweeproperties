@@ -132,7 +132,7 @@
         text-decoration: none;
         font-size: 2rem;
         color: white;
-
+        z-index: 90
         // &:hover{
         //     color: black;
         // }
@@ -174,7 +174,7 @@
     width: 100vw;
     background-color: #13090949;
     display: none;
-    // z-index: 88;
+    z-index: 88;
 }
 
 .toggleBackdrop {

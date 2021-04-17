@@ -46,7 +46,6 @@ const Header = () => {
                 logo!.classList.toggle('toggleLogo')
                 getBackdrop!.classList.toggle('toggleBackdrop')
 
-                console.log('sidebar')
             })
         }
     }

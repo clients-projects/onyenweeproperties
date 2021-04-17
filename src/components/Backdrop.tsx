@@ -4,7 +4,8 @@ const Backdrop = (props: any) => {
             nav = document.getElementById('nav-bar'),
             bodySelector = document.getElementById('bodyId'),
             sidebar = document.getElementById('sidebar'),
-            header = document.getElementById('header-body')
+            header = document.getElementById('header-body'),
+            getBackdrop = document.getElementById('backdrop')
 
         if (toggle && nav && bodySelector && sidebar && header) {
             toggle.addEventListener('click', () => {
@@ -14,6 +15,7 @@ const Backdrop = (props: any) => {
                 sidebar.classList.remove('bodyId')
                 sidebar.classList.remove('toggleMenu')
                 sidebar.classList.remove('toggleColor')
+                getBackdrop!.classList.toggle('toggleBackdrop')
             })
 
             console.log('toggle backdrop')
