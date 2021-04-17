@@ -18,17 +18,6 @@ const Backdrop = (props: any) => {
         <div
             className='backdrop'
             id='backdrop'
-            onClick={() =>
-                showNavBar(
-                    'sidebar-toggle',
-                    'nav-bar',
-                    'bodyId',
-                    'sidebar',
-                    'header-body',
-                    'header-logo',
-                    'backdrop'
-                )
-            }
         >
             {props.children}
         </div>
