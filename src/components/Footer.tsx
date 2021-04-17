@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className='footer'>
+        <footer>
             <ul className='nav'>
                 <li className='nav__item'>
                     <a href='#' className='nav__link'>
