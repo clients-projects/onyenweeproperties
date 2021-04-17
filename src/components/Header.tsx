@@ -39,7 +39,16 @@ const Header = () => {
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
 
-                <Backdrop>
+                <Backdrop onClick={() =>
+                    showNavBar(
+                        'sidebar-toggle',
+                        'nav-bar',
+                        'bodyId',
+                        'sidebar',
+                        'header-body',
+                        'header-logo',
+                        'backdrop'
+                    )}>
                     <div className='navbar1' id='nav-bar'>
                         <nav className='nav'>
                             <div>
