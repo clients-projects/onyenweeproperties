@@ -1,5 +1,6 @@
 import { LastLocationType } from 'react-router-last-location'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 interface LayoutProps {
     isAdmin: LastLocationType
@@ -7,10 +8,11 @@ interface LayoutProps {
 }
 
 function Layout(props: LayoutProps) {
-  
-
-let toRender = (
+    let toRender = (
         <>
+            <header>
+                <Header />
+            </header>
             <main className='container' id='bodyId'>
                 {props.children}
             </main>
