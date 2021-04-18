@@ -1,4 +1,5 @@
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
+import Card from '../components/card'
 
 const RealEstate = () => {
     return (
@@ -11,6 +12,10 @@ const RealEstate = () => {
             <div className='realEstate__heading'>
                 <h1 className='heading-1' style={{color: 'black'}}>Real Estate</h1>
                 <p>Our exquisite homes</p>
+            </div>
+
+            <div className='card'>
+                <Card/>
             </div>
         </div>
     )
