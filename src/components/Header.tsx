@@ -72,31 +72,43 @@ const Header = () => {
                                             Home
                                         </span>
                                     </Link>
-                                    <Link to='/' className='nav__link'>
+                                    <Link
+                                        to='/real-estate'
+                                        className='nav__link'
+                                    >
                                         <i className='bx bxs-home-smile'></i>
                                         <span className='nav__logo-name'>
                                             Real Estate
                                         </span>
                                     </Link>
-                                    <Link to='/' className='nav__link'>
+                                    <Link
+                                        to='/property-management'
+                                        className='nav__link'
+                                    >
                                         <i className='bx bxs-city'></i>
                                         <span className='nav__logo-name'>
                                             Property Management
                                         </span>
                                     </Link>
-                                    <Link to='/' className='nav__link'>
+                                    <Link
+                                        to='/construction'
+                                        className='nav__link'
+                                    >
                                         <i className='bx bxs-traffic-cone'></i>
                                         <span className='nav__logo-name'>
                                             Construction
                                         </span>
                                     </Link>
-                                    <Link to='/' className='nav__link'>
+                                    <Link to='/interior' className='nav__link'>
                                         <i className='bx bxs-florist'></i>{' '}
                                         <span className='nav__logo-name'>
                                             Interior
                                         </span>
                                     </Link>
-                                    <Link to='/' className='nav__link'>
+                                    <Link
+                                        to='/contact-us'
+                                        className='nav__link'
+                                    >
                                         <i className='bx bxs-chat'></i>{' '}
                                         <span className='nav__logo-name'>
                                             Contact Us
