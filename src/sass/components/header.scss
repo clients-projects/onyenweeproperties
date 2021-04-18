@@ -91,6 +91,10 @@
         @media only screen and (max-width: $bp-sm) {
             width: $sidebar-width + 20vw;
         }
+
+        @media only screen and (max-width: $bp-smallest) {
+            width: max-content;
+        }
     }
 
     .nav {
@@ -161,6 +165,11 @@
 .toggleMenu {
     background-color: $color-secondary;
     left: $sidebar-width;
+
+     @media only screen and (max-width: $bp-smallest) {
+            left: $sidebar-width + 1vw;
+            //background-color: transparent;
+        }
 }
 .toggleColor{
     color: white;
