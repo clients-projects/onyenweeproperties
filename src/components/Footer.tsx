@@ -38,7 +38,7 @@ const Footer = () => {
                 </li>
             </ul> */}
             <p className='copyright'>
-                &copy;Copyright ${yearDisplay} &mdash; Onyewee Property
+                &copy;Copyright {yearDisplay} &mdash; Onyewee Property
             </p>
         </footer>
     )

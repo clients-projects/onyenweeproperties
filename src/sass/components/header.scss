@@ -89,7 +89,7 @@
         z-index: 88;
 
         @media only screen and (max-width: $bp-sm) {
-            width: $sidebar-width + 30vw;
+            width: $sidebar-width + 20vw;
         }
     }
 
@@ -159,8 +159,8 @@
     width: 0;
 }
 .toggleMenu {
-    background-color: red;
-    left: $sidebar-width + 10vw;
+    background-color: $color-secondary;
+    left: $sidebar-width;
 }
 .toggleColor{
     color: white;
