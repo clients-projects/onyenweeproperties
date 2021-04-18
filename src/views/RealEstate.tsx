@@ -4,7 +4,7 @@ const RealEstate = () => {
     return (
         <div className='realEstate'>
 
-            <img src={RealEstate1} alt='realEstate'/>
+            <img src={RealEstate1} alt='realEstate' className='realEstate_img'/>
             RealEstate page
         </div>
     )
