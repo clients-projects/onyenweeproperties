@@ -1,11 +1,9 @@
-import React from 'react'
 import {
     Switch,
     Route,
     Redirect,
     useLocation
 } from 'react-router-dom'
-// import { connect } from 'react-redux'
  import Layout from './Layout'
 import Home from '../views/Home'
 import { LastLocationType } from 'react-router-last-location'
