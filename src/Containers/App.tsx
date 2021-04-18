@@ -10,6 +10,10 @@ import {
 import Home from '../views/Home'
 import { LastLocationType } from 'react-router-last-location'
 import Construction from '../views/Construction'
+import ContactUs from '../views/ContactUs'
+import Interior from '../views/Interior'
+import PropertyManagement from '../views/PropertyManangement'
+import RealEstate from '../views/RealEstate'
 
 
 
@@ -19,19 +23,13 @@ function App() {
   
     let AuthGuard = (
         <Switch>
-            <Route
-                path='/'
-                exact
-                component={Home}
-                render={Home}
-            />
-        
+            <Route path='/' exact component={Home} render={Home} />
 
-            <Route path='/about-us' component={Construction} />
-            <Route path='/forgot-password' component={} />
+            <Route path='/construction' component={Construction} />
+            <Route path='/interior' component={Interior} />
             <Route path='/contact-us' component={ContactUs} />
-            <Route path='/faq' component={Faq} />
-            <Route path='/terms' component={Terms} />
+            <Route path='/property-management' component={PropertyManagement} />
+            <Route path='/real-estate' component={RealEstate} />
             <Redirect to='/' />
         </Switch>
     )
