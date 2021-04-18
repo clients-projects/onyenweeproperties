@@ -9,6 +9,7 @@ import {
  import Layout from './Layout'
 import Home from '../views/Home'
 import { LastLocationType } from 'react-router-last-location'
+import Construction from '../views/Construction'
 
 
 
@@ -26,8 +27,8 @@ function App() {
             />
         
 
-            <Route path='/about-us' component={AboutUs} />
-            <Route path='/forgot-password' component={ForgotPassword} />
+            <Route path='/about-us' component={Construction} />
+            <Route path='/forgot-password' component={} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
             <Route path='/terms' component={Terms} />
