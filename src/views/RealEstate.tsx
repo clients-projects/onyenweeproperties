@@ -16,6 +16,9 @@ const RealEstate = () => {
 
             <div className='card'>
                 <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
         </div>
     )

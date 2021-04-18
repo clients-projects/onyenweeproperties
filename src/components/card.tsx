@@ -1,4 +1,4 @@
-import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
+import RealEstate1 from '../assets/realEstate/RealEstate2.jpg'
 
 
 const Card = () => {
