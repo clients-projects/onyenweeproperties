@@ -1,4 +1,8 @@
 const Footer = () => {
+    const date = new Date()
+
+    date.getFullYear()
+
     return (
         <footer>
             {/* <ul className='nav'>
@@ -34,9 +38,7 @@ const Footer = () => {
                 </li>
             </ul> */}
             <p className='copyright'>
-                &copy;Copyright 2018 by Jonas Schmedtmann. Approved for use by
-                Jonas Schmedtmann for use in personal projects but not for
-                tutorials or video courses based on this project.
+                &copy;Copyright 2021 &mdash; Onyewee Property
             </p>
         </footer>
     )
