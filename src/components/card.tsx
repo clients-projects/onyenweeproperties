@@ -1,7 +1,8 @@
 const Card = () => {
-
-    return (
-        <div> This is the card</div>
-
-    )
+    return <div className='card'>
+        
+        This is the card
+        </div>
 }
+
+export default Card
