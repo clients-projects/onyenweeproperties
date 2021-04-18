@@ -135,27 +135,30 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='header-nav__item'>
+                        <Link to='/real-estate' className='header-nav__item'>
                             Real Estate
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='header-nav__item'>
+                        <Link
+                            to='/property-management'
+                            className='header-nav__item'
+                        >
                             Property Management
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='header-nav__item'>
+                        <Link to='/construction' className='header-nav__item'>
                             Construction
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='header-nav__item'>
+                        <Link to='/interior' className='header-nav__item'>
                             Interior
                         </Link>
                     </li>
                     <li>
-                        <Link to='/' className='header-nav__item'>
+                        <Link to='/contact-us' className='header-nav__item'>
                             Contact us
                         </Link>
                     </li>
