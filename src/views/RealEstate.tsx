@@ -1,6 +1,6 @@
 const RealEstate = () => {
     return (
-        <div>
+        <div className='realEstate'>
             RealEstate page
         </div>
     )
