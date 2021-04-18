@@ -1,4 +1,6 @@
 .card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
     &__img{
         &--item{
