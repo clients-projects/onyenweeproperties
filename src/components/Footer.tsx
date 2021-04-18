@@ -1,7 +1,7 @@
 const Footer = () => {
     const date = new Date()
 
-    date.getFullYear()
+    const yearDisplay:number = date.getFullYear()
 
     return (
         <footer>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </li>
             </ul> */}
             <p className='copyright'>
-                &copy;Copyright 2021 &mdash; Onyewee Property
+                &copy;Copyright ${yearDisplay} &mdash; Onyewee Property
             </p>
         </footer>
     )
