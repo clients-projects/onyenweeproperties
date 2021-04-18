@@ -10,7 +10,6 @@ const Card = () => {
                 <h1 className='card__img--name'>Multi family house</h1>
                 <h1 className='card__img--price'>N423,232</h1>
             </div>
-            This is the card
         </div>
     )
 }
