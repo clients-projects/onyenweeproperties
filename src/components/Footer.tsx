@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <ul className='nav'>
+            {/* <ul className='nav'>
                 <li className='nav__item'>
                     <a href='#' className='nav__link'>
                         Find your dream home
@@ -32,7 +32,7 @@ const Footer = () => {
                         Come work with us
                     </a>
                 </li>
-            </ul>
+            </ul> */}
             <p className='copyright'>
                 &copy;Copyright 2018 by Jonas Schmedtmann. Approved for use by
                 Jonas Schmedtmann for use in personal projects but not for

@@ -3,7 +3,7 @@
     display: grid;
     background-color: #f1f1f1;
     // Row Tracks
-    grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
+    //grid-template-rows: max-content 80vh min-content 40vw repeat(3, min-content);
 
     // Column Tracks
     grid-template-columns:
@@ -15,7 +15,7 @@
         [center-end] minmax(6rem, 1fr) [full-end];
 
     @media only screen and (max-width: $bp-large) {
-        grid-template-rows: max-content 80vh min-content 40vw repeat(
+        grid-template-rows: max-content min-content 40vw repeat(
                 3,
                 min-content
             );
