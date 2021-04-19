@@ -11,24 +11,6 @@ const RealEstate = () => {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
     return (
-        // <div className='realEstate'>
-        //     <img
-        //         src={RealEstate1}
-        //         alt='realEstate'
-        //         className='realEstate_img'
-        //     />
-        //     <div className='realEstate__heading'>
-        //         <h1 className='heading-1' style={{color: 'black'}}>Real Estate</h1>
-        //         <p>Our exquisite homes</p>
-        //     </div>
-
-        //     <div className='card'>
-        //         <Card/>
-        //         <Card/>
-        //         <Card/>
-        //         <Card/>
-        //     </div>
-        // </div>
 
         <>
             <header className='hero' style={bgImg}>
