@@ -4,6 +4,8 @@ import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 import { ImLocation2 } from 'react-icons/im'
 import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
 
+import {IoConstructSharp} from 'react-icons/io'
+
 const Construction = () => {
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
@@ -34,7 +36,7 @@ const Construction = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiLaurelsTrophy />
+                        <IoConstructSharp/>
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Building Construction
