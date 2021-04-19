@@ -37,30 +37,44 @@ const Header = () => {
             getBackdrop = document.getElementById(backdropId)
 
         if (toggle && nav && bodySelector && sidebar && header) {
-            toggle.addEventListener('click', () => {
-                nav.classList.toggle('show')
-                toggle.classList.toggle('bx-x')
-                bodySelector.classList.toggle('bodyId')
-                sidebar.classList.toggle('bodyId')
-                sidebar.classList.toggle('toggleMenu')
-                sidebar.classList.toggle('toggleColor')
-                logo!.classList.toggle('toggleLogo')
-                getBackdrop!.classList.toggle('toggleBackdrop')
-            })
+            console.log('nav bar')
+                toggle.addEventListener('click', () => {
+                    nav.classList.toggle('show')
+                    toggle.classList.toggle('bx-x')
+                    bodySelector.classList.toggle('bodyId')
+                    sidebar.classList.toggle('bodyId')
+                    sidebar.classList.toggle('toggleMenu')
+                    sidebar.classList.toggle('toggleColor')
+                    logo!.classList.toggle('toggleLogo')
+                    getBackdrop!.classList.toggle('toggleBackdrop')
+                })
+            
         }
     }
 
     const handleNavClose = () => {
         setCloseNavBar(true)
-         showNavBar(
-             'sidebar-toggle',
-             'nav-bar',
-             'bodyId',
-             'sidebar',
-             'header-body',
-             'header-logo',
-             'backdrop'
-         )
+        const toggle = document.getElementById('sidebar-toggle'),
+            nav = document.getElementById('nav-bar'),
+            bodySelector = document.getElementById('bodyId'),
+            sidebar = document.getElementById('sidebar'),
+            header = document.getElementById('header-body'),
+            logo = document.getElementById('header-logo'),
+            getBackdrop = document.getElementById('backdrop')
+
+        if (toggle && nav && bodySelector && sidebar && header) {
+                console.log('to close nav')
+
+                nav.classList.remove('show')
+                toggle.classList.remove('bx-x')
+                bodySelector.classList.remove('bodyId')
+                sidebar.classList.remove('bodyId')
+                sidebar.classList.remove('toggleMenu')
+                sidebar.classList.remove('toggleColor')
+                logo!.classList.remove('toggleLogo')
+                getBackdrop!.classList.remove('toggleBackdrop')
+
+        }
     }
 
     return (
@@ -74,8 +88,6 @@ const Header = () => {
                     <div className='navbar1' id='nav-bar'>
                         <nav className='nav'>
                             <div>
-                       
-
                                 <div className='nav__list'>
                                     <Link to='/' className='nav__link'>
                                         <i className='bx bx-layer nav__logo-icon'></i>
