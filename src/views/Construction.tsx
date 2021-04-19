@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
 import Building1 from '../assets/realEstate/building1.jpg'
 
 import { FaRoad } from 'react-icons/fa'
@@ -13,9 +13,13 @@ const Construction = () => {
             <header className='hero' style={bgImg}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>construction:</h3>
-                    <h1 className='heading-1'>Lets Handle Your Constructions</h1>
+                    <h1 className='heading-1'>
+                        Lets Handle Your Constructions
+                    </h1>
                 </div>
-                <button className='btn hero__btn'>Contact Us Today</button>
+                <Link className='btn hero__btn' to='/contact-us'>
+                    Contact Us Today
+                </Link>
             </header>
             <section className='features'>
                 <div className='feature'>

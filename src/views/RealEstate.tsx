@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
 import {MdLandscape} from 'react-icons/md'
@@ -20,7 +21,9 @@ const RealEstate = () => {
                     <h3 className='heading-3'>Real Estate:</h3>
                     <h1 className='heading-1'>Our Real Estate Services</h1>
                 </div>
-                <button className='btn hero__btn'>Contact Us Today</button>
+                <Link className='btn hero__btn' to='/contact-us'>
+                    Contact Us Today
+                </Link>
             </header>
             <section className='features' style={customFeature}>
                 <div className='feature'>
@@ -66,7 +69,7 @@ const RealEstate = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <AiTwotoneMoneyCollect/>
+                        <AiTwotoneMoneyCollect />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Land Sale and Purchase

@@ -1,5 +1,6 @@
-import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
+import {Link} from 'react-router-dom'
 
+import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 
 import Interior1 from '../assets/realEstate/interior1.jpg'
 import Interior2 from '../assets/realEstate/interior2.jpg'
@@ -27,7 +28,9 @@ const Home = () => {
                     <h3 className='heading-3'>Interior:</h3>
                     <h1 className='heading-1'>Your Comfort, Our Concern</h1>
                 </div>
-                <button className='btn hero__btn'>Contact Us Today</button>
+                <Link className='btn hero__btn' to='/contact-us'>
+                    Contact Us Today
+                </Link>
             </header>{' '}
             <div className='whoWeAre'>
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
@@ -58,7 +61,6 @@ const Home = () => {
                             className='home__img'
                             style={sizeImg}
                         />
-
                     </div>
 
                     <div className='home' style={divHeight}>
@@ -68,7 +70,6 @@ const Home = () => {
                             className='home__img'
                             style={sizeImg}
                         />
-
                     </div>
 
                     <div className='home' style={divHeight}>
@@ -78,7 +79,6 @@ const Home = () => {
                             className='home__img'
                             style={sizeImg}
                         />
-
                     </div>
                 </div>
             </section>

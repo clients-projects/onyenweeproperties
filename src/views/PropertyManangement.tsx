@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 
 import { ImEnter, ImExit } from 'react-icons/im'
@@ -16,7 +18,9 @@ const Home = () => {
                     <h3 className='heading-3'>Property Management:</h3>
                     <h1 className='heading-1'>Lets Manage Your Properties</h1>
                 </div>
-                <button className='btn hero__btn'>Contact Us Today</button>
+                <Link className='btn hero__btn' to='/contact-us'>
+                    Contact Us Today
+                </Link>
             </header>{' '}
             <div className='whoWeAre'>
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
