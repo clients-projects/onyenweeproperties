@@ -1,4 +1,4 @@
-import {SiSellfy} from 'react-icons/si'
+import {ImEnter, ImExit} from 'react-icons/im'
 
 const Home = () => {
     return (
@@ -26,7 +26,9 @@ const Home = () => {
             </div>{' '}
             <section className='features'>
                 <div className='feature'>
-                    <figure className='feature__icon'></figure>
+                    <figure className='feature__icon'>
+                        <ImEnter/>
+                    </figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
                         THE EASY WAY TO BUY!
@@ -51,7 +53,7 @@ const Home = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <SiSellfy/>
+                        <ImExit/>
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>SELL</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
