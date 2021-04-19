@@ -35,6 +35,8 @@ const Home = () => {
         if (email === '' || message === '' || name === '') {
             setError(true)
         }
+
+        
     }
 
     return (
