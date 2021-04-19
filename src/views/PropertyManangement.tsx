@@ -31,9 +31,9 @@ const Home = () => {
                         <ImEnter />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
-                    <p className='feature__text' style={{ fontWeight: 700 }}>
+                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
                         THE EASY WAY TO BUY!
-                    </p>
+                    </h4>
                     <p className='feature__text'>
                         Look no further We are here to help! Just let us know
                         what you want, where you want it and we will get it for
@@ -45,9 +45,9 @@ const Home = () => {
                         <AiFillHourglass />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>RENT</h4>
-                    <p className='feature__text' style={{ fontWeight: 700 }}>
+                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
                         GREAT APARTMENTS AT AFFORDABLE PRICES
-                    </p>
+                    </h4>
                     <p className='feature__text'>
                         Looking to rent and apartment of office building? We got
                         you covered. We have great offers for you. Please reach
@@ -59,9 +59,9 @@ const Home = () => {
                         <ImExit />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>SELL</h4>
-                    <p className='feature__text' style={{ fontWeight: 700 }}>
+                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
                         SELL WITH CONFIDENCE
-                    </p>
+                    </h4>
                     <p className='feature__text'>
                         Do you have properties to sell? We can handle it! Please
                         go and rest. We are professionals! That’s what we do
