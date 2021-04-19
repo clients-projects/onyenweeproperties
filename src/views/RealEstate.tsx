@@ -4,6 +4,11 @@ import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 import { ImLocation2 } from 'react-icons/im'
 import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
 
+import {MdLandscape} from 'react-icons/md'
+import {FaWarehouse} from 'react-icons/fa'
+import {SiBandsintown} from 'react-icons/si'
+import {AiTwotoneMoneyCollect} from 'react-icons/Ai'
+
 const RealEstate = () => {
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
@@ -11,7 +16,6 @@ const RealEstate = () => {
 
     const customFeature = {
         gridTemplateColumns: ' repeat(auto-fit, minmax(40rem, 1fr))'
-        //grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     }
     return (
         <>
@@ -25,7 +29,7 @@ const RealEstate = () => {
             <section className='features' style={customFeature}>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiVikingLonghouse />
+                        <MdLandscape />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>Land Survey</h4>
                     <p className='feature__text'>
@@ -36,7 +40,7 @@ const RealEstate = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiLaurelsTrophy />
+                        <FaWarehouse />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Property Evaluation
@@ -52,7 +56,7 @@ const RealEstate = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <ImLocation2 />
+                        <SiBandsintown />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>Town Planning</h4>
                     <p className='feature__text'>
@@ -66,7 +70,7 @@ const RealEstate = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <ImLocation2 />
+                        <AiTwotoneMoneyCollect/>
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Land Sale and Purchase
