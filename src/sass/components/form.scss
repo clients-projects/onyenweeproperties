@@ -7,6 +7,9 @@
 
     &__heading {
         margin-bottom: 3rem;
+            font-size: clamp(2rem, 4vw, 3rem);
+
+        text-transform: uppercase;
     }
 }
 .contact-form {
