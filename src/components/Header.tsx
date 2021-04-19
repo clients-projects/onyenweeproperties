@@ -48,6 +48,10 @@ const Header = () => {
         }
     }
 
+    const handleNavClose = (e: any) => {
+        console.log('link', e)
+    }
+
     return (
         <>
             <section className='sidebar' id='sidebar'>
@@ -81,6 +85,7 @@ const Header = () => {
                                     <Link
                                         to='/property-management'
                                         className='nav__link'
+                                        onClick={handleNavClose}
                                     >
                                         <i className='bx bxs-city'></i>
                                         <span className='nav__logo-name'>
