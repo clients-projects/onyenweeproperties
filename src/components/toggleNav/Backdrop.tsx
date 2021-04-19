@@ -5,7 +5,9 @@ const Backdrop = (props: any) => {
         <div
             className='backdrop'
             id='backdrop'
+            onClick={props.handleClose}
         >
+            
             {props.children}
         </div>
     )

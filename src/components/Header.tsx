@@ -81,7 +81,7 @@ const Header = () => {
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
 
-                <Backdrop onClick={handleNavClose}>
+                <Backdrop handleClose={handleNavClose}>
                     <div className='navbar1' id='nav-bar'>
                         <nav className='nav'>
                             <div>
