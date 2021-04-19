@@ -75,15 +75,14 @@ const Homes = () => {
                     </div>
 
                     <div className='home__rooms'>
-                        <svg>
-                            {/* <use xlinkHref="img/sprite.svg#icon-profile-male"></use> */}
-                        </svg>
+                        <i className='bx bx-layer nav__logo-icon'></i>
                         <p>4 rooms</p>
                     </div>
 
                     <div className='home__area'>
                         <svg>
                             {/* <use xlinkHref="img/sprite.svg#icon-expand"></use> */}
+                            <i className='bx bx-layer nav__logo-icon'></i>
                         </svg>
                         <p>
                             250 m<sup>2</sup>
@@ -91,42 +90,23 @@ const Homes = () => {
                     </div>
 
                     <div className='home__price'>
-                        <svg>
-                            {/* <use xlinkHref="img/sprite.svg#icon-key"></use> */}
-                        </svg>
-                        <p>₦850,000</p>
+                        <i className='bx bx-money'></i> <p>₦850,000</p>
                     </div>
-                    <button className='btn home__btn'>View Property</button>
+                    <button className='btn home__btn'>Construction</button>
                 </div>
 
                 <div className='home'>
                     <img src={House4} alt='House 1' className='home__img' />
-                  g>
+
                     <h5 className='home__name'>Large Country Villa</h5>
                     <div className='home__location'>
-
                         <p>Maitama</p>
                     </div>
 
-                    <div className='home__rooms'>
-                     
-                        <p>6 rooms</p>
-                    </div>
-
-                    <div className='home__area'>
-                     
-                        <p>
-                            480 m<sup>2</sup>
-                        </p>
-                    </div>
-
                     <div className='home__price'>
-                        <svg>
-                            {/* <use xlinkHref="img/sprite.svg#icon-key"></use> */}
-                        </svg>
                         <p>₦1,950,000</p>
                     </div>
-                    <button className='btn home__btn'>View Property</button>
+                    <button className='btn home__btn'>Interior</button>
                 </div>
             </section>
         </>
