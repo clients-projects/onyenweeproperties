@@ -1,24 +1,35 @@
-.contact-box{
+.contact-box {
     display: grid;
     justify-content: center;
     grid-column: 1 / -1;
     margin: 7rem 0;
     width: 100%;
 
-    &__heading{
+    &__heading {
         margin-bottom: 3rem;
     }
 }
-.contact-form{
+.contact-form {
     display: grid;
+    grid-column: 1 / -1;
+
     grid-template-columns: min-content;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 100%;
+    width: 50vw;
+
     font-size: clamp(1.7rem, 4vw, 2rem);
 
-    &__input{
-        padding: 1rem 2rem;
+    &__item {
+        width: 100%;
+    }
+    &__input {
+        width: max-content;
+
+        border-radius: 1rem;
+        offset: none;
+        border: 1px solid red;
+        padding: 0.5rem 2rem;
     }
 }
