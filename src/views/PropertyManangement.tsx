@@ -28,13 +28,12 @@ const Home = () => {
             <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        Best luxury homes
-                    </h4>
+                    <h4 className='heading-4 heading-4--dark'>BUY</h4>
+                    
                     <p className='feature__text'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur distinctio necessitatibus pariatur
-                        voluptatibus.
+                        Look no further We are here
+                        to help! Just let us know what you want, where you want
+                        it and we will get it for you!
                     </p>
                 </div>
                 <div className='feature'>
