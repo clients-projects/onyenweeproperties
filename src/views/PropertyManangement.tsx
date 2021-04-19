@@ -16,23 +16,18 @@ const Home = () => {
                     Welcome to Onyenwee Properties
                 </h2>
                 <p className='whoWeAre__text'>
-                    Onyenwee Properties is a Real Estate and property Management
-                    Company located in Awka, Nigeria. We have our operations
-                    within the South-Eastern part of Nigeria. We are a team of
-                    young and vibrant individuals driven with the goal to
-                    provide fantastic realty and property management services
-                    and satisfaction to our esteemed customers. We are poised to
-                    give best in class realty services, property management,
-                    construction and interior services. With solid partnerships
-                    built over the years, there is no doubt that we are able to
-                    help you succeed in buying or selling properties any where
-                    around the south eastern part of Nigeria!
+                    We offer intensive caretaker services and property
+                    management such as rental, inspection maintenance and
+                    property valuation. We act as middle men between property
+                    owners and property users. We use KYC property management
+                    model in selecting and relating to our clients owners/users.
+                    We can help you fast track the acquisition of C of F and
+                    other relevant property documents.
                 </p>
             </div>{' '}
             <section className='features'>
                 <div className='feature'>
-                    <figure className='feature__icon'>
-                    </figure>
+                    <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Best luxury homes
                     </h4>
@@ -43,8 +38,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'>
-                    </figure>
+                    <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Only the best properties
                     </h4>
@@ -54,8 +48,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'>
-                    </figure>
+                    <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>
                         All homes in top locations
                     </h4>
