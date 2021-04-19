@@ -12,9 +12,8 @@ const Home = () => {
     }
 
     const sizeImg = {
-        width: '360px',
-        height: '270px',
-        objectFit: 'contain'
+        width: 360,
+        height: 270,
     }
 
     return (
