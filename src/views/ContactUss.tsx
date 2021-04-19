@@ -28,7 +28,6 @@ const ContactUs = () => {
         <>
             <div
                 className='pageBanner'
-                style={{ backgroundImage: `url(${ContactPageBg})` }}
             >
                 <div className='container'>
                     <span className='heading'>Contact us</span>
@@ -37,7 +36,6 @@ const ContactUs = () => {
 
             <div
                 className='contInfo'
-                style={{ backgroundImage: `url(${GreyBg})` }}
             >
                 {' '}
                 <div className='container'>
