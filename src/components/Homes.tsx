@@ -19,22 +19,11 @@ const Homes = () => {
                         <p>USA</p>
                     </div>
 
-                    <div className='home__rooms'>
-                        <p>5 rooms</p>
-                    </div>
-
-                    <div className='home__area'>
-                        <svg></svg>
-                        <p>
-                            325 m<sup>2</sup>
-                        </p>
-                    </div>
-
                     <div className='home__price'>
                         <svg></svg>
                         <p>₦1,200,000</p>
                     </div>
-                    <button className='btn home__btn'>View Property</button>
+                    <button className='btn home__btn'>Real Estate</button>
                 </div>
 
                 <div className='home'>
@@ -45,45 +34,20 @@ const Homes = () => {
                         <p>Canada</p>
                     </div>
 
-                    <div className='home__rooms'>
-                        <p>6 rooms</p>
-                    </div>
-
-                    <div className='home__area'>
-                        <p>
-                            450 m<sup>2</sup>
-                        </p>
-                    </div>
-
                     <div className='home__price'>
                         <p>₦2,750,000</p>
                     </div>
-                    <button className='btn home__btn'>View Property</button>
+                    <button className='btn home__btn'>
+                        Property management
+                    </button>
                 </div>
 
                 <div className='home'>
                     <img src={House3} alt='House 3' className='home__img' />
-                    <svg className='home__like'>
-                        {/* <use xlinkHref="img/sprite.svg#icon-heart-full"></use> */}
-                    </svg>
+
                     <h5 className='home__name'>Cozy Country House</h5>
                     <div className='home__location'>
-                        <i className='bx bxs-been-here'></i> <p>UK</p>
-                    </div>
-
-                    <div className='home__rooms'>
-                        <i className='bx bx-layer nav__logo-icon'></i>
-                        <p>4 rooms</p>
-                    </div>
-
-                    <div className='home__area'>
-                        <svg>
-                            {/* <use xlinkHref="img/sprite.svg#icon-expand"></use> */}
-                            <i className='bx bx-layer nav__logo-icon'></i>
-                        </svg>
-                        <p>
-                            250 m<sup>2</sup>
-                        </p>
+                        <i className='bx bxs-been-here'></i> <p>Lekki</p>
                     </div>
 
                     <div className='home__price'>
