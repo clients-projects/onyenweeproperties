@@ -14,8 +14,7 @@ const RealEstate = () => {
     //     url(/static/adeim / hero.fceecff8.jpeg)
 
     const bgImg = {
-        backgroundImage: `linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.98)),
-, url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.98))`,
     }
     return (
         // <div className='realEstate'>
