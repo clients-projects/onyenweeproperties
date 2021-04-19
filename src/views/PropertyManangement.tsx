@@ -32,7 +32,6 @@ const Home = () => {
             <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiVikingLonghouse />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Best luxury homes
@@ -45,7 +44,6 @@ const Home = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiLaurelsTrophy />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Only the best properties
@@ -57,7 +55,6 @@ const Home = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <ImLocation2 />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         All homes in top locations
