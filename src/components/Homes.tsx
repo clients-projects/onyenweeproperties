@@ -13,54 +13,29 @@ const Homes = () => {
             <section className='homes'>
                 <div className='home'>
                     <img src={House1} alt='House 1' className='home__img' />
-                    <h5 className='home__name'>Beautiful Family Home</h5>
+                    <h5 className='home__name'>Real Estate</h5>
                   
                 </div>
 
                 <div className='home'>
                     <img src={House2} alt='House 1' className='home__img' />
 
-                    <h5 className='home__name'>Modern Glass Villa</h5>
-                    <div className='home__location'>
-                        <i className='bx bxs-been-here'></i>
-                        <p>Banana Island</p>
-                    </div>
-
-                    <div className='home__price'>
-                        <p>₦2,750,000</p>
-                    </div>
-                    <button className='btn home__btn'>
-                        Property management
-                    </button>
+                    <h5 className='home__name'>Property Management</h5>
+                   
                 </div>
 
                 <div className='home'>
                     <img src={House3} alt='House 3' className='home__img' />
 
-                    <h5 className='home__name'>Cozy Country House</h5>
-                    <div className='home__location'>
-                        <i className='bx bxs-been-here'></i> <p>Lekki</p>
-                    </div>
-
-                    <div className='home__price'>
-                        <p>₦850,000</p>
-                    </div>
-                    <button className='btn home__btn'>Construction</button>
+                    <h5 className='home__name'>Construction</h5>
+                  
                 </div>
 
                 <div className='home'>
                     <img src={House4} alt='House 1' className='home__img' />
 
-                    <h5 className='home__name'>Large Country Villa</h5>
-                    <div className='home__location'>
-                        <i className='bx bxs-been-here'></i>
-                        <p>Maitama</p>
-                    </div>
+                    <h5 className='home__name'>Interior</h5>
 
-                    <div className='home__price'>
-                        <p>₦1,950,000</p>
-                    </div>
-                    <button className='btn home__btn'>Interior</button>
                 </div>
             </section>
         </>
