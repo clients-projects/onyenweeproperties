@@ -7,6 +7,7 @@ const Home = () => {
     const [name, setName] = useState('')
     const [handleSummit, setHandleSummit] = useState(false)
     const [error, setError] = useState(false)
+    const [displayMessage, setDisplayMessage] = useState('')
 
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -32,11 +33,19 @@ const Home = () => {
     const handleForm = (e: any) => {
         e.preventDefault()
 
+        setHandleSummit(true)
+
         if (email === '' || message === '' || name === '') {
             setError(true)
+            console.log('not sent')
+            setDisplayMessage('Fields cannot be empty')
         }
 
-        
+        setDisplayMessage('Message sent')
+        setError(false)
+
+        console.log('email sent')
+
     }
 
     return (
@@ -53,7 +62,7 @@ const Home = () => {
                     contact form
                 </h2>
 
-                {handleSummit && <p>Message</p>}
+                {handleSummit && <p>{displayMessage}</p>}
                 <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
