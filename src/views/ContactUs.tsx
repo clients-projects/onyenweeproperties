@@ -32,7 +32,8 @@ const Home = () => {
     const handleForm = (e: any) => {
         e.preventDefault()
 
-        
+        if (email === '' || message === '' || name === '') {
+        }
     }
 
     return (
@@ -49,7 +50,7 @@ const Home = () => {
                     contact form
                 </h2>
 
-                {handleSummit && (<p>Message</p>)}
+                {handleSummit && <p>Message</p>}
                 <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
