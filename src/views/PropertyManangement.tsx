@@ -1,10 +1,17 @@
+import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
+
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 
 const Home = () => {
+      const bgImg = {
+          backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+      }
+
+     
     return (
         <>
-            <header className='hero'>
+            <header className='hero' style={bgImg}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>Property Management:</h3>
                     <h1 className='heading-1'>Lets Manage Your Properties</h1>
