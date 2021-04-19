@@ -29,21 +29,25 @@ const Home = () => {
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
-                    
+                    <p className='feature__text' style={{ fontWeight: '700' }}>
+                        THE EASY WAY TO BUY!
+                    </p>
                     <p className='feature__text'>
-                        Look no further We are here
-                        to help! Just let us know what you want, where you want
-                        it and we will get it for you!
+                        Look no further We are here to help! Just let us know
+                        what you want, where you want it and we will get it for
+                        you!
                     </p>
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        Only the best properties
-                    </h4>
+                    <h4 className='heading-4 heading-4--dark'>RENT</h4>
                     <p className='feature__text'>
-                        Voluptatum mollitia quae. Vero ipsum sapiente molestias
-                        accusamus rerum sed a eligendi aut quia.
+                        GREAT APARTMENTS AT AFFORDABLE PRICES
+                    </p>
+                    <p className='feature__text'>
+                        Looking to rent and apartment of office building? We got
+                        you covered. We have great offers for you. Please reach
+                        out to us today!
                     </p>
                 </div>
                 <div className='feature'>
@@ -52,8 +56,14 @@ const Home = () => {
                         All homes in top locations
                     </h4>
                     <p className='feature__text'>
-                        Tenetur distinctio necessitatibus pariatur voluptatibus
-                        quidem consequatur harum.
+                        Do you have properties to sell? We can handle it! Please
+                        go and rest. We are professionals! That’s what we do
+                        best!
+                    </p>
+                    <p className='feature__text'>
+                        Do you have properties to sell? We can handle it! Please
+                        go and rest. We are professionals! That’s what we do
+                        best!
                     </p>
                 </div>
             </section>{' '}
