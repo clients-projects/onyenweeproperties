@@ -1,10 +1,8 @@
 import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
-import { ImLocation2 } from 'react-icons/im'
-import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
-
-import {IoConstructSharp} from 'react-icons/io'
+import { FaRoad } from 'react-icons/fa'
+import {RiBuilding3Fill} from 'react-icons/ri'
 
 const Construction = () => {
     const bgImg = {
@@ -22,7 +20,7 @@ const Construction = () => {
             <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <GiVikingLonghouse />
+                        <FaRoad />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Road Construction
@@ -36,7 +34,7 @@ const Construction = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <IoConstructSharp/>
+                        <RiBuilding3Fill />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
                         Building Construction
