@@ -13,17 +13,8 @@ const Homes = () => {
             <section className='homes'>
                 <div className='home'>
                     <img src={House1} alt='House 1' className='home__img' />
-                    <svg className='home__like'></svg>
                     <h5 className='home__name'>Beautiful Family Home</h5>
-                    <div className='home__location'>
-                        <p>USA</p>
-                    </div>
-
-                    <div className='home__price'>
-                        <svg></svg>
-                        <p>₦1,200,000</p>
-                    </div>
-                    <button className='btn home__btn'>Real Estate</button>
+                  
                 </div>
 
                 <div className='home'>
@@ -31,7 +22,8 @@ const Homes = () => {
 
                     <h5 className='home__name'>Modern Glass Villa</h5>
                     <div className='home__location'>
-                        <p>Canada</p>
+                        <i className='bx bxs-been-here'></i>
+                        <p>Banana Island</p>
                     </div>
 
                     <div className='home__price'>
