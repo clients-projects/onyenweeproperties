@@ -44,6 +44,7 @@ const Home = () => {
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
                         <input
+                            className='contact-form__input'
                             onChange={inputHandler}
                             type='text'
                             name='name'
@@ -54,6 +55,7 @@ const Home = () => {
                     <div className='contact-form__item'>
                         <label htmlFor='mail'>Your e-mail:</label>
                         <input
+                            className='contact-form__input'
                             onChange={inputHandler}
                             type='text'
                             name='email'
@@ -64,9 +66,11 @@ const Home = () => {
                     <div className='contact-form__item'>
                         <label htmlFor=''>Message:</label>
                         <textarea
+                            className='contact-form__input'
                             name='message'
                             onChange={inputHandler}
                             value={message}
+                            rows={5}
                         ></textarea>
                     </div>
                     <button type='submit' className='contact-form__btn'>
