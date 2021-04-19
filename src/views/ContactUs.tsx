@@ -61,7 +61,7 @@ const Home = () => {
                     contact form
                 </h2>
 
-                {handleSummit && <p>{displayMessage}</p>}
+                {handleSummit && <p className='form__displayMessage'>{displayMessage}</p>}
                 <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
