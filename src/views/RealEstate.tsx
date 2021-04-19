@@ -28,7 +28,7 @@ const RealEstate = () => {
         //     </div>
         // </div>
         <>
-            <header className='hero'>
+            <header className='hero' style={{backgroundImage:`${RealEstate1}` }}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>Your own home:</h3>
                     <h1 className='heading-1'>Exquisite Homes Just For You</h1>
