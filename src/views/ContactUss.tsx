@@ -106,7 +106,7 @@ const ContactUs = () => {
                             <div className='row bigPadd'>
                                 <div className='item col6'>
                                     <div className='formBlockLight'>
-                                        <label for='name'>Your name:</label>
+                                        <label htmlFor='name'>Your name:</label>
                                         <input
                                             onChange={inputHandler}
                                             type='text'
@@ -117,7 +117,7 @@ const ContactUs = () => {
                                 </div>
                                 <div className='item col6'>
                                     <div className='formBlockLight'>
-                                        <label for='mail'>Your e-mail:</label>
+                                        <label htmlFor='mail'>Your e-mail:</label>
                                         <input
                                             onChange={inputHandler}
                                             type='text'
@@ -129,7 +129,7 @@ const ContactUs = () => {
                             </div>
                             <div className='item'>
                                 <div className='formBlockLight'>
-                                    <label for=''>Message:</label>
+                                    <label htmlFor=''>Message:</label>
                                     <textarea
                                         name='message'
                                         onChange={inputHandler}
