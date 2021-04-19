@@ -1,12 +1,12 @@
 import React from 'react'
-import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
+import Building1 from '../assets/realEstate/building1.jpg'
 
 import { FaRoad } from 'react-icons/fa'
 import {RiBuilding3Fill} from 'react-icons/ri'
 
 const Construction = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${Building1})`,
     }
     return (
         <>

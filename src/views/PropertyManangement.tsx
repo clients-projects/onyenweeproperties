@@ -24,7 +24,7 @@ const PropertyManagement = () => {
                         <GiVikingLonghouse />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
-                        Under Property
+                        Property Management
                     </h4>
                     <p className='feature__text'>
                         We offer intensive caretaker services and property
