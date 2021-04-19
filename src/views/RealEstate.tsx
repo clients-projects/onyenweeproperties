@@ -10,10 +10,8 @@ const RealEstate = () => {
     }
 
     const customFeature = {
-        
-        
-            //grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-
+        gridTemplateColumns: ' repeat(auto-fit, minmax(40rem, 1fr))'
+        //grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     }
     return (
         <>
