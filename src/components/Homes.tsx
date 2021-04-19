@@ -9,11 +9,13 @@ import House6 from '../sass/img/house-6.jpeg'
 const Homes = () => {
     console.log('home logs')
     return (
+        <>
+            <h1>Services </h1>
         <section className="homes">
         <div className="home">
             <img src={House1} alt="House 1" className="home__img"/>
             <svg className="home__like">
-                 {/* <use xlinkHref={SpriteHeartFull}></use>  */}
+                 {/* <use xlinkHref={SpriteHeartFull}></use>  */}e
             </svg>
             <h5 className="home__name">Beautiful Family Home</h5>
             <div className="home__location">
@@ -227,6 +229,7 @@ const Homes = () => {
         </div>
 
     </section>
+    </>
     )
 }
 

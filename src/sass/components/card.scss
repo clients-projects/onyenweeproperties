@@ -1,21 +1,23 @@
 .card {
-    grid-column: center-start/center-end;
-    margin: 15rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-column: center-start/center-end;
+    margin: 15rem 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-gap: 7rem;
 
     &__img {
-       
-
         &--item {
             width: 100%;
             height: 100%;
-            // object-fit: contain;
+            overflow: hidden;
+            object-fit: cover;
         }
         &--name {
+            font-size: 1.3rem;
         }
         &--price {
+            font-size: 2rem;
+            font-weight: bold;
         }
     }
 }
