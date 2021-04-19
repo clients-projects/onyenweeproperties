@@ -29,7 +29,7 @@ const Home = () => {
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
-                    <p className='feature__text' style={{ fontWeight: '700' }}>
+                    <p className='feature__text' style={{ fontWeight: 700 }}>
                         THE EASY WAY TO BUY!
                     </p>
                     <p className='feature__text'>
@@ -41,7 +41,7 @@ const Home = () => {
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
                     <h4 className='heading-4 heading-4--dark'>RENT</h4>
-                    <p className='feature__text'>
+                    <p className='feature__text' style={{ fontWeight: 700 }}>
                         GREAT APARTMENTS AT AFFORDABLE PRICES
                     </p>
                     <p className='feature__text'>
@@ -52,13 +52,9 @@ const Home = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'></figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        All homes in top locations
-                    </h4>
-                    <p className='feature__text'>
-                        Do you have properties to sell? We can handle it! Please
-                        go and rest. We are professionals! That’s what we do
-                        best!
+                    <h4 className='heading-4 heading-4--dark'>SELL</h4>
+                    <p className='feature__text' style={{ fontWeight: 700 }}>
+                        SELL WITH CONFIDENCE
                     </p>
                     <p className='feature__text'>
                         Do you have properties to sell? We can handle it! Please
