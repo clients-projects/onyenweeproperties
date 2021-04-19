@@ -11,6 +11,12 @@ const Home = () => {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
 
+    const sizeImg = {
+        width: '360px',
+        height: '270px',
+        objectFit: 'contain'
+    }
+
     return (
         <>
             <header className='hero' style={bgImg}>
@@ -32,29 +38,46 @@ const Home = () => {
                 </p>
             </div>{' '}
             <section className='homes__box'>
-                <h1 className='heading-1 heading-2--dark homes__heading'>
-                    Services{' '}
-                </h1>
                 <div className='homes'>
                     <div className='home'>
-                        <img src={Interior1} alt='House 1' className='home__img' />
+                        <img
+                            src={Interior1}
+                            alt='House 1'
+                            className='home__img'
+                            style={sizeImg}
+                        />
                         <h5 className='home__name'>Real Estate</h5>
                     </div>
 
                     <div className='home'>
-                        <img src={Interior2} alt='House 1' className='home__img' />
+                        <img
+                            src={Interior2}
+                            alt='House 1'
+                            className='home__img'
+                            style={sizeImg}
+                        />
 
                         <h5 className='home__name'>Property Management</h5>
                     </div>
 
                     <div className='home'>
-                        <img src={Interior3} alt='House 3' className='home__img' />
+                        <img
+                            src={Interior3}
+                            alt='House 3'
+                            className='home__img'
+                            style={sizeImg}
+                        />
 
                         <h5 className='home__name'>Construction</h5>
                     </div>
 
                     <div className='home'>
-                        <img src={Interior4} alt='House 1' className='home__img' />
+                        <img
+                            src={Interior4}
+                            alt='House 1'
+                            className='home__img'
+                            style={sizeImg}
+                        />
 
                         <h5 className='home__name'>Interior</h5>
                     </div>
