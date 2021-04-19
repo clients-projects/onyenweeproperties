@@ -1,4 +1,5 @@
-import {ImEnter, ImExit} from 'react-icons/im'
+import { ImEnter, ImExit } from 'react-icons/im'
+import { AiFillHourglass } from 'react-icons/ai'
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
             </header>{' '}
             <div className='whoWeAre'>
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
-                Onyenwee Properties
+                    Onyenwee Properties
                 </h2>
                 <p className='whoWeAre__text'>
                     We offer intensive caretaker services and property
@@ -27,7 +28,7 @@ const Home = () => {
             <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <ImEnter/>
+                        <ImEnter />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
@@ -40,7 +41,9 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'></figure>
+                    <figure className='feature__icon'>
+                        <AiFillHourglass />
+                    </figure>
                     <h4 className='heading-4 heading-4--dark'>RENT</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
                         GREAT APARTMENTS AT AFFORDABLE PRICES
@@ -53,7 +56,7 @@ const Home = () => {
                 </div>
                 <div className='feature'>
                     <figure className='feature__icon'>
-                        <ImExit/>
+                        <ImExit />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>SELL</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
