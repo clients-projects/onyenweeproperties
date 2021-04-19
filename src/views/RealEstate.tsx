@@ -1,10 +1,8 @@
 import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
-import Card from '../components/card'
 
 import Features from '../components/Features'
-import Hero from '../components/Hero'
-import Homes from '../components/Homes'
+
 
 const RealEstate = () => {
 
