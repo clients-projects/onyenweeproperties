@@ -8,6 +8,13 @@ const RealEstate = () => {
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
+
+    const customFeature = {
+        
+        
+            //grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    }
     return (
         <>
             <header className='hero' style={bgImg}>
@@ -17,7 +24,7 @@ const RealEstate = () => {
                 </div>
                 <button className='btn hero__btn'>Contact Us Today</button>
             </header>
-            <section className='features'>
+            <section className='features' style={customFeature}>
                 <div className='feature'>
                     <figure className='feature__icon'>
                         <GiVikingLonghouse />
