@@ -39,20 +39,12 @@ const Construction = () => {
                         Only the best properties
                     </h4>
                     <p className='feature__text'>
-                        Voluptatum mollitia quae. Vero ipsum sapiente molestias
-                        accusamus rerum sed a eligendi aut quia.
-                    </p>
-                </div>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <ImLocation2 />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        All homes in top locations
-                    </h4>
-                    <p className='feature__text'>
-                        Tenetur distinctio necessitatibus pariatur voluptatibus
-                        quidem consequatur harum.
+                        When it comes to building construction, Onyenwee
+                        Properties is the best choice. We have best in class
+                        building engineers with year of experience. We take on
+                        your building project from start to finish. No matter
+                        the size of your project, we are able to see it through
+                        start to finish. Engage us today!
                     </p>
                 </div>
             </section>{' '}
