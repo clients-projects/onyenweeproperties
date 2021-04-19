@@ -1,6 +1,12 @@
 .contact-box{
 
+    grid-column: 1 / -1;
+    background-color: red;
 }
 .contact-form{
-
+    background-color: green;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1.7rem, 4vw, 2rem);
 }
