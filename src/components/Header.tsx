@@ -1,10 +1,12 @@
 import Logo from '../sass/img/logo.png'
 import { Link } from 'react-router-dom'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Backdrop from './toggleNav/Backdrop'
 
 const Header = () => {
+    const [closeNavBar, setCloseNavBar] = useState(false)
+
     useEffect(() => {
         showNavBar(
             'sidebar-toggle',
@@ -50,6 +52,7 @@ const Header = () => {
 
     const handleNavClose = (e: any) => {
         console.log('link', e)
+    
     }
 
     return (
