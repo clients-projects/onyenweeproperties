@@ -50,9 +50,8 @@ const Header = () => {
         }
     }
 
-    const handleNavClose = (e: any) => {
-        console.log('link', e)
-    
+    const handleNavClose = () => {
+        setCloseNavBar(true)
     }
 
     return (
