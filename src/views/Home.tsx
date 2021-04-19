@@ -13,7 +13,6 @@ const Home = () => {
             <Features />
             <Story />
             <Homes />
-            <Gallery />
         </>
     )
 }
