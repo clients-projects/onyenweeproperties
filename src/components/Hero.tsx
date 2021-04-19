@@ -9,7 +9,7 @@ const Hero = () => {
                 <h3 className='heading-3'>Your own home:</h3>
                 <h1 className='heading-1'>Exquisite Homes Just For You</h1>
             </div>
-            <button className='btn hero__btn'>Contact Us</button>
+            <button className='btn hero__btn'>Contact Us Today</button>
             <div>
                 <div className='hero__followon-text'>Follow us on</div>
                 <div className='hero__followon-logos'>
