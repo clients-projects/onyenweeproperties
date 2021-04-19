@@ -6,6 +6,7 @@ const Home = () => {
     const [message, setMessage] = useState('')
     const [name, setName] = useState('')
     const [handleSummit, setHandleSummit] = useState(false)
+    const [error, setError] = useState(false)
 
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -30,7 +31,8 @@ const Home = () => {
 
     const handleForm = (e: any) => {
         e.preventDefault()
-        console.log('handle form')
+
+        
     }
 
     return (
