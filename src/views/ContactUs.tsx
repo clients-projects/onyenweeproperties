@@ -37,7 +37,7 @@ const Home = () => {
                 <button className='btn hero__btn'>Contact Us Today</button>
             </header>{' '}
             <div className='contact-box'>
-                <h2 className='heading-1 heading-2--dark homes__heading'>
+                <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
                 </h2>
                 <form className='contact-form'>
