@@ -41,35 +41,35 @@ const Home = () => {
                     contact form
                 </h2>
                 <form className='contact-form'>
-                        <div className='formBlockLight'>
-                            <label htmlFor='name'>Your name:</label>
-                            <input
-                                onChange={inputHandler}
-                                type='text'
-                                name='name'
-                                value={name}
-                            />
-                        </div>
-                    
-                        <div className='formBlockLight'>
-                            <label htmlFor='mail'>Your e-mail:</label>
-                            <input
-                                onChange={inputHandler}
-                                type='text'
-                                name='email'
-                                value={email}
-                            />
-                        </div>
-                    
-                        <div className='formBlockLight'>
-                            <label htmlFor=''>Message:</label>
-                            <textarea
-                                name='message'
-                                onChange={inputHandler}
-                                value={message}
-                            ></textarea>
-                        </div>
-                    <button type='submit' className='btnFillDarkMd center'>
+                    <div className='contact-form__item'>
+                        <label htmlFor='name'>Your name:</label>
+                        <input
+                            onChange={inputHandler}
+                            type='text'
+                            name='name'
+                            value={name}
+                        />
+                    </div>
+
+                    <div className='contact-form__item'>
+                        <label htmlFor='mail'>Your e-mail:</label>
+                        <input
+                            onChange={inputHandler}
+                            type='text'
+                            name='email'
+                            value={email}
+                        />
+                    </div>
+
+                    <div className='contact-form__item'>
+                        <label htmlFor=''>Message:</label>
+                        <textarea
+                            name='message'
+                            onChange={inputHandler}
+                            value={message}
+                        ></textarea>
+                    </div>
+                    <button type='submit' className='contact-form__btn'>
                         send
                     </button>
                 </form>
