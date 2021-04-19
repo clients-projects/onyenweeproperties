@@ -68,10 +68,7 @@ const Homes = () => {
                     </svg>
                     <h5 className='home__name'>Cozy Country House</h5>
                     <div className='home__location'>
-                        <svg>
-                            {/* <use xlinkHref="img/sprite.svg#icon-map-pin"></use> */}
-                        </svg>
-                        <p>UK</p>
+                        <i className='bx bxs-been-here'></i> <p>UK</p>
                     </div>
 
                     <div className='home__rooms'>
