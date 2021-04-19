@@ -52,6 +52,15 @@ const Header = () => {
 
     const handleNavClose = () => {
         setCloseNavBar(true)
+         showNavBar(
+             'sidebar-toggle',
+             'nav-bar',
+             'bodyId',
+             'sidebar',
+             'header-body',
+             'header-logo',
+             'backdrop'
+         )
     }
 
     return (
