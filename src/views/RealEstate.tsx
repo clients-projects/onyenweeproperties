@@ -1,4 +1,3 @@
-import { url } from 'node:inspector'
 import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 import Card from '../components/card'
@@ -8,13 +7,10 @@ import Hero from '../components/Hero'
 import Homes from '../components/Homes'
 
 const RealEstate = () => {
-    // linear-gradient(rgba($color-secondary, .5),
-    //     rgba($color-secondary, .98) ),
-    // linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.98)),
-    //     url(/static/adeim / hero.fceecff8.jpeg)
+
 
     const bgImg = {
-        backgroundImage: `linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.98))`,
+        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
     return (
         // <div className='realEstate'>
