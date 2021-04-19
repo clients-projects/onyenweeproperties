@@ -39,13 +39,12 @@ const Home = () => {
             setError(true)
             console.log('not sent')
             setDisplayMessage('Fields cannot be empty')
+        } else {
+            setDisplayMessage('Message sent')
+            setError(false)
+
+            console.log('email sent')
         }
-
-        setDisplayMessage('Message sent')
-        setError(false)
-
-        console.log('email sent')
-
     }
 
     return (
@@ -99,6 +98,7 @@ const Home = () => {
                     <button type='submit' className='contact-form__btn'>
                         send
                     </button>
+                    
                 </form>
             </div>
         </>
