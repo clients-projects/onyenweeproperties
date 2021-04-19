@@ -13,7 +13,9 @@ const PropertyManagement = () => {
             <header className='hero' style={bgImg}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>Property Management:</h3>
-                    <h1 className='heading-1'>Manage Your Properties with Us</h1>
+                    <h1 className='heading-1'>
+                        Manage Your Properties with Us
+                    </h1>
                 </div>
                 <button className='btn hero__btn'>Contact Us Today</button>
             </header>
@@ -23,36 +25,17 @@ const PropertyManagement = () => {
                         <GiVikingLonghouse />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
-                        Best luxury homes
+                        Under Property
                     </h4>
                     <p className='feature__text'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur distinctio necessitatibus pariatur
-                        voluptatibus.
-                    </p>
-                </div>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <GiLaurelsTrophy />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        Only the best properties
-                    </h4>
-                    <p className='feature__text'>
-                        Voluptatum mollitia quae. Vero ipsum sapiente molestias
-                        accusamus rerum sed a eligendi aut quia.
-                    </p>
-                </div>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <ImLocation2 />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>
-                        All homes in top locations
-                    </h4>
-                    <p className='feature__text'>
-                        Tenetur distinctio necessitatibus pariatur voluptatibus
-                        quidem consequatur harum.
+                        We offer intensive caretaker services and property
+                        management such as rental, inspection maintenance and
+                        property valuation. We act as middle men between
+                        property owners and property users. We use KYC property
+                        management model in selecting and relating to our
+                        clients owners/users. We can help you fast track the
+                        acquisition of C of F and other relevant property
+                        documents.
                     </p>
                 </div>
             </section>{' '}
