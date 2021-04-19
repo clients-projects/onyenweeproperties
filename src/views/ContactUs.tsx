@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 
 const Home = () => {
@@ -23,11 +23,9 @@ const Home = () => {
         }
     }
 
-
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
-
 
     return (
         <>
@@ -43,28 +41,26 @@ const Home = () => {
                     contact form
                 </h2>
                 <form className='contact-form'>
-                    <div className='row bigPadd'>
-                        <div className='item col6'>
-                            <div className='formBlockLight'>
-                                <label htmlFor='name'>Your name:</label>
-                                <input
-                                    onChange={inputHandler}
-                                    type='text'
-                                    name='name'
-                                    value={name}
-                                />
-                            </div>
+                    <div className='item col6'>
+                        <div className='formBlockLight'>
+                            <label htmlFor='name'>Your name:</label>
+                            <input
+                                onChange={inputHandler}
+                                type='text'
+                                name='name'
+                                value={name}
+                            />
                         </div>
-                        <div className='item col6'>
-                            <div className='formBlockLight'>
-                                <label htmlFor='mail'>Your e-mail:</label>
-                                <input
-                                    onChange={inputHandler}
-                                    type='text'
-                                    name='email'
-                                    value={email}
-                                />
-                            </div>
+                    </div>
+                    <div className='item col6'>
+                        <div className='formBlockLight'>
+                            <label htmlFor='mail'>Your e-mail:</label>
+                            <input
+                                onChange={inputHandler}
+                                type='text'
+                                name='email'
+                                value={email}
+                            />
                         </div>
                     </div>
                     <div className='item'>
