@@ -23,12 +23,13 @@ const Construction = () => {
                         <GiVikingLonghouse />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
-                        Best luxury homes
+                        Road Construction
                     </h4>
                     <p className='feature__text'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Tenetur distinctio necessitatibus pariatur
-                        voluptatibus.
+                        We take on road construction projects. We have the
+                        equipment and manpower to execute all kinds of road
+                        construction works. Our track records are there for all
+                        to see.
                     </p>
                 </div>
                 <div className='feature'>
