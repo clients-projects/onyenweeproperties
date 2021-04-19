@@ -1,8 +1,8 @@
 const WhoWeAre = () => {
     return (
-        <div>
-            <h2 className='heading-2 heading-2--dark mb-md'>Vision</h2>
-            <p className='story__text'>
+        <div className='whoWeAre'>
+            <h2 className='heading-2 heading-2--dark mb-md'>Welcome to Onyenwee Properties</h2>
+            <p className='whoWeAre__text'>
                 Onyenwee Properties is a Real Estate and property Management
                 Company located in Awka, Nigeria. We have our operations within
                 the South-Eastern part of Nigeria. We are a team of young and

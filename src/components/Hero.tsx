@@ -7,9 +7,9 @@ const Hero = () => {
         <header className='hero'>
             <div className='hero__1'>
                 <h3 className='heading-3'>Your own home:</h3>
-                <h1 className='heading-1'>The ultimate personal freedom</h1>
+                <h1 className='heading-1'>Exquisite Homes Just For You</h1>
             </div>
-            <button className='btn hero__btn'>View our properties</button>
+            <button className='btn hero__btn'>Contact Us</button>
             <div>
                 <div className='hero__followon-text'>Follow us on</div>
                 <div className='hero__followon-logos'>

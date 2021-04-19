@@ -1,3 +1,7 @@
 .whoWeAre {
-    
+    grid-column:  1 /-1;
+
+    &__text{
+    font-size: clamp(25%, 50vw, 75%);
+    }
 }
