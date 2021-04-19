@@ -1,11 +1,10 @@
 import Logo from '../sass/img/logo.png'
 import { Link } from 'react-router-dom'
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import Backdrop from './toggleNav/Backdrop'
 
 const Header = () => {
-    const [closeNavBar, setCloseNavBar] = useState(false)
 
     useEffect(() => {
         showNavBar(
@@ -52,7 +51,7 @@ const Header = () => {
     }
 
     const handleNavClose = () => {
-        setCloseNavBar(true)
+    console.log('to close nav bar')        
         const toggle = document.getElementById('sidebar-toggle'),
             nav = document.getElementById('nav-bar'),
             bodySelector = document.getElementById('bodyId'),
@@ -82,7 +81,7 @@ const Header = () => {
                     <i className='bx bx-menu' id='sidebar-toggle'></i>
                 </div>
 
-                <Backdrop>
+                <Backdrop onClick={handleNavClose}>
                     <div className='navbar1' id='nav-bar'>
                         <nav className='nav'>
                             <div>
