@@ -36,7 +36,7 @@ const Construction = () => {
                         <GiLaurelsTrophy />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>
-                        Only the best properties
+                        Building Construction
                     </h4>
                     <p className='feature__text'>
                         When it comes to building construction, Onyenwee
