@@ -54,13 +54,11 @@ const Home = () => {
                     <h3 className='heading-3'>Contact Us:</h3>
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
-                <button className='btn hero__btn'>Contact Us Today</button>
             </header>{' '}
             <div className='contact-box'>
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
                 </h2>
-
                 {handleSummit && (
                     <p
                         className={
@@ -109,6 +107,9 @@ const Home = () => {
                         send
                     </button>
                 </form>
+                <p>Address: Rufai Garuba Street, Real Estate, Awka Anambra state
+                Phone Num: 08161865277 08068789462 Email:
+                onyenweeproperties@gmail.com</p>
             </div>
         </>
     )
