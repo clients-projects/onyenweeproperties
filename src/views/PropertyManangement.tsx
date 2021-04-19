@@ -1,5 +1,4 @@
-import Features from '../components/Features'
-
+import {SiSellfy} from 'react-icons/si'
 
 const Home = () => {
     return (
@@ -51,7 +50,9 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'></figure>
+                    <figure className='feature__icon'>
+                        <SiSellfy/>
+                    </figure>
                     <h4 className='heading-4 heading-4--dark'>SELL</h4>
                     <p className='feature__text' style={{ fontWeight: 700 }}>
                         SELL WITH CONFIDENCE
