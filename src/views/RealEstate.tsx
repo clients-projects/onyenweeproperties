@@ -1,3 +1,4 @@
+import { url } from 'node:inspector'
 import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 import Card from '../components/card'
@@ -28,7 +29,7 @@ const RealEstate = () => {
         //     </div>
         // </div>
         <>
-            <header className='hero' style={{backgroundImage:`${RealEstate1}` }}>
+            <header className='hero' style={{backgroundImage: `url(${RealEstate1})` }}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>Your own home:</h3>
                     <h1 className='heading-1'>Exquisite Homes Just For You</h1>
