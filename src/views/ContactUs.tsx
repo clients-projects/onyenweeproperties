@@ -61,7 +61,17 @@ const Home = () => {
                     contact form
                 </h2>
 
-                {handleSummit && <p className='form__displayMessage'>{displayMessage}</p>}
+                {handleSummit && (
+                    <p
+                        className={
+                            error
+                                ? 'form__displayError'
+                                : 'form__displayMessage'
+                        }
+                    >
+                        {displayMessage}
+                    </p>
+                )}
                 <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
@@ -98,7 +108,6 @@ const Home = () => {
                     <button type='submit' className='contact-form__btn'>
                         send
                     </button>
-                    
                 </form>
             </div>
         </>
