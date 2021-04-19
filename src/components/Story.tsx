@@ -13,7 +13,7 @@ const Story = () => {
                 <img src={Story2} alt='New house' className='story__img--2' />
             </div>
             <div className='story__content'>
-                <h2 className='heading-1 heading-2--dark mb-md'>
+                <h2 className='heading-2 heading-2--dark mb-md'>
                 Vision
                 </h2>
                 <p className='story__text'>
