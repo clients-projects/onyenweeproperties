@@ -1,7 +1,10 @@
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 
-import { ImEnter, ImExit } from 'react-icons/im'
-import { AiFillHourglass } from 'react-icons/ai'
+
+import Interior1 from '../assets/realEstate/interior1.jpg'
+import Interior2 from '../assets/realEstate/interior2.jpg'
+import Interior3 from '../assets/realEstate/interior3.jpg'
+import Interior4 from '../assets/realEstate/interior4.jpg'
 
 const Home = () => {
     const bgImg = {
@@ -28,50 +31,35 @@ const Home = () => {
                     side stools, etc.
                 </p>
             </div>{' '}
-            <section className='features'>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <ImEnter />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>BUY</h4>
-                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
-                        THE EASY WAY TO BUY!
-                    </h4>
-                    <p className='feature__text'>
-                        Look no further We are here to help! Just let us know
-                        what you want, where you want it and we will get it for
-                        you!
-                    </p>
+            <section className='homes__box'>
+                <h1 className='heading-1 heading-2--dark homes__heading'>
+                    Services{' '}
+                </h1>
+                <div className='homes'>
+                    <div className='home'>
+                        <img src={Interior1} alt='House 1' className='home__img' />
+                        <h5 className='home__name'>Real Estate</h5>
+                    </div>
+
+                    <div className='home'>
+                        <img src={Interior2} alt='House 1' className='home__img' />
+
+                        <h5 className='home__name'>Property Management</h5>
+                    </div>
+
+                    <div className='home'>
+                        <img src={Interior3} alt='House 3' className='home__img' />
+
+                        <h5 className='home__name'>Construction</h5>
+                    </div>
+
+                    <div className='home'>
+                        <img src={Interior4} alt='House 1' className='home__img' />
+
+                        <h5 className='home__name'>Interior</h5>
+                    </div>
                 </div>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <AiFillHourglass />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>RENT</h4>
-                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
-                        GREAT APARTMENTS AT AFFORDABLE PRICES
-                    </h4>
-                    <p className='feature__text'>
-                        Looking to rent and apartment of office building? We got
-                        you covered. We have great offers for you. Please reach
-                        out to us today!
-                    </p>
-                </div>
-                <div className='feature'>
-                    <figure className='feature__icon'>
-                        <ImExit />
-                    </figure>
-                    <h4 className='heading-4 heading-4--dark'>SELL</h4>
-                    <h4 className='feature__text' style={{ fontWeight: 700 }}>
-                        SELL WITH CONFIDENCE
-                    </h4>
-                    <p className='feature__text'>
-                        Do you have properties to sell? We can handle it! Please
-                        go and rest. We are professionals! That’s what we do
-                        best!
-                    </p>
-                </div>
-            </section>{' '}
+            </section>
         </>
     )
 }
