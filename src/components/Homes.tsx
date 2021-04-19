@@ -2,8 +2,7 @@ import House1 from '../sass/img/house-1.jpeg'
 import House2 from '../sass/img/house-2.jpeg'
 import House3 from '../sass/img/house-3.jpeg'
 import House4 from '../sass/img/house-4.jpeg'
-import House5 from '../sass/img/house-5.jpeg'
-import House6 from '../sass/img/house-6.jpeg'
+
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
 
 const Homes = () => {
