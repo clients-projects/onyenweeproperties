@@ -33,6 +33,7 @@ const Home = () => {
         e.preventDefault()
 
         if (email === '' || message === '' || name === '') {
+            setError(true)
         }
     }
 
