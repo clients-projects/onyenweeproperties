@@ -1,8 +1,7 @@
 import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
-import { ImLocation2 } from 'react-icons/im'
-import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
+import { GiVikingLonghouse } from 'react-icons/gi'
 
 const PropertyManagement = () => {
     const bgImg = {
@@ -14,7 +13,7 @@ const PropertyManagement = () => {
                 <div className='hero__1'>
                     <h3 className='heading-3'>Property Management:</h3>
                     <h1 className='heading-1'>
-                        Manage Your Properties with Us
+                        Manage Your Properties With Us
                     </h1>
                 </div>
                 <button className='btn hero__btn'>Contact Us Today</button>
