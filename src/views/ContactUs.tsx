@@ -41,7 +41,6 @@ const Home = () => {
                     contact form
                 </h2>
                 <form className='contact-form'>
-                    <div className='item col6'>
                         <div className='formBlockLight'>
                             <label htmlFor='name'>Your name:</label>
                             <input
@@ -51,8 +50,7 @@ const Home = () => {
                                 value={name}
                             />
                         </div>
-                    </div>
-                    <div className='item col6'>
+                    
                         <div className='formBlockLight'>
                             <label htmlFor='mail'>Your e-mail:</label>
                             <input
@@ -62,8 +60,7 @@ const Home = () => {
                                 value={email}
                             />
                         </div>
-                    </div>
-                    <div className='item'>
+                    
                         <div className='formBlockLight'>
                             <label htmlFor=''>Message:</label>
                             <textarea
@@ -72,7 +69,6 @@ const Home = () => {
                                 value={message}
                             ></textarea>
                         </div>
-                    </div>
                     <button type='submit' className='btnFillDarkMd center'>
                         send
                     </button>
