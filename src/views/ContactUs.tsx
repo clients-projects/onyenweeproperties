@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 
+import {FaMapPin} from 'react-icons/fa'
+import {AiFillPhone} from 'react-icons/ai'
+import {MdEmail} from 'react-icons/md'
+
 const Home = () => {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
@@ -107,9 +111,13 @@ const Home = () => {
                         send
                     </button>
                 </form>
+
+                <div className="contact-box__details">
                 <p>Address: Rufai Garuba Street, Real Estate, Awka Anambra state
                 Phone Num: 08161865277 08068789462 Email:
                 onyenweeproperties@gmail.com</p>
+
+                </div>
             </div>
         </>
     )
