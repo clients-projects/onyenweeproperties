@@ -6,10 +6,9 @@ import House4 from '../sass/img/house-4.jpeg'
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
 
 const Homes = () => {
-    console.log('home logs')
     return (
         <>
-            <h1>Services </h1>
+            <h1 className='heading-1 homes__heading'>Services </h1>
             <section className='homes'>
                 <div className='home'>
                     <img src={House1} alt='House 1' className='home__img' />
