@@ -9,6 +9,12 @@ import Homes from '../components/Homes'
 
 
 const RealEstate = () => {
+
+    const bgImg = {
+          backgroundImage: `linear-gradient(rgba($color-secondary, .5),
+        rgba($color-secondary, .98) ), 
+        url(${RealEstate1})`
+    }
     return (
         // <div className='realEstate'>
         //     <img
@@ -28,8 +34,10 @@ const RealEstate = () => {
         //         <Card/>
         //     </div>
         // </div>
+
+        
         <>
-            <header className='hero' style={{backgroundImage: `url(${RealEstate1})` }}>
+            <header className='hero' style={{backgroundImage:  `${bgImg}`}}>
                 <div className='hero__1'>
                     <h3 className='heading-3'>Your own home:</h3>
                     <h1 className='heading-1'>Exquisite Homes Just For You</h1>
