@@ -5,6 +5,7 @@ const Home = () => {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
     const [name, setName] = useState('')
+    const [handleSummit, setHandleSummit] = useState(false)
 
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -27,7 +28,8 @@ const Home = () => {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
 
-    const handleForm = () => {
+    const handleForm = (e: any) => {
+        e.preventDefault()
         console.log('handle form')
     }
 
@@ -44,6 +46,8 @@ const Home = () => {
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
                 </h2>
+
+                {handleSummit && (<p>Message</p>)}
                 <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
