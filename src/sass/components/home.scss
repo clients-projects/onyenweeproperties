@@ -18,16 +18,7 @@
             z-index: 1;
         }
 
-        &__like {
-            width: 2.5rem;
-            height: 2.5rem;
-            fill: $color-primary;
-            grid-row: 1/2;
-            grid-column: 2/3;
-            z-index: 10;
-            justify-self: end;
-            margin: 1rem;
-        }
+
 
         &__name {
             grid-column: 1/-1;
@@ -46,33 +37,10 @@
             z-index: 30;
         }
 
-        &__location,
-        &__rooms {
-            margin-top: 2.5rem;
-        }
+    
 
-        &__location,
-        &__rooms,
-        &__area,
-        &__price {
-            display: flex;
-            align-items: center;
+       
 
-            font-size: 1.5rem;
-            margin-left: 2rem;
-            svg {
-                width: 2rem;
-                height: 2rem;
-                fill: $color-primary;
-                margin-right: 1rem;
-            }
-
-            p {
-            }
-        }
-
-        &__btn {
-            grid-column: 1 /-1;
-        }
+      
     }
 }
