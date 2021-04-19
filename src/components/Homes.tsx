@@ -51,7 +51,7 @@ const Homes = () => {
                     </div>
 
                     <div className='home__price'>
-                        <i className='bx bx-money'></i> <p>₦850,000</p>
+                        <p>₦850,000</p>
                     </div>
                     <button className='btn home__btn'>Construction</button>
                 </div>
@@ -61,6 +61,7 @@ const Homes = () => {
 
                     <h5 className='home__name'>Large Country Villa</h5>
                     <div className='home__location'>
+                        <i className='bx bxs-been-here'></i>
                         <p>Maitama</p>
                     </div>
 
