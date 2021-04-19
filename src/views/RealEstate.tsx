@@ -5,8 +5,7 @@ import Card from '../components/card'
 import Features from '../components/Features'
 import Hero from '../components/Hero'
 import Homes from '../components/Homes'
-import Story from '../components/Story'
-import WhoWeAre from '../components/whoWeAre'
+
 
 const RealEstate = () => {
     return (
@@ -30,10 +29,7 @@ const RealEstate = () => {
         // </div>
         <>
             <Hero />
-            <WhoWeAre />
             <Features />
-            <Story />
-            <Homes />
         </>
     )
 }
