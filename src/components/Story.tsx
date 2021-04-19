@@ -10,32 +10,28 @@ const Story = () => {
                     alt='Couple with a new house'
                     className='story__img--1'
                 />
-                <img
-                    src={Story2}
-                    alt='New house'
-                    className='story__img--2'
-                />
+                <img src={Story2} alt='New house' className='story__img--2' />
             </div>
             <div className='story__content'>
-                <h3 className='heading-3 mb-sm'>Happy Customers</h3>
                 <h2 className='heading-2 heading-2--dark mb-md'>
-                    &ldquo;The best decision of our lives&rdquo;
+                    &ldquo;Vision&rdquo;
                 </h2>
                 <p className='story__text'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur distinctio necessitatibus pariatur voluptatibus.
-                    Quidem consequatur harum volupta!
+                    To become the leading Real Estate and Property Management
+                    firm in the whole of South East, Nigeria and Africa at
+                    large.
                 </p>
                 <h3 className='heading-3 mb-sm'>Happy Customers</h3>
                 <h2 className='heading-2 heading-2--dark mb-md'>
-                    &ldquo;The best decision of our lives&rdquo;
+                    &ldquo;Mission&rdquo;
                 </h2>
                 <p className='story__text'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur distinctio necessitatibus pariatur voluptatibus.
-                    Quidem consequatur harum volupta!
+                    Creating a positive change in the real estate and property
+                    management space in the South Eastern Nigeria by exploring
+                    its peculialities for both local and international investors
+                    in basic amenities infrastructure and human resources
+                    development.
                 </p>
-                <button className='btn'>Find your own home</button>
             </div>
         </>
     )
