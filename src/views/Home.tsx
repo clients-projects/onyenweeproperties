@@ -1,5 +1,4 @@
 import Features from '../components/Features'
-import Gallery from '../components/Gallery'
 import Hero from '../components/Hero'
 import Homes from '../components/Homes'
 import Realtors from '../components/Realtors'
