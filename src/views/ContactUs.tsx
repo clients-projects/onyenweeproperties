@@ -27,6 +27,10 @@ const Home = () => {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
 
+    const handleForm = () => {
+        console.log('handle form')
+    }
+
     return (
         <>
             <header className='hero' style={bgImg}>
@@ -40,7 +44,7 @@ const Home = () => {
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
                 </h2>
-                <form className='contact-form'>
+                <form className='contact-form' onSubmit={handleForm}>
                     <div className='contact-form__item'>
                         <label htmlFor='name'>Your name:</label>
                         <input
