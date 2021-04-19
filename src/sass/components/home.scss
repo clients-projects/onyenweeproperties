@@ -5,6 +5,7 @@
     margin: 12rem 0;
 
     .homes {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
         grid-gap: 7rem;

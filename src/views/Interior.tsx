@@ -12,8 +12,12 @@ const Home = () => {
     }
 
     const sizeImg = {
-        width: 360,
-        height: 270,
+        width: '100%',
+        height: '100%'
+    }
+
+    const divHeight = {
+        height: '50rem'
     }
 
     return (
@@ -38,17 +42,16 @@ const Home = () => {
             </div>{' '}
             <section className='homes__box'>
                 <div className='homes'>
-                    <div className='home'>
+                    <div className='home' style={divHeight}>
                         <img
                             src={Interior1}
                             alt='House 1'
                             className='home__img'
                             style={sizeImg}
                         />
-                        <h5 className='home__name'>Real Estate</h5>
                     </div>
 
-                    <div className='home'>
+                    <div className='home' style={divHeight}>
                         <img
                             src={Interior2}
                             alt='House 1'
@@ -56,10 +59,9 @@ const Home = () => {
                             style={sizeImg}
                         />
 
-                        <h5 className='home__name'>Property Management</h5>
                     </div>
 
-                    <div className='home'>
+                    <div className='home' style={divHeight}>
                         <img
                             src={Interior3}
                             alt='House 3'
@@ -67,10 +69,9 @@ const Home = () => {
                             style={sizeImg}
                         />
 
-                        <h5 className='home__name'>Construction</h5>
                     </div>
 
-                    <div className='home'>
+                    <div className='home' style={divHeight}>
                         <img
                             src={Interior4}
                             alt='House 1'
@@ -78,7 +79,6 @@ const Home = () => {
                             style={sizeImg}
                         />
 
-                        <h5 className='home__name'>Interior</h5>
                     </div>
                 </div>
             </section>

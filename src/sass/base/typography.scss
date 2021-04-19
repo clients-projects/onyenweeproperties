@@ -14,7 +14,7 @@
         [center-end] minmax(6rem, 1fr) [full-end];
 
     @media only screen and (max-width: $bp-large) {
-        grid-template-rows: max-content min-content 40vw repeat(3, min-content);
+       // grid-template-rows: max-content min-content 40vw repeat(3, min-content);
         grid-template-columns:
             [full-start] minmax(6rem, 1fr) [center-start] repeat(
                 8,
