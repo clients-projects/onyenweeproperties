@@ -37,7 +37,6 @@ const Header = () => {
             getBackdrop = document.getElementById(backdropId)
 
         if (toggle && nav && bodySelector && sidebar && header) {
-            console.log('nav bar')
                 toggle.addEventListener('click', () => {
                     nav.classList.toggle('show')
                     toggle.classList.toggle('bx-x')
@@ -63,7 +62,6 @@ const Header = () => {
             getBackdrop = document.getElementById('backdrop')
 
         if (toggle && nav && bodySelector && sidebar && header) {
-                console.log('to close nav')
 
                 nav.classList.remove('show')
                 toggle.classList.remove('bx-x')
@@ -89,7 +87,11 @@ const Header = () => {
                         <nav className='nav'>
                             <div>
                                 <div className='nav__list'>
-                                    <Link to='/' className='nav__link'>
+                                    <Link
+                                        to='/'
+                                        className='nav__link'
+                                        onClick={handleNavClose}
+                                    >
                                         <i className='bx bx-layer nav__logo-icon'></i>
 
                                         <span className='nav__logo-name'>
@@ -99,6 +101,7 @@ const Header = () => {
                                     <Link
                                         to='/real-estate'
                                         className='nav__link'
+                                        onClick={handleNavClose}
                                     >
                                         <i className='bx bxs-home-smile'></i>
                                         <span className='nav__logo-name'>
@@ -118,13 +121,18 @@ const Header = () => {
                                     <Link
                                         to='/construction'
                                         className='nav__link'
+                                        onClick={handleNavClose}
                                     >
                                         <i className='bx bxs-traffic-cone'></i>
                                         <span className='nav__logo-name'>
                                             Construction
                                         </span>
                                     </Link>
-                                    <Link to='/interior' className='nav__link'>
+                                    <Link
+                                        to='/interior'
+                                        className='nav__link'
+                                        onClick={handleNavClose}
+                                    >
                                         <i className='bx bxs-florist'></i>{' '}
                                         <span className='nav__logo-name'>
                                             Interior
@@ -133,6 +141,7 @@ const Header = () => {
                                     <Link
                                         to='/contact-us'
                                         className='nav__link'
+                                        onClick={handleNavClose}
                                     >
                                         <i className='bx bxs-chat'></i>{' '}
                                         <span className='nav__logo-name'>
