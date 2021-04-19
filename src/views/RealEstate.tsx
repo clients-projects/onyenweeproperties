@@ -1,13 +1,9 @@
-import React from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
-
-import { ImLocation2 } from 'react-icons/im'
-import { GiVikingLonghouse, GiLaurelsTrophy } from 'react-icons/gi'
 
 import {MdLandscape} from 'react-icons/md'
 import {FaWarehouse} from 'react-icons/fa'
 import {SiBandsintown} from 'react-icons/si'
-import {AiTwotoneMoneyCollect} from 'react-icons/Ai'
+import {AiTwotoneMoneyCollect} from 'react-icons/ai'
 
 const RealEstate = () => {
     const bgImg = {
