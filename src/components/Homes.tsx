@@ -5,6 +5,7 @@ import House3 from '../assets/realEstate/building2.jpg'
 import House4 from '../assets/realEstate/interior4.jpg'
 
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
+import {Link} from 'react-router-dom'
 
 const Homes = () => {
     return (
