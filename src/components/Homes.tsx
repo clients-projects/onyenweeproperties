@@ -25,7 +25,7 @@ const Homes = () => {
                     <div className='home'>
                         <img src={House2} alt='House 1' className='home__img' />
 
-                        <Link className='home__name' to='property-management'>
+                        <Link className='home__name' to='/property-management'>
                             Property Management
                         </Link>
                     </div>
