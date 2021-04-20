@@ -61,7 +61,6 @@ const Home = () => {
                     <h3 className='heading-3'>Contact Us:</h3>
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
-            </header>{' '}
             <div>
                 <div className='hero__followon-text'>Follow us on</div>
                 <div className='hero__followon-logos'>
@@ -83,6 +82,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
+            </header>
             <div className='contact-box'>
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
