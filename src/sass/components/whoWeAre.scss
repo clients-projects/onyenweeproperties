@@ -11,7 +11,7 @@
         text-transform: uppercase;
     }
     &__text {
-        font-size: clamp(1.6rem, 3vw, 2rem);
+        font-size: $font-clamp;
         text-align: center;
     }
 

@@ -42,7 +42,7 @@
   }
 
   &__text {
-    font-size: 1.8rem;
+    font-size: $font-clamp;
     text-align: center;
     // grid-column: text-start/text-end; this can also be used;
   }
