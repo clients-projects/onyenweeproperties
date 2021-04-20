@@ -11,32 +11,36 @@ const Homes = () => {
     return (
         <>
             <section className='homes__box'>
-            <h1 className='heading-1 heading-2--dark homes__heading'>
-                Services{' '}
-            </h1>
-            <div className='homes'>
-                <div className='home'>
-                    <img src={House1} alt='House 1' className='home__img' />
-                    <h5 className='home__name'>Real Estate</h5>
-                </div>
+                <h1 className='heading-1 heading-2--dark homes__heading'>
+                    Services{' '}
+                </h1>
+                <div className='homes'>
+                    <div className='home'>
+                        <img src={House1} alt='House 1' className='home__img' />
+                        <Link className='home__name' to='/real-estate'>
+                            Real Estate
+                        </Link>
+                    </div>
 
-                <div className='home'>
-                    <img src={House2} alt='House 1' className='home__img' />
+                    <div className='home'>
+                        <img src={House2} alt='House 1' className='home__img' />
 
-                    <h5 className='home__name'>Property Management</h5>
-                </div>
+                        <Link className='home__name' to='property-management'>
+                            Property Management
+                        </Link>
+                    </div>
 
-                <div className='home'>
-                    <img src={House3} alt='House 3' className='home__img' />
+                    <div className='home'>
+                        <img src={House3} alt='House 3' className='home__img' />
 
-                    <h5 className='home__name'>Construction</h5>
-                </div>
+                        <Link className='home__name' to='/construction'>Construction</Link>
+                    </div>
 
-                <div className='home'>
-                    <img src={House4} alt='House 1' className='home__img' />
+                    <div className='home'>
+                        <img src={House4} alt='House 1' className='home__img' />
 
-                    <h5 className='home__name'>Interior</h5>
-                </div>
+                        <Link className='home__name' to='/interior'>Interior</Link>
+                    </div>
                 </div>
             </section>
         </>
