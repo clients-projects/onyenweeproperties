@@ -4,6 +4,9 @@ import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 import { FaMapPin } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
+import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
+import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     const [email, setEmail] = useState('')
@@ -59,6 +62,27 @@ const Home = () => {
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
             </header>{' '}
+            <div>
+                <div className='hero__followon-text'>Follow us on</div>
+                <div className='hero__followon-logos'>
+                    <Link to='/' className='hero__followon-link'>
+                        {' '}
+                        <FaFacebook />
+                    </Link>
+                    <Link to='/' className='hero__followon-link'>
+                        {' '}
+                        <FaInstagramSquare />
+                    </Link>
+                    <Link to='/' className='hero__followon-link'>
+                        {' '}
+                        <AiFillTwitterCircle />
+                    </Link>
+                    <Link to='/' className='hero__followon-link'>
+                        {' '}
+                        <AiFillLinkedin />
+                    </Link>
+                </div>
+            </div>
             <div className='contact-box'>
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
                     contact form
