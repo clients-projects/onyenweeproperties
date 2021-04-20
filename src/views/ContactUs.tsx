@@ -62,7 +62,7 @@ const Home = () => {
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
             <div>
-                <div className='hero__followon-text'>Follow us on</div>
+                <div className='hero__followon-text'>Contact Us On</div>
                 <div className='hero__followon-logos'>
                     <Link to='/' className='hero__followon-link'>
                         {' '}
