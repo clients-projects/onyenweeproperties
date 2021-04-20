@@ -1,8 +1,8 @@
 import House2 from '../sass/img/house-2.jpeg'
-import House4 from '../sass/img/house-4.jpeg'
 
 import House1 from '../assets/realEstate/RealEstate2.jpg'
 import House3 from '../assets/realEstate/building2.jpg'
+import House4 from '../assets/realEstate/interior4.jpg'
 
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
 
