@@ -21,11 +21,11 @@ const Home = () => {
         const inputName = input.target.name
         const inputValue = input.target.value
 
-        if (inputName === 'name') {
+        if (inputName === 'user_name') {
             setName(inputValue)
         }
 
-        if (inputName === 'email') {
+        if (inputName === 'user_email') {
             setEmail(inputValue)
         }
 
