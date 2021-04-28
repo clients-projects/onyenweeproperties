@@ -52,6 +52,15 @@ const Home = () => {
             setError(false)
 
 
+                emailjs.sendForm('gmail', 'template_1fpejxx', e.target, 'service_ug3kztv')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+
             console.log('email sent')
         }
     }
