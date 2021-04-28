@@ -123,7 +123,7 @@ const Home = () => {
                             className='contact-form__input'
                             onChange={inputHandler}
                             type='text'
-                            name='name'
+                            name='user_name'
                             value={name}
                         />
                     </div>
@@ -134,7 +134,7 @@ const Home = () => {
                             className='contact-form__input'
                             onChange={inputHandler}
                             type='text'
-                            name='email'
+                            name='user_email'
                             value={email}
                         />
                     </div>
