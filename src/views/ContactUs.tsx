@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
-import emailjs, {init} from 'emailjs-com'
+import emailjs, { init } from 'emailjs-com'
 
 import { FaMapPin } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
@@ -18,7 +18,7 @@ const Home = () => {
     const [handleSummit, setHandleSummit] = useState(false)
     const [error, setError] = useState(false)
     const [displayMessage, setDisplayMessage] = useState('')
-    
+
     const inputHandler = (input: any) => {
         const inputName = input.target.name
         const inputValue = input.target.value
@@ -35,16 +35,22 @@ const Home = () => {
             setMessage(inputValue)
         }
     }
-    
+
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
-    
+
+    const templateParams = `
+      user_name: ${name},
+      user_email: ${email},
+      message: ${message}
+    `
+
     const handleForm = (e: any) => {
         e.preventDefault()
-        
+
         setHandleSummit(true)
-        
+
         if (email === '' || message === '' || name === '') {
             setError(true)
             console.log('not sent')
@@ -54,23 +60,15 @@ const Home = () => {
             setError(false)
 
             console.log(e.target, 'email form')
-            
-            emailjs
-            .sendForm(
-                    'gmail',
-                    'template_1fpejxx',
-                    e.target,
-                    'service_ug3kztv'
-                )
-                .then(
-                    (result) => {
-                        console.log(result.text, 'email sent')
-                    },
-                    (error) => {
-                        console.log(error.text, 'email failed')
-                    }
-                )
 
+            emailjs.sendForm('gmail', 'template_1fpejxx', templateParams).then(
+                (result) => {
+                    console.log(result.text, 'email sent')
+                },
+                (error) => {
+                    console.log(error.text, 'email failed')
+                }
+            )
         }
     }
 
