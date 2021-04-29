@@ -9,6 +9,8 @@ import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
+init('user_TyUAlfFTW7kMzOobPhtRV')
+
 const Home = () => {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
@@ -50,8 +52,9 @@ const Home = () => {
         } else {
             setDisplayMessage('Message sent')
             setError(false)
+
+            console.log(e.target, 'email form')
             
-            init('user_TyUAlfFTW7kMzOobPhtRV')
             emailjs
             .sendForm(
                     'gmail',
