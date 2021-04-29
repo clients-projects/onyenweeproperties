@@ -58,21 +58,15 @@ const Home = () => {
         } else {
             setDisplayMessage('Message sent')
             setError(false)
-
-            console.log(e.target, 'email form')
             
             emailjs
-            .send(
-                    'gmail',
-                    'template_1fpejxx',
-                    templateParams,
-                )
+                .send('default_service', 'template_1fpejxx', templateParams)
                 .then(
                     (result) => {
                         console.log(result.text, 'email sent')
                     },
                     (error) => {
-                        console.log(error.text, 'email failed')
+                        console.log(error, 'email failed')
                     }
                 )
 
