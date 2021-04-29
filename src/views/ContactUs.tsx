@@ -56,13 +56,14 @@ const Home = () => {
             console.log('not sent')
             setDisplayMessage('Fields cannot be empty')
         } else {
-            setDisplayMessage('Message sent')
             setError(false)
+            setDisplayMessage('')
             
             emailjs
-                .send('service_ug3kztv', 'template_1fpejxx', templateParams, 'user_TyUAlfFTW7kMzOobPhtRV')
-                .then(
-                    (result) => {
+            .send('service_ug3kztv', 'template_1fpejxx', templateParams, 'user_TyUAlfFTW7kMzOobPhtRV')
+            .then(
+                (result) => {
+                        setDisplayMessage('Message sent')
                         console.log(result.text, 'email sent')
                     },
                     (error) => {
