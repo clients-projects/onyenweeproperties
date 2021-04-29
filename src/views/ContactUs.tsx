@@ -9,7 +9,7 @@ import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-init('user_TyUAlfFTW7kMzOobPhtRV')
+// init('user_TyUAlfFTW7kMzOobPhtRV')
 
 const Home = () => {
     const [email, setEmail] = useState('')
@@ -60,7 +60,7 @@ const Home = () => {
             setError(false)
             
             emailjs
-                .send('gmail', 'template_1fpejxx', e.target)
+                .send('gmail', 'template_1fpejxx', templateParams)
                 .then(
                     (result) => {
                         console.log(result.text, 'email sent')
