@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
-import emailjs from 'emailjs-com'
+import emailjs, {init} from 'emailjs-com'
 
 import { FaMapPin } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
@@ -16,7 +16,7 @@ const Home = () => {
     const [handleSummit, setHandleSummit] = useState(false)
     const [error, setError] = useState(false)
     const [displayMessage, setDisplayMessage] = useState('')
-
+    
     const inputHandler = (input: any) => {
         const inputName = input.target.name
         const inputValue = input.target.value
@@ -33,16 +33,16 @@ const Home = () => {
             setMessage(inputValue)
         }
     }
-
+    
     const bgImg = {
         backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
-
+    
     const handleForm = (e: any) => {
         e.preventDefault()
-
+        
         setHandleSummit(true)
-
+        
         if (email === '' || message === '' || name === '') {
             setError(true)
             console.log('not sent')
@@ -50,9 +50,10 @@ const Home = () => {
         } else {
             setDisplayMessage('Message sent')
             setError(false)
-
+            
+            init('user_TyUAlfFTW7kMzOobPhtRV')
             emailjs
-                .sendForm(
+            .sendForm(
                     'gmail',
                     'template_1fpejxx',
                     e.target,
