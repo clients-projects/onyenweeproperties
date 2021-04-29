@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
-import emailjs, {init} from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 import { FaMapPin } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
