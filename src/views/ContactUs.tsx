@@ -17,7 +17,7 @@ const Home = () => {
     const [name, setName] = useState('')
     const [handleSummit, setHandleSummit] = useState(false)
     const [error, setError] = useState(false)
-    const [displayMessage, setDisplayMessage] = useState('')
+    const [displayMessage, setDisplayMessage] = useState(null || '')
     
     const inputHandler = (input: any) => {
         const inputName = input.target.name
@@ -57,8 +57,8 @@ const Home = () => {
             setDisplayMessage('Fields cannot be empty')
         } else {
             setError(false)
-            setDisplayMessage('')
-            
+            setDisplayMessage(null)
+
             emailjs
             .send('service_ug3kztv', 'template_1fpejxx', templateParams, 'user_TyUAlfFTW7kMzOobPhtRV')
             .then(
