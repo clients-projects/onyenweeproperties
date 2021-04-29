@@ -60,7 +60,7 @@ const Home = () => {
             setError(false)
             
             emailjs
-                .send('gmail', 'template_1fpejxx', templateParams)
+                .send('service_ug3kztv', 'template_1fpejxx', templateParams)
                 .then(
                     (result) => {
                         console.log(result.text, 'email sent')
