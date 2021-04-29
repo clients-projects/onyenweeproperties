@@ -57,6 +57,7 @@ const Home = () => {
             setDisplayMessage('Fields cannot be empty')
         } else {
             setError(false)
+            setDisplayMessage('')
             
             emailjs
             .send('service_ug3kztv', 'template_1fpejxx', templateParams, 'user_TyUAlfFTW7kMzOobPhtRV')
