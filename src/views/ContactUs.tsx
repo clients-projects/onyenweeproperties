@@ -9,7 +9,6 @@ import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-// init('user_TyUAlfFTW7kMzOobPhtRV')
 
 const Home = () => {
     const [email, setEmail] = useState('')
