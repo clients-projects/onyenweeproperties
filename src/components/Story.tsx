@@ -20,13 +20,25 @@ const Story = () => {
                     on real properties.
                 </p>
                 <h2 className='heading-2 heading-2--dark mb-md'>Mission</h2>
-                <p className='story__text'>
-                    Creating a positive change in the real estate and property
-                    management space in the South Eastern Nigeria by exploring
-                    its peculialities for both local and international investors
-                    in basic amenities infrastructure and human resources
-                    development.
-                </p>
+                <ul className='story__text'>
+                    <li>
+                        Onyenwee nkagha 'Mine' is a peculiar slogan within the
+                        southeastern Nigeria. It is about wealth creation,
+                        family, more especially property acquisition, exclusion
+                        and individualism
+                    </li>
+                    <li>
+                        Marketing of the south Eastern Nigeria states by
+                        exploring it's peculilities for both local and
+                        international investors in basic amenities,
+                        infrastructures and human resources department within
+                        the region
+                    </li>
+                    <li>
+                        Promoting Cordial cohabitation to every Nigerian
+                        desiring to own earn a living within the region
+                    </li>
+                </ul>
             </div>
         </>
     )
