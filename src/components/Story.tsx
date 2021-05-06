@@ -13,17 +13,13 @@ const Story = () => {
                 <img src={Story2} alt='New house' className='story__img--2' />
             </div>
             <div className='story__content'>
-                <h2 className='heading-2 heading-2--dark mb-md'>
-                Vision
-                </h2>
+                <h2 className='heading-2 heading-2--dark mb-md'>Vision</h2>
                 <p className='story__text'>
-                    To become the leading Real Estate and Property Management
-                    firm in the whole of South East, Nigeria and Africa at
-                    large.
+                    Development of basic amenities, infrastructure and human
+                    resources through public and private finance and investment
+                    on real properties.
                 </p>
-                <h2 className='heading-2 heading-2--dark mb-md'>
-                    Mission
-                </h2>
+                <h2 className='heading-2 heading-2--dark mb-md'>Mission</h2>
                 <p className='story__text'>
                     Creating a positive change in the real estate and property
                     management space in the South Eastern Nigeria by exploring
