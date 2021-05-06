@@ -5,17 +5,8 @@ const WhoWeAre = () => {
                 Welcome to Onyenwee Properties
             </h2>
             <p className='whoWeAre__text'>
-                Onyenwee Properties is a Real Estate and property Management
-                Company located in Awka, Nigeria. We have our operations within
-                the South-Eastern part of Nigeria. We are a team of young and
-                vibrant individuals driven with the goal to provide fantastic
-                realty and property management services and satisfaction to our
-                esteemed customers. We are poised to give best in class realty
-                services, property management, construction and interior
-                services. With solid partnerships built over the years, there is
-                no doubt that we are able to help you succeed in buying or
-                selling properties any where around the south eastern part of
-                Nigeria!
+           Onyenwee properties NIG LTD ( Mine ) is a liability company licensed under the Nigeria corporate affairs commission to deal on business of real estate investment. We have our peculiarity on developed properties and agency services. We are a team of professionals with young vibrant and experienced sales men and women, property managers, valuers, architects, Surveyors, financial analysts and civil engineers. 
+With over 30years experience and dominant in the real estate industry in the south Eastern region of the country we have our head office at Rufia Garuba Real Estate off Aroma junction Awka State Capital Anambara state. Our branch network extends beyond the region covering most parts of the country.
             </p>
         </div>
     )
