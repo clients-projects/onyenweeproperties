@@ -19,7 +19,7 @@ const Story = () => {
                     resources through public and private finance and investment
                     on real properties.
                 </p>
-                <h2 className='heading-2 heading-2--dark mb-md'>Mission</h2>
+                <h2 className='heading-2 heading-2--dark mb-md'>Mission and Objectives</h2>
                 <ul className='story__text'>
                     <li>
                         Onyenwee nkagha 'Mine' is a peculiar slogan within the
