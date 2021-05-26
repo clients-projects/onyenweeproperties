@@ -164,7 +164,7 @@ const Header = () => {
                 <ul className='header-nav'>
                     <li>
                         <Link to='/' className='header-nav__item'>
-                            Home
+                            Homes
                         </Link>
                     </li>
                     <li>

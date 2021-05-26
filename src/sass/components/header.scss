@@ -1,5 +1,9 @@
 .header {
-    //background-color: $color-primary;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     grid-column: 1/-1;
     grid-row: 1/2;
     padding: 1rem;
@@ -54,6 +58,8 @@
         margin: 0 2rem;
     }
 }
+
+
 .sidebar {
     // width: 100%;
     position: fixed;
