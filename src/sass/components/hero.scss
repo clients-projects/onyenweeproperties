@@ -6,16 +6,26 @@
     grid-column: 1/-1;
     background-size: cover;
     display: grid;
-    grid-template-rows: 1fr 1fr min-content;
-    grid-template-columns: minmax(min-content, max-content);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
     justify-content: center;
-    height: 90vh;
+    align-items: center;
+    height: 80vh;
     background-position: center;
+
+    &__img{
+      margin-top: 4rem;
+      align-self: end;
+    }
+
+    &__title{
+      color: $color-primary-dark;
+      
+    }
 
     &__1 {
         display: grid;
-        align-content: center;
+
         line-height: 3;
     }
 
@@ -29,6 +39,7 @@
         justify-self: start;
         text-decoration: none;
         font-weight: 500;
+        padding: .5rem 1rem;
 
         @media only screen and (max-width: $bp-sm) {
             margin: 5rem 0;
