@@ -18,15 +18,23 @@
       align-self: end;
     }
 
+    &__subtitle{
+      color: $color-red;
+      font-family: 'Montserrat';
+      font-style: italic;
+      text-transform: lowercase;
+      font-weight: 700;
+      font-size: 2rem;
+    }
     &__title{
       color: $color-primary-dark;
-      
+      font-weight: 700;
+      font-family: 'Montserrat';
     }
 
     &__1 {
         display: grid;
-
-        line-height: 3;
+        transform: translateY(-2rem);
     }
 
     &__logo {
@@ -39,7 +47,8 @@
         justify-self: start;
         text-decoration: none;
         font-weight: 500;
-        padding: .5rem 1rem;
+        padding: .3rem 1.4rem;
+        margin-top: 3rem;
 
         @media only screen and (max-width: $bp-sm) {
             margin: 5rem 0;

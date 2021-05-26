@@ -8,12 +8,14 @@ const Hero = () => {
     return (
         <header className='hero'>
             <div className='hero__1'>
-                <h3 className='heading-3'>Your own home:</h3>
+                <h3 className='heading-3 hero__subtitle'>
+                    Changing the way you experience property
+                </h3>
                 <h1 className='heading-1 hero__title'>
-                    Exquisite Homes Just For You
+                    Onyenwee's Sales and Property Management Specialists
                 </h1>
                 <Link className='btn hero__btn' to='/contact-us'>
-                    Contact Us Today
+                    Contact Us
                 </Link>
             </div>
             <div className='hero__img'>
