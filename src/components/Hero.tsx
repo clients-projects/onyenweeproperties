@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import HeroCouple from '../assets/realEstate/heroCouple.png'
 
 const Hero = () => {
-    console.log('update')
+    console.log('update!')
     return (
         <header className='hero'>
             <div className='hero__1'>
