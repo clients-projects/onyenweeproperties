@@ -1,5 +1,3 @@
-import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
-import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 import HeroCouple from '../assets/realEstate/heroCouple.png'
