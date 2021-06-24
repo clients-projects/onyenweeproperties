@@ -1,35 +1,34 @@
 .story {
-    background: red;
     display: grid;
     grid-column: full-start/full-end;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     margin: 10rem 3rem;
 
     &__picture{
-      background: url('../../assets/family.jpg');
-      background-size: cover;
+      background: url('../../assets/family.jpg') no-repeat;
+      background-size: over;
+      background-position: center;
       width: 100%;
-      height: 100%;
+      min-height: 400px;
+
+         @media only screen and (max-width: $bp-large) {
+           background-position: top;
+         }
+
     }
 
     &__content {
         background-color: $color-grey-light-1;
 
 
-        /*CSS Grids approach */
         display: grid;
         align-content: center;
         justify-items: start;
-     //   grid-column: col-start 5 / full-end;
 
         padding: 6rem 8vw;
 
-        // @media only screen and (max-width: $bp-md) {
-        //     grid-column: 1/-1;
-        //     grid-row: 5/6;
-        //     padding: 5rem 8vw 8rem 8vw;
-        // }
-    }
+      }
+    
 
     &__text {
         font-size: $font-clamp;
@@ -44,5 +43,5 @@
             box-shadow: -4px 0px 6px 0px;
             padding: 2rem;
         }
-    }
-}
+    
+}}
