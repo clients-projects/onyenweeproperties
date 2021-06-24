@@ -1,8 +1,7 @@
 import buy from '../assets/rent.png'
 import rent from '../assets/rent1.png'
-import Rent from '../assets/buying.png'
-import Rent from '../assets/homeRepair.png'
-
+import selling from '../assets/buying.png'
+import homeRepair from '../assets/homeRepair.png'
 
 const WhoWeAre = () => {
     return (
@@ -26,12 +25,41 @@ const WhoWeAre = () => {
         //     </p>
         // </div>
 
-
         <div className='estateServices'>
-
-            <div>
-
-                </div>
+            <div className='estateServices__item'>
+                <img src={buy} alt='' />
+                <h2>I want to Buy</h2>
+                <p>
+                    Onyenwee Properties have the knowledge and experience to
+                    help you discover the perfect property
+                </p>
+            </div>
+            <div className='estateServices__item'>
+                <img src={rent} alt='' />
+                <h2>I want to Rent</h2>
+                <p>
+                    We take the time to understand your rental requirements and
+                    work with you to find the property that suits your needs.
+                </p>
+            </div>
+            <div className='estateServices__item'>
+                <img src={selling} alt='' />
+                <h2>I want to Sell</h2>
+                <p>
+                    Our team apply their years of experience to help you achieve
+                    the best possible return for your property within the
+                    shortest timeframe.
+                </p>
+            </div>
+            <div className='estateServices__item'>
+                <img src={homeRepair} alt='' />
+                <h2>Property Management</h2>
+                <p>
+                    We ensure peace of mind by securing high quality tenants and
+                    the highest possible rent alongside diligent routine
+                    inspections.
+                </p>
+            </div>
         </div>
     )
 }
