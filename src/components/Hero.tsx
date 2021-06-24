@@ -16,14 +16,7 @@ const Hero = () => {
                     Contact Us
                 </Link>
             </div>
-            <div className='hero__img'>
-                {/* <img
-                    src={HeroCouple}
-                    width='100%'
-                    height='100%'
-                    alt='heroCouple'
-                /> */}
-            </div>
+           
         </header>
     )
 }
