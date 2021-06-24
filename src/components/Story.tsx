@@ -1,16 +1,14 @@
-import Story1 from '../sass/img/story-1.jpeg'
-import Story2 from '../sass/img/story-2.jpeg'
+import familyImg from '../assets/family.jpg'
 
 const Story = () => {
     return (
         <div className='story'>
             <div className='story__pictures'>
                 <img
-                    src={Story1}
+                    src={familyImg}
                     alt='Couple with a new house'
                     className='story__img--1'
                 />
-                <img src={Story2} alt='New house' className='story__img--2' />
             </div>
             <div className='story__content'>
                 <h2 className='heading-2 heading-2--dark mb-md'>Vision</h2>
@@ -40,7 +38,7 @@ const Story = () => {
                     </li>
                 </ul>
             </div>
-        </>
+        </div>
     )
 }
 
