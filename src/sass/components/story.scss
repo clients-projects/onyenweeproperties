@@ -3,6 +3,7 @@
     grid-column: full-start/full-end;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     margin: 10rem 3rem;
+    background: $linearGradient;
 
     &__picture{
       background: url('../../assets/family.jpg') no-repeat;
@@ -12,7 +13,7 @@
       min-height: 400px;
 
          @media only screen and (max-width: $bp-large) {
-           background-position: top;
+           background-position: -13rem;
          }
 
     }
