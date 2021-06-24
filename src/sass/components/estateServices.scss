@@ -18,7 +18,9 @@
         }
 
         hr{
-            background: $linearGradient
+            background: $linearGradient;
+            width: 100%;
+            height: 1px;
         }
 
         p {

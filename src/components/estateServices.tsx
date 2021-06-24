@@ -29,7 +29,7 @@ const EstateServices = () => {
             <div className='estateServices__item'>
                 <img src={buy} alt='' />
                 <h2>I want to Buy</h2>
-                <hr/>
+                <hr />
                 <p>
                     Onyenwee Properties have the knowledge and experience to
                     help you discover the perfect property
@@ -38,6 +38,7 @@ const EstateServices = () => {
             <div className='estateServices__item'>
                 <img src={rent} alt='' />
                 <h2>I want to Rent</h2>
+                <hr />
                 <p>
                     We take the time to understand your rental requirements and
                     work with you to find the property that suits your needs.
@@ -46,6 +47,7 @@ const EstateServices = () => {
             <div className='estateServices__item'>
                 <img src={selling} alt='' />
                 <h2>I want to Sell</h2>
+                <hr />
                 <p>
                     Our team apply their years of experience to help you achieve
                     the best possible return for your property within the
@@ -55,6 +57,7 @@ const EstateServices = () => {
             <div className='estateServices__item'>
                 <img src={homeRepair} alt='' />
                 <h2>Property Management</h2>
+                <hr />
                 <p>
                     We ensure peace of mind by securing high quality tenants and
                     the highest possible rent alongside diligent routine
