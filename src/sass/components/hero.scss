@@ -11,38 +11,36 @@
     align-items: center;
     height: 60vh;
     background-position: center;
-    
-    @media only screen and (max-width: $bp-lg) {
+
+    @media only screen and (max-width: $bp-md) {
         align-items: flex-end;
         font-size: 3rem;
-           }
-
-    &__img{
-      margin-top: 4rem;
-      align-self: end;
     }
 
-    &__subtitle{
-      color: $color-red;
-      font-style: italic;
-      text-transform: lowercase;
-      font-weight: 700;
-      font-size: 2rem;
+    &__img {
+        margin-top: 4rem;
+        align-self: end;
     }
-    &__title{
-      color: $color-primary-dark;
-      font-weight: 700;
 
-           @media only screen and (max-width: $bp-sm) {
-               font-size: 3rem;
-           }
+    &__subtitle {
+        color: $color-red;
+        font-style: italic;
+        text-transform: lowercase;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    &__title {
+        color: $color-primary-dark;
+        font-weight: 700;
 
+        @media only screen and (max-width: $bp-sm) {
+            font-size: 3rem;
+        }
     }
 
     &__1 {
         display: grid;
         justify-items: center;
-        
     }
 
     &__logo {
@@ -55,7 +53,7 @@
         justify-self: center;
         text-decoration: none;
         font-weight: 500;
-        padding: .7rem 1.7rem;
+        padding: 0.7rem 1.7rem;
         margin-top: 3rem;
 
         @media only screen and (max-width: $bp-sm) {
