@@ -3,6 +3,7 @@
     display: grid;
     grid-column: full-start/full-end;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    margin: 10rem;
 
     &__content {
         background-color: $color-grey-light-1;
@@ -18,7 +19,7 @@
         display: grid;
         align-content: center;
         justify-items: start;
-        grid-column: col-start 5 / full-end;
+     //   grid-column: col-start 5 / full-end;
 
         padding: 6rem 8vw;
 
