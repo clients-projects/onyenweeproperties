@@ -29,6 +29,7 @@ const EstateServices = () => {
             <div className='estateServices__item'>
                 <img src={buy} alt='' />
                 <h2>I want to Buy</h2>
+                <hr/>
                 <p>
                     Onyenwee Properties have the knowledge and experience to
                     help you discover the perfect property
