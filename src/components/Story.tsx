@@ -3,12 +3,12 @@ import familyImg from '../assets/family.jpg'
 const Story = () => {
     return (
         <div className='story'>
-            <div className='story__pictures'>
-                <img
+            <div className='story__picture'>
+                {/* <img
                     src={familyImg}
                     alt='Couple with a new house'
-                    className='story__img--1'
-                />
+                    className='story__img'
+                /> */}
             </div>
             <div className='story__content'>
                 <h2 className='heading-2 heading-2--dark mb-md'>Vision</h2>
