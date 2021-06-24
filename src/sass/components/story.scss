@@ -2,7 +2,7 @@
     display: grid;
     grid-column: full-start/full-end;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    margin: 10rem 3rem;
+    padding: 10rem 3rem;
     background: $linearGradient;
 
     &__picture{
@@ -19,13 +19,11 @@
     }
 
     &__content {
-        background-color: $color-grey-light-1;
-
 
         display: grid;
         align-content: center;
         justify-items: start;
-
+      color: $color-grey-dark-2;
         padding: 6rem 8vw;
 
       }
