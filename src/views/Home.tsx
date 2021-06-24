@@ -1,4 +1,4 @@
-import Features from '../components/Features'
+// import Features from '../components/Features'
 import Hero from '../components/Hero'
 import Homes from '../components/Homes'
 import Story from '../components/Story'
@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <Hero />
             <EstateServices/>
-            <Features />
+            {/* <Features /> */}
             <Story />
             <Homes />
         </>
