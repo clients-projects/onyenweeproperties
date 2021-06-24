@@ -83,7 +83,7 @@ const Home = () => {
                     <h3 className='heading-3'>Contact Us:</h3>
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
-                <div>
+                {/* <div>
                     <div className='hero__followon-text'>
                         Our Social Media Links
                     </div>
@@ -105,7 +105,7 @@ const Home = () => {
                             <AiFillLinkedin />
                         </Link>
                     </div>
-                </div>
+                </div> */}
             </header>
             <div className='contact-box'>
                 <h2 className='heading-1 heading-2--dark contact-box__heading'>
