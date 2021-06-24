@@ -3,7 +3,7 @@ import Story2 from '../sass/img/story-2.jpeg'
 
 const Story = () => {
     return (
-        <>
+        <div className='story'>
             <div className='story__pictures'>
                 <img
                     src={Story1}

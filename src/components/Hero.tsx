@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 
-import HeroCouple from '../assets/realEstate/heroCouple.png'
 
 const Hero = () => {
     console.log('update!')
