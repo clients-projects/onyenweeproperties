@@ -3,7 +3,7 @@ import rent from '../assets/rent1.png'
 import selling from '../assets/buying.png'
 import homeRepair from '../assets/homeRepair.png'
 
-const WhoWeAre = () => {
+const EstateServices = () => {
     return (
         // <div className='whoWeAre'>
         //     <h2 className='heading-1 heading-2--dark whoWeAre__title'>
@@ -64,4 +64,4 @@ const WhoWeAre = () => {
     )
 }
 
-export default WhoWeAre
+export default EstateServices
