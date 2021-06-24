@@ -2,6 +2,7 @@
     background: red;
     display: grid;
     grid-column: full-start/full-end;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 
     &__content {
         background-color: $color-grey-light-1;
