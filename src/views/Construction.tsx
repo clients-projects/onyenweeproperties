@@ -6,7 +6,7 @@ import {RiBuilding3Fill} from 'react-icons/ri'
 
 const Construction = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to bottom, white, rgba(16, 29, 44, 0.98)), url(${Building1})`,
+        backgroundImage: `linear-gradient(to bottom, transparent, rgba(16, 29, 44, 0.98)), url(${Building1})`,
     }
     return (
         <>
