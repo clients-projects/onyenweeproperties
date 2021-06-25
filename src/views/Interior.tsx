@@ -9,7 +9,7 @@ import Interior4 from '../assets/realEstate/interior4.jpg'
 
 const Home = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
 
     const sizeImg = {
@@ -28,9 +28,7 @@ const Home = () => {
                     <h3 className='heading-3'>Interior:</h3>
                     <h1 className='heading-1'>Your Comfort, Our Concern</h1>
                 </div>
-                <Link className='btn heropages__btn' to='/contact-us'>
-                    Contact Us Today
-                </Link>
+          
             </header>{' '}
             <div className='whoWeAre'>
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
