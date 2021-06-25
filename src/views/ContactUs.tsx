@@ -69,7 +69,7 @@ const Home = () => {
                         setMessage('')
                     },
                     (error) => {
-                        console.log(error, 'email failed')
+                        console.log(error, 'email failed!')
                     }
                 )
 
