@@ -8,7 +8,7 @@ import {AiTwotoneMoneyCollect} from 'react-icons/ai'
 
 const RealEstate = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.7)), url(${RealEstate1})`,
     }
 
     const customFeature = {
@@ -21,9 +21,7 @@ const RealEstate = () => {
                     <h3 className='heading-3'>Real Estate:</h3>
                     <h1 className='heading-1'>Our Real Estate Services</h1>
                 </div>
-                <Link className='btn heropages__btn' to='/contact-us'>
-                    Contact Us Today
-                </Link>
+            
             </header>
             <section className='features' style={customFeature}>
                 <div className='feature'>

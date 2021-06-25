@@ -7,7 +7,7 @@ import { AiFillHourglass } from 'react-icons/ai'
 
 const Home = () => {
       const bgImg = {
-          backgroundImage: `linear-gradient(to bottom, rgba(16, 29, 44, 0.4), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+          backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
       }
 
      
