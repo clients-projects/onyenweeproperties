@@ -6,20 +6,17 @@ import {RiBuilding3Fill} from 'react-icons/ri'
 
 const Construction = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${Building1})`,
+        backgroundImage: `linear-gradient(to bottom, white, rgba(16, 29, 44, 0.98)), url(${Building1})`,
     }
     return (
         <>
-            <header className='hero' style={bgImg}>
-                <div className='hero__1'>
+            <header className='heropages' style={bgImg}>
+                <div className='heropages__1'>
                     <h3 className='heading-3'>construction:</h3>
                     <h1 className='heading-1'>
                         Lets Handle Your Constructions
                     </h1>
                 </div>
-                <Link className='btn hero__btn' to='/contact-us'>
-                    Contact Us Today
-                </Link>
             </header>
             <section className='features'>
                 <div className='feature'>

@@ -99,3 +99,104 @@
         padding: 5rem;
     }
 }
+.heropages {
+    background-image: url(../../assets/realEstate/houseBg.jpg);
+    padding: 8rem;
+    padding-top: 4rem;
+    background-repeat: no-repeat;
+    grid-column: 1/-1;
+    background-size: cover;
+    display: grid;
+    grid-gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+    height: 60vh;
+    background-position: center;
+
+    @media only screen and (max-width: $bp-md) {
+        align-items: flex-end;
+        font-size: 3rem;
+    }
+
+    &__img {
+        margin-top: 4rem;
+        align-self: end;
+    }
+
+    &__subtitle {
+        color: $color-red;
+        font-style: italic;
+        text-transform: lowercase;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    &__title {
+        color: $color-primary-dark;
+        font-weight: 700;
+
+        @media only screen and (max-width: $bp-sm) {
+            font-size: 3rem;
+        }
+    }
+
+    &__1 {
+        display: grid;
+        justify-items: center;
+    }
+
+    &__logo {
+        height: 3rem;
+        justify-self: center;
+    }
+
+    &__btn {
+        align-self: start;
+        justify-self: center;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0.7rem 1.7rem;
+        margin-top: 3rem;
+
+        @media only screen and (max-width: $bp-sm) {
+            margin: 5rem 0;
+        }
+    }
+
+    &__followon-text {
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-column-gap: 1.5rem;
+        align-items: center;
+        font-size: 1.6rem;
+        color: $color-grey-light-2;
+
+        &::before,
+        &::after {
+            background-color: currentColor;
+            height: 1px;
+            content: '';
+            display: block;
+        }
+    }
+
+    &__followon-logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        //grid-gap: 3rem;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: -4rem;
+
+        .hero__followon-link {
+            //height: 10rem;
+            color: inherit;
+            font-size: 4rem;
+            max-width: 100%;
+            filter: brightness(100%);
+        }
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+        padding: 5rem;
+    }
+}

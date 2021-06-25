@@ -78,8 +78,8 @@ const Home = () => {
 
     return (
         <>
-            <header className='hero' style={bgImg}>
-                <div className='hero__1'>
+            <header className='heropages' style={bgImg}>
+                <div className='heropages__1'>
                     <h3 className='heading-3'>Contact Us:</h3>
                     <h1 className='heading-1'>Always Available For You</h1>
                 </div>
