@@ -36,7 +36,7 @@ const Home = () => {
     }
     
     const bgImg = {
-        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to top, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.4)), url(${RealEstate1})`,
     }
 
     const templateParams = {

@@ -8,7 +8,7 @@ import {AiTwotoneMoneyCollect} from 'react-icons/ai'
 
 const RealEstate = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.7)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.4)), url(${RealEstate1})`,
     }
 
     const customFeature = {
