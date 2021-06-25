@@ -141,6 +141,11 @@
     &__1 {
         display: grid;
         justify-items: center;
+
+        h1{
+            color: black;
+            text-align: center;
+        }
     }
 
     &__logo {
@@ -161,40 +166,7 @@
         }
     }
 
-    &__followon-text {
-        display: grid;
-        grid-template-columns: 1fr max-content 1fr;
-        grid-column-gap: 1.5rem;
-        align-items: center;
-        font-size: 1.6rem;
-        color: $color-grey-light-2;
-
-        &::before,
-        &::after {
-            background-color: currentColor;
-            height: 1px;
-            content: '';
-            display: block;
-        }
-    }
-
-    &__followon-logos {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        //grid-gap: 3rem;
-        justify-items: center;
-        align-items: center;
-        margin-bottom: -4rem;
-
-        .hero__followon-link {
-            //height: 10rem;
-            color: inherit;
-            font-size: 4rem;
-            max-width: 100%;
-            filter: brightness(100%);
-        }
-    }
-
+  
     @media only screen and (max-width: $bp-sm) {
         padding: 5rem;
     }
