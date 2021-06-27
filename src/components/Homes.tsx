@@ -1,8 +1,8 @@
-import House2 from '../sass/img/house-2.jpeg'
+import House2 from '../assets/propertymanagement.jpeg'
 
 import House1 from '../assets/realEstate/RealEstate2.jpg'
 import House3 from '../assets/realEstate/building2.jpg'
-import House4 from '../assets/realEstate/interior4.jpg'
+import House4 from '../assets/interior.jpeg'
 
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
 import {Link} from 'react-router-dom'
