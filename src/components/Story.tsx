@@ -29,7 +29,7 @@ const Story = () => {
                         Marketing of the south Eastern Nigeria states by
                         exploring it's peculilities for both local and
                         international investors in basic amenities,
-                        infrastructures and human resources department within
+                        infrastructures and human resources Development within
                         the region
                     </li>
                     <li>

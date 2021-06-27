@@ -30,7 +30,7 @@ const Home = () => {
                     property valuation. We act as middle men between property
                     owners and property users. We use KYC property management
                     model in selecting and relating to our clients owners/users.
-                    We can help you fast track the acquisition of C of F and
+                    We can help you fast track the acquisition of C of O and
                     other relevant property documents.
                 </p>
             </div>{' '}
