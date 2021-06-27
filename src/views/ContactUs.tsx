@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
+import RealEstate1 from '../assets/realEstate/RealEstate3.jpg'
 import emailjs from 'emailjs-com'
 
 import { FaMapPin } from 'react-icons/fa'
@@ -36,7 +36,7 @@ const Home = () => {
     }
     
     const bgImg = {
-        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.4)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.8)), url(${RealEstate1})`,
     }
 
     const templateParams = {
