@@ -106,10 +106,11 @@ const Home = () => {
                     </h3>
                     <ul>
                         <li>
-                            <h4>Emotions:</h4> An individual tags a property to a
+                            <h4>Emotions:</h4>
+                            <p>An individual tags a property to a
                             problem this makes the owner vulnerable as the
                             potential purchaser would psychologically capitalize
-                            on this weakness to bid down their price
+                            on this weakness to bid down their price</p>
                         </li>
                     </ul>
                 </div>
