@@ -104,50 +104,14 @@ const Home = () => {
                         We Identify the following factors influence how a
                         property owner sells his/her property:{' '}
                     </h3>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
-                    <h3>Property Management</h3>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
-                    <h3>Property Management</h3>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
-                    <h3>Property Management</h3>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
-                    <h3>Property Management</h3>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
+                    <ul>
+                        <li>
+                            <h4>Emotions:</h4> An individual tags a property to a
+                            problem this makes the owner vulnerable as the
+                            potential purchaser would psychologically capitalize
+                            on this weakness to bid down their price
+                        </li>
+                    </ul>
                 </div>
             </div>{' '}
         </>
