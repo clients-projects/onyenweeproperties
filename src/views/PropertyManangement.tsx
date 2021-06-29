@@ -76,11 +76,11 @@ const Home = () => {
                     </p>
                 </div>
             </section>{' '}
-            <div className='whoWeAre'>
-                <h2 className='heading-1 heading-2--dark whoWeAre__title'>
+            <div className='services'>
+                <h2 className='heading-1 heading-2--dark services__title'>
                     Our Services
                 </h2>
-                <div className='whoWeAre__text'>
+                <div className='services__text'>
                     <h3>Property Management</h3>
                     <p>
                         We guarantee you a peace of mind by securing a high
