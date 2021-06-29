@@ -80,8 +80,8 @@ const Home = () => {
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
                     Our Services
                 </h2>
-                <p className='whoWeAre__text'>
-                    <strong>Property Management:</strong> We guarantee you a
+                <div className='whoWeAre__text'>
+                     We guarantee you a
                     peace of mind by securing a high quality tenants quickest
                     return on property investment diligent routine inspection
                     and maintenance. We are passionate when it comes to building
@@ -145,7 +145,7 @@ const Home = () => {
                     and interior we are into sales and purchase of furniture,
                     toiletries, electronics appliances and house hold equipment
                     whole sale supply hotels and public centers.
-                </p>
+                </div>
             </div>{' '}
         </>
     )
