@@ -107,10 +107,33 @@ const Home = () => {
                     <ul>
                         <li>
                             <h4>Emotions:</h4>
-                            <p>An individual tags a property to a
-                            problem this makes the owner vulnerable as the
-                            potential purchaser would psychologically capitalize
-                            on this weakness to bid down their price</p>
+                            <p>
+                                An individual tags a property to a problem this
+                                makes the owner vulnerable as the potential
+                                purchaser would psychologically capitalize on
+                                this weakness to bid down their price
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Marketing Avenue:</h4>
+                            <p>
+                                Specific goods and services are better
+                                appreciated valued and sort for at the right
+                                market one of the biggest challenges for an
+                                individuals aiming to sell a property at a full
+                                value is not knowing the right market thereby
+                                left with no option than laying off the property
+                                at a random market on an intimidation low price
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Emotions:</h4>
+                            <p>
+                                An individual tags a property to a problem this
+                                makes the owner vulnerable as the potential
+                                purchaser would psychologically capitalize on
+                                this weakness to bid down their price
+                            </p>
                         </li>
                     </ul>
                 </div>
