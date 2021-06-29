@@ -1,58 +1,57 @@
 .features {
-  grid-column: center-start/center-end;
+    grid-column: center-start/center-end;
 
-  margin: 15rem 0;
+    margin: 15rem 0;
 
+    @supports (display: grid) {
+        display: grid;
+        //grid-template-columns: repeat(3, 1fr);
+        //Responsive version
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 6rem;
+        align-items: start;
+    }
 
-  @supports(display:grid){
-    display: grid;
-    //grid-template-columns: repeat(3, 1fr);
-    //Responsive version
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 6rem;
-    align-items: start;
-  }
-
-  @media only screen and (max-width: $bp-md){
-    margin: 5rem 0;
-  }
+    @media only screen and (max-width: $bp-md) {
+        margin: 5rem 0;
+    }
 }
 
 .feature {
-  float: left;
-  width: 33.3333%;
-  margin-bottom: 6rem;
-  
-  @supports(display:grid){
-    float: none;
-    width: 100%;
-    margin-bottom: 0;
-  }
-  display: grid;
- // grid-template-columns: min-content 1fr;
-  //grid-row-gap: 1.5rem;
-  //grid-column-gap: 2rem;
-  justify-items: center;
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 6rem;
 
-  &__icon {
-    font-size: 8rem;
-    color: $color-primary-dark;
-    grid-row: 1/ span 2; //this is the alternative;
-    transform: translateY(-.5rem);
-  }
+    @supports (display: grid) {
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    display: grid;
+    // grid-template-columns: min-content 1fr;
+    //grid-row-gap: 1.5rem;
+    //grid-column-gap: 2rem;
+    justify-items: center;
 
-  &__text {
-    font-size: $font-clamp;
-    text-align: center;
-    // grid-column: text-start/text-end; this can also be used;
-  }
+    &__icon {
+        font-size: 8rem;
+        color: $color-primary-dark;
+        grid-row: 1 / span 2; //this is the alternative;
+        transform: translateY(-0.5rem);
+    }
+
+    &__text {
+        font-size: $font-clamp;
+        text-align: center;
+        // grid-column: text-start/text-end; this can also be used;
+    }
 }
 
-.whoWeAre{
+.whoWeAre {
     grid-column: center-start/center-end;
     margin: 4rem 0;
 
-     &__title {
+    &__title {
         line-height: 2;
         font-weight: 700;
         text-align: center;
@@ -63,13 +62,12 @@
         font-size: $font-clamp;
         text-align: center;
     }
-
 }
-.services{
+.services {
     grid-column: center-start/center-end;
     margin: 4rem 0;
 
-     &__title {
+    &__title {
         line-height: 2;
         font-weight: 700;
         text-align: center;
@@ -79,14 +77,19 @@
     &__text {
         font-size: $font-clamp;
         text-align: center;
+        transition: all 3s;
 
         details {
-          background: green;
+            background: green;
 
-          summary {
-            background: red;
-          }
+            &:focus{
+              background: pink;
+              border: none;
+            }
+
+            summary {
+                background: red;
+            }
         }
     }
-
 }
