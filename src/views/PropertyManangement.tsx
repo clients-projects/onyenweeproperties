@@ -136,6 +136,48 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
+                    <h3>Why We Should Help You Sell</h3>
+                    <p>
+                        We sidelines emotions and your property also got
+                        appraisal off our good will. Onyenwee properties NIG LTD
+                        is a big name in the property industry within the south
+                        Eastern part of the country. This is what we've been
+                        known for over 30years still waxing stronger.
+                    </p>
+                    <h4>
+                        {' '}
+                        We Identify the following factors influence how a
+                        property owner sells his/her property:{' '}
+                    </h4>
+                    <ul>
+                        <li>
+                            <h5>Marketing Avenue:</h5>
+                            <p>
+                                Onyenwee properties for over 30 years of
+                                dominant in property industry southeastern
+                                Nigeria is fast becoming a house hold name and
+                                number one choice for real estate developers
+                                within the country. We have our marketing agents
+                                on and around every Conner within the region. We
+                                also make use of social and conversational media
+                                ie newspaper's magazines, radio stations as a
+                                medium of reach out to the public
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Price Bidding Mechanism:</h5>
+                            <p>
+                                Property pricing can never be a talent rather a
+                                combination of the sellers position, long time
+                                experience and also the understanding of the
+                                present and future economic value of a property.
+                                Our team of sales experts are there for you
+                                contact us for cool price, cool commission cool
+                                ownership and sense of accomplishment via the
+                                purchaser and everything one goes home happy
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>{' '}
         </>
