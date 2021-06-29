@@ -201,19 +201,17 @@ const Home = () => {
                     </p>
                     <h3>Construction</h3>
                     <p>
-                        There are a lot of challenges when it comes to renting a
-                        conducive apartment but with Onyenwee properties
-                        managers you could go way RENT MADE EASY For enquiry on
-                        both landlords and tenants guild book, contact us Space
-                        for available properties for sell and for rent.
+                        we have an team of certified skills architects and
+                        structural engineer young experience and innovative mind
+                        that knows what taste is all about when it's comes to
+                        for private, commercial and public uses.
                     </p>
-                    <h3>I want to Rent</h3>
+                    <h3>Interior design and furnishing equipment:</h3>
                     <p>
-                        There are a lot of challenges when it comes to renting a
-                        conducive apartment but with Onyenwee properties
-                        managers you could go way RENT MADE EASY For enquiry on
-                        both landlords and tenants guild book, contact us Space
-                        for available properties for sell and for rent.
+                        Contact us for your office furniture and interior we are
+                        into sales and purchase of furniture, toiletries,
+                        electronics appliances and house hold equipment whole
+                        sale supply hotels and public centers.
                     </p>
                 </div>
             </div>{' '}
