@@ -178,6 +178,14 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
+                    <h3>I want to Sell</h3>
+                    <p>
+                        Buying a landed property could the a challenging
+                        experience for a prospective purchaser the following are
+                        factors to consider and why you need our assistance in
+                        this regards: The authenticity of the property Valid
+                        documents and property value For more enquiry contact us
+                    </p>
                 </div>
             </div>{' '}
         </>
