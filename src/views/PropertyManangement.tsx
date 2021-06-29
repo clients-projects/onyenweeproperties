@@ -127,12 +127,12 @@ const Home = () => {
                             </p>
                         </li>
                         <li>
-                            <h4>Emotions:</h4>
+                            <h4>Price bidding mechanism:</h4>
                             <p>
-                                An individual tags a property to a problem this
-                                makes the owner vulnerable as the potential
-                                purchaser would psychologically capitalize on
-                                this weakness to bid down their price
+                                A property purchaser will always bid low while
+                                dealing with an individuals believing you would
+                                lay off the property once his bid matches your
+                                emotions
                             </p>
                         </li>
                     </ul>
