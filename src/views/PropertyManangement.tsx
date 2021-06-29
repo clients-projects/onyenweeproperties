@@ -178,13 +178,42 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
-                    <h3>I want to Sell</h3>
+                    <h3>I want to Buy</h3>
                     <p>
                         Buying a landed property could the a challenging
                         experience for a prospective purchaser the following are
                         factors to consider and why you need our assistance in
                         this regards: The authenticity of the property Valid
                         documents and property value For more enquiry contact us
+                    </p>
+                    <h3>I want to Rent</h3>
+                    <p>
+                        There are a lot of challenges when it comes to renting a
+                        conducive apartment but with Onyenwee properties
+                        managers you could go way RENT MADE EASY For enquiry on
+                        both landlords and tenants guild book, contact us Space
+                        for available properties for sell and for rent.
+                    </p>
+                    <h3>Real Estate</h3>
+                    <p>
+                        Land survey and lodgments, selling of lands, town
+                        planning
+                    </p>
+                    <h3>Construction</h3>
+                    <p>
+                        There are a lot of challenges when it comes to renting a
+                        conducive apartment but with Onyenwee properties
+                        managers you could go way RENT MADE EASY For enquiry on
+                        both landlords and tenants guild book, contact us Space
+                        for available properties for sell and for rent.
+                    </p>
+                    <h3>I want to Rent</h3>
+                    <p>
+                        There are a lot of challenges when it comes to renting a
+                        conducive apartment but with Onyenwee properties
+                        managers you could go way RENT MADE EASY For enquiry on
+                        both landlords and tenants guild book, contact us Space
+                        for available properties for sell and for rent.
                     </p>
                 </div>
             </div>{' '}
