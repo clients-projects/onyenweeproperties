@@ -82,7 +82,7 @@
         details {
             background: green;
 
-            &:focus{
+            &:visited{
               background: pink;
               border: none;
             }
