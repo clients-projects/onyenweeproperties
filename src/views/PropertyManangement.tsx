@@ -99,14 +99,14 @@ const Home = () => {
                         and the hard times one goes through while laying off a
                         property for delimer or for what is worth.
                     </p>
-                    <h3>
+                    <h4>
                         {' '}
                         We Identify the following factors influence how a
                         property owner sells his/her property:{' '}
-                    </h3>
+                    </h4>
                     <ul>
                         <li>
-                            <h4>Emotions:</h4>
+                            <h5>Emotions:</h5>
                             <p>
                                 An individual tags a property to a problem this
                                 makes the owner vulnerable as the potential
@@ -115,7 +115,7 @@ const Home = () => {
                             </p>
                         </li>
                         <li>
-                            <h4>Marketing Avenue:</h4>
+                            <h5>Marketing Avenue:</h5>
                             <p>
                                 Specific goods and services are better
                                 appreciated valued and sort for at the right
@@ -127,7 +127,7 @@ const Home = () => {
                             </p>
                         </li>
                         <li>
-                            <h4>Price Bidding Mechanism:</h4>
+                            <h5>Price Bidding Mechanism:</h5>
                             <p>
                                 A property purchaser will always bid low while
                                 dealing with an individuals believing you would
