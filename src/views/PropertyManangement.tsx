@@ -81,7 +81,9 @@ const Home = () => {
                     Our Services
                 </h2>
                 <div className='services__text'>
-                    <h3>Property Management</h3>
+                    <details>
+
+                    <summary>Property Management</summary>
                     <p>
                         We guarantee you a peace of mind by securing a high
                         quality tenants quickest return on property investment
@@ -90,6 +92,8 @@ const Home = () => {
                         commission and the property users easy access and
                         testimonies contact us
                     </p>
+
+                    </details>
                     <h3>I want to Sell</h3>
                     <p>
                         Selling of landed properties could be a challenging
