@@ -127,7 +127,7 @@ const Home = () => {
                             </p>
                         </li>
                         <li>
-                            <h4>Price bidding mechanism:</h4>
+                            <h4>Price Bidding Mechanism:</h4>
                             <p>
                                 A property purchaser will always bid low while
                                 dealing with an individuals believing you would
