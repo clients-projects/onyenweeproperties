@@ -31,6 +31,13 @@ const Home = () => {
                     We can help you fast track the acquisition of C of O and
                     other relevant property documents.
                 </p>
+                <p className='whoWeAre__text'>
+                    We guarantee you a peace of mind by securing a high quality
+                    tenants quickest return on property investment diligent
+                    routine inspection and maintenance. We are passionate when
+                    it comes to building your inflow, our commission and the
+                    property users easy access and testimonies contact us
+                </p>
             </div>{' '}
             {/* <section className='features'>
                 <div className='feature'>
@@ -77,9 +84,9 @@ const Home = () => {
                 </div>
             </section>{' '} */}
             <div className='services'>
-                <h2 className='heading-1 heading-2--dark services__title'>
+                {/* <h2 className='heading-1 heading-2--dark services__title'>
                     Our Services
-                </h2>
+                </h2> */}
                 <div className='services__text'>
                     <details open>
                         <summary>Property Management</summary>
