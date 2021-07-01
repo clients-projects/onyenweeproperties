@@ -101,6 +101,10 @@
                 outline: none;
             }
           
+            p{
+                animation: moveInLeft 2s ease-in;
+                background: yellow;
+            }
         }
 
         // details[open]{
