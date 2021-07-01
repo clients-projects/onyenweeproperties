@@ -1,11 +1,11 @@
-import { MdLandscape } from 'react-icons/md'
-import { FaWarehouse } from 'react-icons/fa'
 import { SiBandsintown } from 'react-icons/si'
 
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
+import { GiFamilyHouse } from 'react-icons/gi'
+import {FaPaintBrush} from 'react-icons/fa'
 
 const Home = () => {
     const bgImg = {
@@ -218,7 +218,7 @@ const Home = () => {
                     </p>
 
                     <figure className='feature__icon'>
-                        <MdLandscape />
+                        <GiFamilyHouse />
                     </figure>
                     <h3>Real Estate</h3>
                     <p>
@@ -238,7 +238,7 @@ const Home = () => {
                     </p>
 
                     <figure className='feature__icon'>
-                        <FaWarehouse />
+                        <FaPaintBrush />
                     </figure>
                     <h3>Interior design and furnishing equipment:</h3>
                     <p>
