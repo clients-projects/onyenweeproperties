@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom'
+import { MdLandscape } from 'react-icons/md'
+import { FaWarehouse } from 'react-icons/fa'
+import { SiBandsintown } from 'react-icons/si'
 
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 
@@ -31,7 +33,7 @@ const Home = () => {
                     We can help you fast track the acquisition of C of O and
                     other relevant property documents.
                 </p>
-                <p className='whoWeAre__text'>
+                <p className='whoWeAre__text' style={{ marginTop: '2rem' }}>
                     We guarantee you a peace of mind by securing a high quality
                     tenants quickest return on property investment diligent
                     routine inspection and maintenance. We are passionate when
@@ -191,6 +193,9 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
+                    <figure className='feature__icon'>
+                        <ImExit />
+                    </figure>
                     <h3>I want to Buy</h3>
                     <p>
                         Buying a landed property could the a challenging
@@ -199,6 +204,10 @@ const Home = () => {
                         this regards: The authenticity of the property Valid
                         documents and property value For more enquiry contact us
                     </p>
+
+                    <figure className='feature__icon'>
+                        <AiFillHourglass />
+                    </figure>
                     <h3>I want to Rent</h3>
                     <p>
                         There are a lot of challenges when it comes to renting a
@@ -207,11 +216,19 @@ const Home = () => {
                         both landlords and tenants guild book, contact us Space
                         for available properties for sell and for rent.
                     </p>
+
+                    <figure className='feature__icon'>
+                        <MdLandscape />
+                    </figure>
                     <h3>Real Estate</h3>
                     <p>
                         Land survey and lodgments, selling of lands, town
                         planning
                     </p>
+
+                    <figure className='feature__icon'>
+                        <SiBandsintown />
+                    </figure>
                     <h3>Construction</h3>
                     <p>
                         we have an team of certified skills architects and
@@ -219,6 +236,10 @@ const Home = () => {
                         that knows what taste is all about when it's comes to
                         for private, commercial and public uses.
                     </p>
+
+                    <figure className='feature__icon'>
+                        <FaWarehouse />
+                    </figure>
                     <h3>Interior design and furnishing equipment:</h3>
                     <p>
                         Contact us for your office furniture and interior we are
