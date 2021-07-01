@@ -103,7 +103,7 @@ const Home = () => {
                         </p>
                     </details> */}
                     <figure className='feature__icon'>
-                        <ImEnter />
+                        <ImExit />
                     </figure>
                     <h3>I want to Sell</h3>
                     <p>
@@ -194,7 +194,7 @@ const Home = () => {
                         </li>
                     </ul>
                     <figure className='feature__icon'>
-                        <ImExit />
+                        <ImEnter />
                     </figure>
                     <h3>I want to Buy</h3>
                     <p>
