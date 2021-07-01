@@ -154,12 +154,14 @@ const Header = () => {
                 </Backdrop>
             </section>
             <div className='header' id='header-body'>
+                <Link to='/'>
                 <img
                     src={Logo}
                     alt='logo'
                     className='header-logo'
                     id='header-logo'
                 />
+                </Link>
 
                 <ul className='header-nav'>
                     <li>
