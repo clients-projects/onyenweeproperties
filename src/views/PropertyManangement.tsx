@@ -32,7 +32,7 @@ const Home = () => {
                     other relevant property documents.
                 </p>
             </div>{' '}
-            <section className='features'>
+            {/* <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'>
                         <ImEnter />
@@ -75,25 +75,27 @@ const Home = () => {
                         best!
                     </p>
                 </div>
-            </section>{' '}
+            </section>{' '} */}
             <div className='services'>
                 <h2 className='heading-1 heading-2--dark services__title'>
                     Our Services
                 </h2>
                 <div className='services__text'>
                     <details open>
-
-                    <summary>Property Management</summary>
-                    <p>
-                        We guarantee you a peace of mind by securing a high
-                        quality tenants quickest return on property investment
-                        diligent routine inspection and maintenance. We are
-                        passionate when it comes to building your inflow, our
-                        commission and the property users easy access and
-                        testimonies contact us
-                    </p>
-
+                        <summary>Property Management</summary>
+                        <p>
+                            We guarantee you a peace of mind by securing a high
+                            quality tenants quickest return on property
+                            investment diligent routine inspection and
+                            maintenance. We are passionate when it comes to
+                            building your inflow, our commission and the
+                            property users easy access and testimonies contact
+                            us
+                        </p>
                     </details>
+                    <figure className='feature__icon'>
+                        <ImEnter />
+                    </figure>
                     <h3>I want to Sell</h3>
                     <p>
                         Selling of landed properties could be a challenging

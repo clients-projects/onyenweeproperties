@@ -11,7 +11,7 @@ const EstateServices = () => {
                     Welcome to Onyenwee Properties
                 </h2>
                 <p className='whoWeAre__text'>
-                    Onyenwee properties NIG LTD ( Mine ) is a liability company
+                    Onyenwee properties NIG LTD ( Mine ) is a limited liability company
                     licensed under the Nigeria corporate affairs commission to
                     deal on business of real estate investment. We have our
                     peculiarity on developed properties and agency services. We
