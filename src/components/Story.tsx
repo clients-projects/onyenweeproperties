@@ -1,4 +1,3 @@
-import familyImg from '../assets/family.jpg'
 
 const Story = () => {
     return (

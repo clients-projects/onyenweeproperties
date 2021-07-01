@@ -81,7 +81,7 @@ const Home = () => {
                     Our Services
                 </h2>
                 <div className='services__text'>
-                    <details>
+                    <details open>
 
                     <summary>Property Management</summary>
                     <p>

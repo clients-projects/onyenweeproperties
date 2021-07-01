@@ -80,16 +80,18 @@
         transition: all 3s;
 
         details {
-            background: green;
+            //background: green;
 
-            &:visited{
-              background: pink;
-              border: none;
+            &:visited {
+                background: pink;
+                border: none;
             }
 
             summary {
-                background: red;
+               // background: red;
             }
+
+          
         }
     }
 }
