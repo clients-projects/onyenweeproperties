@@ -88,7 +88,7 @@ const Home = () => {
                     Our Services
                 </h2> */}
                 <div className='services__text'>
-                    <details open>
+                    {/* <details open>
                         <summary>Property Management</summary>
                         <p>
                             We guarantee you a peace of mind by securing a high
@@ -99,7 +99,7 @@ const Home = () => {
                             property users easy access and testimonies contact
                             us
                         </p>
-                    </details>
+                    </details> */}
                     <figure className='feature__icon'>
                         <ImEnter />
                     </figure>
