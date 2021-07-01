@@ -78,8 +78,9 @@
         font-size: $font-clamp;
         text-align: center;
         transition: all 3s;
-
+        
         details {
+            transition: all 2s;
             //background: green;
 
             &:visited {
@@ -89,9 +90,21 @@
 
             summary {
                // background: red;
+
+               &:focus{
+                   outline: none;
+               }
             }
 
+
+            &:focus{
+                outline: none;
+            }
           
         }
+
+        // details[open]{
+        //     background-color: red;
+        // }
     }
 }
