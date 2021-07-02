@@ -12,9 +12,7 @@ const Hero = () => {
                 <h1 className='heading-1 hero__title'>
                     Onyenwee's Sales and Property Management Specialists
                 </h1>
-                <Link className='btn hero__btn' to='/contact-us'>
-                    Contact Us
-                </Link>
+            
             </div>
            
         </header>
