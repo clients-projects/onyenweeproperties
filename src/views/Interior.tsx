@@ -26,7 +26,6 @@ const Home = () => {
                     <h3 className='heading-3'>Interior:</h3>
                     <h1 className='heading-1'>Your Comfort, Our Concern</h1>
                 </div>
-          
             </header>{' '}
             <div className='whoWeAre'>
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
@@ -37,6 +36,12 @@ const Home = () => {
                     electronics at great prices. These include, bathroom
                     fittings, bathtubs, Water Closets, Dining tables, settees,
                     side stools, etc.
+                </p>
+                <p className='whoWeAre__text'>
+                    Contact us for your office furniture and interior we are
+                    into sales and purchase of furniture, toiletries,
+                    electronics appliances and house hold equipment whole sale
+                    supply hotels and public centers.
                 </p>
             </div>{' '}
             <section className='homes__box'>

@@ -20,8 +20,15 @@ const RealEstate = () => {
                     <h3 className='heading-3'>Real Estate:</h3>
                     <h1 className='heading-1'>Our Real Estate Services</h1>
                 </div>
-            
             </header>
+            <div className='whoWeAre'>
+                <h2 className='heading-1 heading-2--dark whoWeAre__title'>
+                    Real Estate
+                </h2>
+                <p className='whoWeAre__text'>
+                    Land survey and lodgments, selling of lands, town planning
+                </p>
+            </div>{' '}
             <section className='features' style={customFeature}>
                 <div className='feature'>
                     <figure className='feature__icon'>

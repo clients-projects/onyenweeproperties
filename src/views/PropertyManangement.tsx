@@ -199,7 +199,7 @@ const Home = () => {
                         </p>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <figure className='services__icon'>
                             <GiFamilyHouse />
                         </figure>
@@ -208,8 +208,8 @@ const Home = () => {
                             Land survey and lodgments, selling of lands, town
                             planning
                         </p>
-                    </div>
-                    <div>
+                    </div> */}
+                    {/* <div>
                         <figure className='services__icon'>
                             <SiBandsintown />
                         </figure>
@@ -220,9 +220,9 @@ const Home = () => {
                             mind that knows what taste is all about when it's
                             comes to for private, commercial and public uses.
                         </p>
-                    </div>
+                    </div> */}
 
-                    <div>
+                    {/* <div>
                         <figure className='services__icon'>
                             <FaPaintBrush />
                         </figure>
@@ -234,7 +234,7 @@ const Home = () => {
                             equipment whole sale supply hotels and public
                             centers.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>{' '}
         </>

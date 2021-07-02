@@ -18,6 +18,17 @@ const Construction = () => {
                     </h1>
                 </div>
             </header>
+            <div className='whoWeAre'>
+                <h2 className='heading-1 heading-2--dark whoWeAre__title'>
+                    Construction
+                </h2>
+                <p className='whoWeAre__text'>
+                    we have an team of certified skills architects and
+                    structural engineer young experience and innovative mind
+                    that knows what taste is all about when it's comes to for
+                    private, commercial and public uses.
+                </p>
+            </div>{' '}
             <section className='features'>
                 <div className='feature'>
                     <figure className='feature__icon'>
