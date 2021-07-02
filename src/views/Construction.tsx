@@ -27,10 +27,10 @@ const Construction = () => {
                         Road Construction
                     </h4>
                     <p className='feature__text'>
-                        We take on road construction projects. We have the
-                        equipment and manpower to execute all kinds of road
-                        construction works. Our track records are there for all
-                        to see.
+                        we have an team of certified skills architects and
+                        structural engineer young experience and innovative mind
+                        that knows what taste is all about when it's comes to
+                        for private, commercial and public uses.
                     </p>
                 </div>
                 <div className='feature'>
