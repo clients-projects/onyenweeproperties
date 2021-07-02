@@ -45,18 +45,7 @@ const Home = () => {
             <div className='services'>
              
                 <div className='services__text'>
-                    {/* <details open>
-                        <summary>Property Management</summary>
-                        <p>
-                            We guarantee you a peace of mind by securing a high
-                            quality tenants quickest return on property
-                            investment diligent routine inspection and
-                            maintenance. We are passionate when it comes to
-                            building your inflow, our commission and the
-                            property users easy access and testimonies contact
-                            us
-                        </p>
-                    </details> */}
+                
                     <div>
                         <figure className='services__icon'>
                             <ImExit />
