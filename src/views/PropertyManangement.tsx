@@ -194,12 +194,12 @@ const PropertyManagement = () => {
                 </div>
             </div>{' '}
             <div className='btnBox'>
-                <button className='btn btn1'>
+                <Link className='btn btn1'>
                     Get In Touch{' '}
                     <span>
                         <FaLongArrowAltRight />
                     </span>
-                </button>
+                </Link>
             </div>
         </>
     )
