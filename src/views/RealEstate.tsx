@@ -10,9 +10,6 @@ const RealEstate = () => {
         backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.4)), url(${RealEstate1})`,
     }
 
-    const customFeature = {
-        gridTemplateColumns: ' repeat(auto-fit, minmax(40rem, 1fr))'
-    }
     return (
         <>
             <header className='heropages' style={bgImg}>
@@ -25,11 +22,11 @@ const RealEstate = () => {
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
                     Real Estate
                 </h2>
-                <p className='whoWeAre__text'>
+                <p className='whoWeAre__text' style={{textAlign: 'center'}}>
                     Land survey and lodgments, selling of lands, town planning
                 </p>
             </div>{' '}
-            <section className='features' style={customFeature}>
+            <section className='features1'>
                 <div className='feature'>
                     <figure className='feature__icon'>
                         <MdLandscape />

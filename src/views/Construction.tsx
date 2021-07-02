@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import Building1 from '../assets/realEstate/building1.jpg'
 
 import { FaRoad } from 'react-icons/fa'
@@ -29,7 +28,7 @@ const Construction = () => {
                     private, commercial and public uses.
                 </p>
             </div>{' '}
-            <section className='features'>
+            <section className='features1'>
                 <div className='feature'>
                     <figure className='feature__icon'>
                         <FaRoad />
