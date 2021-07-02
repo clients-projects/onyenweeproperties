@@ -1,11 +1,8 @@
-import { SiBandsintown } from 'react-icons/si'
-
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
-import { GiFamilyHouse } from 'react-icons/gi'
-import { FaPaintBrush } from 'react-icons/fa'
+
 
 const Home = () => {
     const bgImg = {
