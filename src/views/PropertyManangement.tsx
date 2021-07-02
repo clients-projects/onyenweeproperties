@@ -102,6 +102,7 @@ const Home = () => {
                             us
                         </p>
                     </details> */}
+                    <div>
                     <figure className='services__icon'>
                         <ImExit />
                     </figure>
@@ -193,6 +194,7 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
+                            </div>
                     <div>
                         <figure className='services__icon'>
                             <ImEnter />
