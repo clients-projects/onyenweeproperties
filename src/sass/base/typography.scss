@@ -84,7 +84,6 @@
     grid-column: center-start/center-end;
     display: grid;
     margin: 2rem 0;
-    transition: all 2s;
 
     .btn1 {
         justify-self: center;
@@ -96,7 +95,6 @@
             display: flex;
             color: inherit;
             animation: moveInLeft 2s infinite;
-            margin-top: -0.12rem;
         }
     }
 }
