@@ -15,7 +15,7 @@ const PropertyManagement = () => {
             <header className='heropages' style={bgImg}>
                 <div className='heropages__1'>
                     <h3 className='heading-3'>Property Management</h3>
-                    <h1 className='heading-1'>Lets Manage Your Properties</h1>
+                    <h1 className='heading-1'>Let's Manage Your Properties</h1>
                 </div>
             </header>{' '}
             <div className='whoWeAre'>

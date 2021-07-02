@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
          
             <p className='copyright'>
-                &copy;Copyright {yearDisplay} &mdash; Onyenwee Property
+                &copy;Copyright {yearDisplay} &mdash; Onyenwee Properties
             </p>
         </footer>
     )
