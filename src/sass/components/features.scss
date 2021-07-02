@@ -64,7 +64,8 @@
     }
 }
 .services {
-    grid-column: center-start/center-end;
+    display: grid;
+    grid-column: col-start/center-end;
     margin: 4rem 0;
 
     &__title {
@@ -77,6 +78,11 @@
     &__text {
         font-size: $font-clamp;
         text-align: center;
+
+       ul{
+
+        list-style: none;
+       }
     }
 
     &__icon{
