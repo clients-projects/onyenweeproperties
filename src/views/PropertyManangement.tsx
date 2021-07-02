@@ -13,7 +13,7 @@ const Home = () => {
         <>
             <header className='heropages' style={bgImg}>
                 <div className='heropages__1'>
-                    <h3 className='heading-3'>Property Management:</h3>
+                    <h3 className='heading-3'>Property Management</h3>
                     <h1 className='heading-1'>Lets Manage Your Properties</h1>
                 </div>
             </header>{' '}
@@ -57,13 +57,13 @@ const Home = () => {
                         <h4>
                             {' '}
                             We Identify the following factors influence how a
-                            property owner sells his/her property:{' '}
+                            property owner sells his/her property{' '}
                         </h4>
                         <ul>
                             <li>
                                 <details>
                                     <summary>
-                                        <h5>Emotions:</h5>
+                                        <h5>Emotions</h5>
                                     </summary>
                                     <p>
                                         An individual tags a property to a
@@ -79,7 +79,7 @@ const Home = () => {
 
                                     <summary>
 
-                                <h5>Marketing Avenue:</h5>
+                                <h5>Marketing Avenue</h5>
                                     </summary>
                                 <p>
                                     Specific goods and services are better
@@ -97,7 +97,7 @@ const Home = () => {
                                 <details>
                                     <summary>
 
-                                <h5>Price Bidding Mechanism:</h5>
+                                <h5>Price Bidding Mechanism</h5>
                                     </summary>
                                 <p>
                                     A property purchaser will always bid low
@@ -120,7 +120,7 @@ const Home = () => {
                         <h4>
                             {' '}
                             We Identify the following factors influence how a
-                            property owner sells his/her property:{' '}
+                            property owner sells his/her property{' '}
                         </h4>
                         <ul>
                             <li>
@@ -128,7 +128,7 @@ const Home = () => {
 
                                     <summary>
 
-                                <h5>Marketing Avenue:</h5>
+                                <h5>Marketing Avenue</h5>
                                     </summary>
                                 <p>
                                     Onyenwee properties for over 30 years of
@@ -148,7 +148,7 @@ const Home = () => {
                                 <details>
 
                                     <summary>
-                                        <h5>Price Bidding Mechanism:</h5>
+                                        <h5>Price Bidding Mechanism</h5>
                                     </summary>
                                 <p>
                                         Property pricing can never be a talent
@@ -175,7 +175,7 @@ const Home = () => {
                             Buying a landed property could the a challenging
                             experience for a prospective purchaser the following
                             are factors to consider and why you need our
-                            assistance in this regards: The authenticity of the
+                            assistance in this regards the authenticity of the
                             property Valid documents and property value For more
                             enquiry contact us
                         </p>
