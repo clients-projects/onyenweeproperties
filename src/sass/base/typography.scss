@@ -12,8 +12,7 @@
             [col-start] minmax(min-content, 14rem) [col-end]
         )
         [center-end] minmax(6rem, 1fr) [full-end];
-
-  }
+}
 
 %heading {
     font-family: $font-display;
@@ -81,27 +80,24 @@
     }
 }
 
-.btnBox{
+.btnBox {
     grid-column: center-start/center-end;
     display: grid;
     margin: 2rem 0;
+    transition: all 2s;
 
-    .btn1{
+    .btn1 {
         justify-self: center;
         padding: 1rem 3rem;
         display: flex;
         align-items: center;
-
-         
-      
 
         span {
             display: flex;
             color: inherit;
             animation: moveInLeft 2s infinite;
             margin-top: -0.12rem;
-        
-    }
+        }
     }
 }
 
