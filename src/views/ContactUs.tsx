@@ -5,9 +5,7 @@ import emailjs from 'emailjs-com'
 import { FaMapPin } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
-import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
-import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
+
 
 const Home = () => {
     const [email, setEmail] = useState('')
