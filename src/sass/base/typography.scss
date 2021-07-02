@@ -81,6 +81,10 @@
     }
 }
 
+.btnBox{
+    grid-column: center-start/center-end;
+}
+
 .mb-sm {
     margin-bottom: 2rem;
 }

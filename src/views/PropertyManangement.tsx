@@ -3,7 +3,6 @@ import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 
-
 const PropertyManagement = () => {
     const bgImg = {
         backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
@@ -76,35 +75,33 @@ const PropertyManagement = () => {
                             </li>
                             <li>
                                 <details>
-
                                     <summary>
-
-                                <h5>Marketing Avenue</h5>
+                                        <h5>Marketing Avenue</h5>
                                     </summary>
-                                <p>
-                                    Specific goods and services are better
-                                    appreciated valued and sort for at the right
-                                    market one of the biggest challenges for an
-                                    individuals aiming to sell a property at a
-                                    full value is not knowing the right market
-                                    thereby left with no option than laying off
-                                    the property at a random market on an
-                                    intimidation low price
-                                </p>
+                                    <p>
+                                        Specific goods and services are better
+                                        appreciated valued and sort for at the
+                                        right market one of the biggest
+                                        challenges for an individuals aiming to
+                                        sell a property at a full value is not
+                                        knowing the right market thereby left
+                                        with no option than laying off the
+                                        property at a random market on an
+                                        intimidation low price
+                                    </p>
                                 </details>
                             </li>
                             <li>
                                 <details>
                                     <summary>
-
-                                <h5>Price Bidding Mechanism</h5>
+                                        <h5>Price Bidding Mechanism</h5>
                                     </summary>
-                                <p>
-                                    A property purchaser will always bid low
-                                    while dealing with an individuals believing
-                                    you would lay off the property once his bid
-                                    matches your emotions
-                                </p>
+                                    <p>
+                                        A property purchaser will always bid low
+                                        while dealing with an individuals
+                                        believing you would lay off the property
+                                        once his bid matches your emotions
+                                    </p>
                                 </details>
                             </li>
                         </ul>
@@ -125,44 +122,42 @@ const PropertyManagement = () => {
                         <ul>
                             <li>
                                 <details>
-
                                     <summary>
-
-                                <h5>Marketing Avenue</h5>
+                                        <h5>Marketing Avenue</h5>
                                     </summary>
-                                <p>
-                                    Onyenwee properties for over 30 years of
-                                    dominant in property industry southeastern
-                                    Nigeria is fast becoming a house hold name
-                                    and number one choice for real estate
-                                    developers within the country. We have our
-                                    marketing agents on and around every Conner
-                                    within the region. We also make use of
-                                    social and conversational media ie
-                                    newspaper's magazines, radio stations as a
-                                    medium of reach out to the public
-                                </p>
+                                    <p>
+                                        Onyenwee properties for over 30 years of
+                                        dominant in property industry
+                                        southeastern Nigeria is fast becoming a
+                                        house hold name and number one choice
+                                        for real estate developers within the
+                                        country. We have our marketing agents on
+                                        and around every Conner within the
+                                        region. We also make use of social and
+                                        conversational media ie newspaper's
+                                        magazines, radio stations as a medium of
+                                        reach out to the public
+                                    </p>
                                 </details>
                             </li>
                             <li>
                                 <details>
-
                                     <summary>
                                         <h5>Price Bidding Mechanism</h5>
                                     </summary>
-                                <p>
+                                    <p>
                                         Property pricing can never be a talent
                                         rather a combination of the sellers
-                                        position, long time experience and also the
-                                        understanding of the present and future
-                                        economic value of a property. Our team of
-                                        sales experts are there for you contact us
-                                        for cool price, cool commission cool
-                                        ownership and sense of accomplishment via
-                                        the purchaser and everything one goes home
-                                        happy
-                                </p>
-                                    </details>
+                                        position, long time experience and also
+                                        the understanding of the present and
+                                        future economic value of a property. Our
+                                        team of sales experts are there for you
+                                        contact us for cool price, cool
+                                        commission cool ownership and sense of
+                                        accomplishment via the purchaser and
+                                        everything one goes home happy
+                                    </p>
+                                </details>
                             </li>
                         </ul>
                     </div>
@@ -195,15 +190,11 @@ const PropertyManagement = () => {
                             sell and for rent.
                         </p>
                     </div>
-
-
-
-                 
                 </div>
-                <button className='btn'>
-                    Get in Touch
-                </button>
             </div>{' '}
+            <div className='btnBox'>
+                <button className='btn btn1'>Get in Touch</button>
+            </div>
         </>
     )
 }
