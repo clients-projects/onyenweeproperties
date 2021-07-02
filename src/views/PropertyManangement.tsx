@@ -200,6 +200,9 @@ const PropertyManagement = () => {
 
                  
                 </div>
+                <button className='btn'>
+                    Get in Touch
+                </button>
             </div>{' '}
         </>
     )
