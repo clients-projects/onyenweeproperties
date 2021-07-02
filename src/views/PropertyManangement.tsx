@@ -129,7 +129,10 @@ const Home = () => {
                             <li>
                                 <details>
 
+                                    <summary>
+
                                 <h5>Marketing Avenue:</h5>
+                                    </summary>
                                 <p>
                                     Onyenwee properties for over 30 years of
                                     dominant in property industry southeastern
@@ -145,19 +148,25 @@ const Home = () => {
                                 </details>
                             </li>
                             <li>
-                                <h5>Price Bidding Mechanism:</h5>
+                                <details>
+
+                                    <summary>
+
+                                        <h5>Price Bidding Mechanism:</h5>
+                                    </summary>
                                 <p>
-                                    Property pricing can never be a talent
-                                    rather a combination of the sellers
-                                    position, long time experience and also the
-                                    understanding of the present and future
-                                    economic value of a property. Our team of
-                                    sales experts are there for you contact us
-                                    for cool price, cool commission cool
-                                    ownership and sense of accomplishment via
-                                    the purchaser and everything one goes home
-                                    happy
+                                        Property pricing can never be a talent
+                                        rather a combination of the sellers
+                                        position, long time experience and also the
+                                        understanding of the present and future
+                                        economic value of a property. Our team of
+                                        sales experts are there for you contact us
+                                        for cool price, cool commission cool
+                                        ownership and sense of accomplishment via
+                                        the purchaser and everything one goes home
+                                        happy
                                 </p>
+                                    </details>
                             </li>
                         </ul>
                     </div>
