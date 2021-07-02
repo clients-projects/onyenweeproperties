@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom' 
+import { Link } from 'react-router-dom'
 import Building1 from '../assets/realEstate/building1.jpg'
 
 import { FaRoad } from 'react-icons/fa'
 import { FaLongArrowAltRight } from 'react-icons/fa'
-import {RiBuilding3Fill} from 'react-icons/ri'
+import { RiBuilding3Fill } from 'react-icons/ri'
 import React from 'react'
 
 const Construction = () => {
@@ -65,7 +65,7 @@ const Construction = () => {
             </section>{' '}
             <div className='btnBox'>
                 <Link className='btn btn1' to='contact-us'>
-                    Get In Touch{' '}
+                    Talk To Us Now{' '}
                     <span>
                         <FaLongArrowAltRight />
                     </span>

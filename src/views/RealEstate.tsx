@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
 import { FaLongArrowAltRight } from 'react-icons/fa'
-import {MdLandscape} from 'react-icons/md'
-import {FaWarehouse} from 'react-icons/fa'
-import {SiBandsintown} from 'react-icons/si'
-import {AiTwotoneMoneyCollect} from 'react-icons/ai'
+import { MdLandscape } from 'react-icons/md'
+import { FaWarehouse } from 'react-icons/fa'
+import { SiBandsintown } from 'react-icons/si'
+import { AiTwotoneMoneyCollect } from 'react-icons/ai'
 
 const RealEstate = () => {
     const bgImg = {
@@ -88,7 +88,7 @@ const RealEstate = () => {
             </section>{' '}
             <div className='btnBox'>
                 <Link className='btn btn1' to='contact-us'>
-                    Get In Touch{' '}
+                    Talk To Us Now{' '}
                     <span>
                         <FaLongArrowAltRight />
                     </span>

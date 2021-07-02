@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 import { FaLongArrowAltRight } from 'react-icons/fa'
@@ -196,7 +196,7 @@ const PropertyManagement = () => {
             </div>{' '}
             <div className='btnBox'>
                 <Link className='btn btn1' to='contact-us'>
-                    Get In Touch{' '}
+                    Talk To Us Now{' '}
                     <span>
                         <FaLongArrowAltRight />
                     </span>
