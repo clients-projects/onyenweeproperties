@@ -83,6 +83,13 @@
 
 .btnBox{
     grid-column: center-start/center-end;
+    display: grid;
+    margin: 2rem 0;
+
+    .btn1{
+        justify-self: center;
+        padding: 1rem 3rem;
+    }
 }
 
 .mb-sm {
