@@ -1,5 +1,3 @@
-import {Link} from 'react-router-dom'
-
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 
 import Interior1 from '../assets/realEstate/interior1.jpg'
