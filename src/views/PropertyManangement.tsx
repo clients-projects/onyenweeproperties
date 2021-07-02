@@ -43,7 +43,7 @@ const Home = () => {
             </div>{' '}
             {/* <section className='features'>
                 <div className='feature'>
-                    <figure className='feature__icon'>
+                    <figure className='services__icon'>
                         <ImEnter />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>BUY</h4>
@@ -57,7 +57,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'>
+                    <figure className='services__icon'>
                         <AiFillHourglass />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>RENT</h4>
@@ -71,7 +71,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='feature'>
-                    <figure className='feature__icon'>
+                    <figure className='services__icon'>
                         <ImExit />
                     </figure>
                     <h4 className='heading-4 heading-4--dark'>SELL</h4>
@@ -102,7 +102,7 @@ const Home = () => {
                             us
                         </p>
                     </details> */}
-                    <figure className='feature__icon'>
+                    <figure className='services__icon'>
                         <ImExit />
                     </figure>
                     <h3>I want to Sell</h3>
@@ -193,61 +193,61 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
-                    <div></div>
-                    <figure className='feature__icon'>
-                        <ImEnter />
-                    </figure>
-                    <h3>I want to Buy</h3>
-                    <p>
-                        Buying a landed property could the a challenging
-                        experience for a prospective purchaser the following are
-                        factors to consider and why you need our assistance in
-                        this regards: The authenticity of the property Valid
-                        documents and property value For more enquiry contact us
-                    </p>
-
                     <div>
-
-
-                    <figure className='feature__icon'>
-                        <AiFillHourglass />
-                    </figure>
-                    <h3>I want to Rent</h3>
-                    <p>
-                        There are a lot of challenges when it comes to renting a
-                        conducive apartment but with Onyenwee properties
-                        managers you could go way RENT MADE EASY For enquiry on
-                        both landlords and tenants guild book, contact us Space
-                        for available properties for sell and for rent.
-                    </p>
+                        <figure className='services__icon'>
+                            <ImEnter />
+                        </figure>
+                        <h3>I want to Buy</h3>
+                        <p>
+                            Buying a landed property could the a challenging
+                            experience for a prospective purchaser the following
+                            are factors to consider and why you need our
+                            assistance in this regards: The authenticity of the
+                            property Valid documents and property value For more
+                            enquiry contact us
+                        </p>
                     </div>
 
                     <div>
-                    <figure className='feature__icon'>
-                        <GiFamilyHouse />
-                    </figure>
-                    <h3>Real Estate</h3>
-                    <p>
-                        Land survey and lodgments, selling of lands, town
-                        planning
-                    </p>
-
-                    </div>
-                    <div>
-                    <figure className='feature__icon'>
-                        <SiBandsintown />
-                    </figure>
-                    <h3>Construction</h3>
-                    <p>
-                        we have an team of certified skills architects and
-                        structural engineer young experience and innovative mind
-                        that knows what taste is all about when it's comes to
-                        for private, commercial and public uses.
-                    </p>
+                        <figure className='services__icon'>
+                            <AiFillHourglass />
+                        </figure>
+                        <h3>I want to Rent</h3>
+                        <p>
+                            There are a lot of challenges when it comes to
+                            renting a conducive apartment but with Onyenwee
+                            properties managers you could go way RENT MADE EASY
+                            For enquiry on both landlords and tenants guild
+                            book, contact us Space for available properties for
+                            sell and for rent.
+                        </p>
                     </div>
 
                     <div>
-                        <figure className='feature__icon'>
+                        <figure className='services__icon'>
+                            <GiFamilyHouse />
+                        </figure>
+                        <h3>Real Estate</h3>
+                        <p>
+                            Land survey and lodgments, selling of lands, town
+                            planning
+                        </p>
+                    </div>
+                    <div>
+                        <figure className='services__icon'>
+                            <SiBandsintown />
+                        </figure>
+                        <h3>Construction</h3>
+                        <p>
+                            we have an team of certified skills architects and
+                            structural engineer young experience and innovative
+                            mind that knows what taste is all about when it's
+                            comes to for private, commercial and public uses.
+                        </p>
+                    </div>
+
+                    <div>
+                        <figure className='services__icon'>
                             <FaPaintBrush />
                         </figure>
                         <h3>Interior design and furnishing equipment:</h3>
