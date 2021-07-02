@@ -5,7 +5,7 @@ import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 import { GiFamilyHouse } from 'react-icons/gi'
-import {FaPaintBrush} from 'react-icons/fa'
+import { FaPaintBrush } from 'react-icons/fa'
 
 const Home = () => {
     const bgImg = {
@@ -193,6 +193,7 @@ const Home = () => {
                             </p>
                         </li>
                     </ul>
+                    <div></div>
                     <figure className='feature__icon'>
                         <ImEnter />
                     </figure>
@@ -205,6 +206,9 @@ const Home = () => {
                         documents and property value For more enquiry contact us
                     </p>
 
+                    <div>
+
+
                     <figure className='feature__icon'>
                         <AiFillHourglass />
                     </figure>
@@ -216,7 +220,9 @@ const Home = () => {
                         both landlords and tenants guild book, contact us Space
                         for available properties for sell and for rent.
                     </p>
+                    </div>
 
+                    <div>
                     <figure className='feature__icon'>
                         <GiFamilyHouse />
                     </figure>
@@ -226,6 +232,8 @@ const Home = () => {
                         planning
                     </p>
 
+                    </div>
+                    <div>
                     <figure className='feature__icon'>
                         <SiBandsintown />
                     </figure>
@@ -236,17 +244,21 @@ const Home = () => {
                         that knows what taste is all about when it's comes to
                         for private, commercial and public uses.
                     </p>
+                    </div>
 
-                    <figure className='feature__icon'>
-                        <FaPaintBrush />
-                    </figure>
-                    <h3>Interior design and furnishing equipment:</h3>
-                    <p>
-                        Contact us for your office furniture and interior we are
-                        into sales and purchase of furniture, toiletries,
-                        electronics appliances and house hold equipment whole
-                        sale supply hotels and public centers.
-                    </p>
+                    <div>
+                        <figure className='feature__icon'>
+                            <FaPaintBrush />
+                        </figure>
+                        <h3>Interior design and furnishing equipment:</h3>
+                        <p>
+                            Contact us for your office furniture and interior we
+                            are into sales and purchase of furniture,
+                            toiletries, electronics appliances and house hold
+                            equipment whole sale supply hotels and public
+                            centers.
+                        </p>
+                    </div>
                 </div>
             </div>{' '}
         </>
