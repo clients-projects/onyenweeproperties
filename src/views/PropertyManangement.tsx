@@ -38,7 +38,7 @@ const PropertyManagement = () => {
                     property users easy access and testimonies contact us
                 </p>
             </div>{' '}
-            <div className='services'>
+            <div className='services features1'>
                 <div className='services__text'>
                     <div>
                         <figure className='services__icon'>
