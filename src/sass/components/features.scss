@@ -80,15 +80,14 @@
         text-align: center;
 
        ul{
-
+        text-align: start;
         list-style: none;
 
         details{
+            display: flex;
 
             summary>*{
                 display: inline;
-
-
                
             }
 

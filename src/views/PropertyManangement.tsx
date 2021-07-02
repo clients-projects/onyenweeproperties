@@ -78,7 +78,12 @@ const Home = () => {
                                 </details>
                             </li>
                             <li>
+                                <details>
+
+                                    <summary>
+
                                 <h5>Marketing Avenue:</h5>
+                                    </summary>
                                 <p>
                                     Specific goods and services are better
                                     appreciated valued and sort for at the right
@@ -89,15 +94,21 @@ const Home = () => {
                                     the property at a random market on an
                                     intimidation low price
                                 </p>
+                                </details>
                             </li>
                             <li>
+                                <details>
+                                    <summary>
+
                                 <h5>Price Bidding Mechanism:</h5>
+                                    </summary>
                                 <p>
                                     A property purchaser will always bid low
                                     while dealing with an individuals believing
                                     you would lay off the property once his bid
                                     matches your emotions
                                 </p>
+                                </details>
                             </li>
                         </ul>
                         <h3>Why We Should Help You Sell</h3>
@@ -116,6 +127,8 @@ const Home = () => {
                         </h4>
                         <ul>
                             <li>
+                                <details>
+
                                 <h5>Marketing Avenue:</h5>
                                 <p>
                                     Onyenwee properties for over 30 years of
@@ -129,6 +142,7 @@ const Home = () => {
                                     newspaper's magazines, radio stations as a
                                     medium of reach out to the public
                                 </p>
+                                </details>
                             </li>
                             <li>
                                 <h5>Price Bidding Mechanism:</h5>
