@@ -65,8 +65,9 @@
 }
 .services {
     display: grid;
-    grid-column: col-start/center-end;
-    margin: 4rem 0;
+    grid-column: center-start/center-end;
+    margin: 4rem;
+    padding: 0 4rem;
 
     &__title {
         line-height: 2;
@@ -78,6 +79,8 @@
     &__text {
         font-size: $font-clamp;
         text-align: center;
+        display: grid;
+        gap: 3rem;
 
         ul {
             text-align: start;
@@ -100,6 +103,7 @@
         }
 
         h4{
+            margin-top: 2rem;
             text-align: start;
         }
     }

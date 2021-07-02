@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
 import {MdLandscape} from 'react-icons/md'
