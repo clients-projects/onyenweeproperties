@@ -15,6 +15,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-row-gap: 3.5rem;
+            transition: all .8s;
 
             &__img {
                 grid-column: 1/-1;
@@ -40,6 +41,10 @@
                 width: 80%;
                 text-decoration: none;
                 z-index: 30;
+            }
+
+            &:hover{
+                transform: scale(1.3);
             }
         }
 
