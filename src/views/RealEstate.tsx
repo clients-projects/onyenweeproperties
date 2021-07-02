@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom'
 import RealEstate1 from '../assets/realEstate/RealEstate1.jpg'
 
+import { FaLongArrowAltRight } from 'react-icons/fa'
 import {MdLandscape} from 'react-icons/md'
 import {FaWarehouse} from 'react-icons/fa'
 import {SiBandsintown} from 'react-icons/si'
@@ -22,7 +24,7 @@ const RealEstate = () => {
                 <h2 className='heading-1 heading-2--dark whoWeAre__title'>
                     Real Estate
                 </h2>
-                <p className='whoWeAre__text' style={{textAlign: 'center'}}>
+                <p className='whoWeAre__text' style={{ textAlign: 'center' }}>
                     Land survey and lodgments, selling of lands, town planning
                 </p>
             </div>{' '}
@@ -84,6 +86,14 @@ const RealEstate = () => {
                     </p>
                 </div>
             </section>{' '}
+            <div className='btnBox'>
+                <Link className='btn btn1' to='contact-us'>
+                    Get In Touch{' '}
+                    <span>
+                        <FaLongArrowAltRight />
+                    </span>
+                </Link>
+            </div>
         </>
     )
 }
