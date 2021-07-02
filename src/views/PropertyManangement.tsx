@@ -151,7 +151,6 @@ const Home = () => {
                                 <details>
 
                                     <summary>
-
                                         <h5>Price Bidding Mechanism:</h5>
                                     </summary>
                                 <p>

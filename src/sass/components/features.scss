@@ -79,30 +79,34 @@
         font-size: $font-clamp;
         text-align: center;
 
-       ul{
-        text-align: start;
-        list-style: none;
+        ul {
+            text-align: start;
+            
+            list-style: none;
 
-        details{
-            display: flex;
+            details {
+                display: flex;
 
-            summary>*{
-                display: inline;
-               
-            }
+                summary > * {
+                    display: inline;
+                }
 
-            summary{
-                &:focus{
-                    outline: none;
+                summary {
+                    &:focus {
+                        outline: none;
+                    }
                 }
             }
         }
-       }
+
+        h4{
+            
+        }
     }
 
-    &__icon{
-         font-size: 4rem;
-         line-height: 1;
+    &__icon {
+        font-size: 4rem;
+        line-height: 1;
         color: $color-primary-dark;
     }
 }
