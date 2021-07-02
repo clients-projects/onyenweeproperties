@@ -1,4 +1,4 @@
-import House2 from '../assets/propertyManagement.jpeg'
+import House2 from '../assets/realEstate/houseBg.jpg'
 
 import House1 from '../assets/realEstate/RealEstate2.jpg'
 import House3 from '../assets/realEstate/building2.jpg'
