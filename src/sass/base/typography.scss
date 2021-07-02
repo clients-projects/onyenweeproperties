@@ -89,6 +89,19 @@
     .btn1{
         justify-self: center;
         padding: 1rem 3rem;
+        display: flex;
+        align-items: center;
+
+         
+      
+
+        span {
+            display: flex;
+            color: inherit;
+            animation: moveInLeft 2s infinite;
+            margin-top: -0.12rem;
+        
+    }
     }
 }
 

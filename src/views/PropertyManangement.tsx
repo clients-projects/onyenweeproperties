@@ -1,5 +1,6 @@
 import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
 
+import { FaLongArrowAltRight } from 'react-icons/fa'
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 
@@ -193,7 +194,12 @@ const PropertyManagement = () => {
                 </div>
             </div>{' '}
             <div className='btnBox'>
-                <button className='btn btn1'>Get in Touch</button>
+                <button className='btn btn1'>
+                    Get In Touch{' '}
+                    <span>
+                        <FaLongArrowAltRight />
+                    </span>
+                </button>
             </div>
         </>
     )
