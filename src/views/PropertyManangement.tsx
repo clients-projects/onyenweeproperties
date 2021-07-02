@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 
-import RealEstate1 from '../assets/realEstate/RealEstate5.jpg'
+import RealEstate1 from '../assets/realEstate/houseBg.jpg'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 
 const PropertyManagement = () => {
     const bgImg = {
-        backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(191, 191, 191, 0.4) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
 
     return (
