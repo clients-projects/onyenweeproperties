@@ -4,7 +4,7 @@ import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
 
 
-const Home = () => {
+const PropertyManagement = () => {
     const bgImg = {
         backgroundImage: `linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.98)), url(${RealEstate1})`,
     }
@@ -38,7 +38,7 @@ const Home = () => {
                     property users easy access and testimonies contact us
                 </p>
             </div>{' '}
-            <div className='services'>
+            {/* <div className='services'>
                 <div className='services__text'>
                     <div>
                         <figure className='services__icon'>
@@ -196,46 +196,13 @@ const Home = () => {
                         </p>
                     </div>
 
-                    {/* <div>
-                        <figure className='services__icon'>
-                            <GiFamilyHouse />
-                        </figure>
-                        <h3>Real Estate</h3>
-                        <p>
-                            Land survey and lodgments, selling of lands, town
-                            planning
-                        </p>
-                    </div> */}
-                    {/* <div>
-                        <figure className='services__icon'>
-                            <SiBandsintown />
-                        </figure>
-                        <h3>Construction</h3>
-                        <p>
-                            we have an team of certified skills architects and
-                            structural engineer young experience and innovative
-                            mind that knows what taste is all about when it's
-                            comes to for private, commercial and public uses.
-                        </p>
-                    </div> */}
 
-                    {/* <div>
-                        <figure className='services__icon'>
-                            <FaPaintBrush />
-                        </figure>
-                        <h3>Interior design and furnishing equipment:</h3>
-                        <p>
-                            Contact us for your office furniture and interior we
-                            are into sales and purchase of furniture,
-                            toiletries, electronics appliances and house hold
-                            equipment whole sale supply hotels and public
-                            centers.
-                        </p>
-                    </div> */}
+
+                 
                 </div>
-            </div>{' '}
+            </div>{' '} */}
         </>
     )
 }
 
-export default Home
+export default PropertyManagement
