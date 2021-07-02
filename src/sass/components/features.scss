@@ -77,7 +77,10 @@
     &__text {
         font-size: $font-clamp;
         text-align: center;
-        
-       
+    }
+
+    &__icon{
+         font-size: 8rem;
+        color: $color-primary-dark;
     }
 }
