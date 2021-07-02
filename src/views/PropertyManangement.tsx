@@ -41,11 +41,8 @@ const Home = () => {
                     property users easy access and testimonies contact us
                 </p>
             </div>{' '}
-          
             <div className='services'>
-             
                 <div className='services__text'>
-                
                     <div>
                         <figure className='services__icon'>
                             <ImExit />
@@ -67,14 +64,18 @@ const Home = () => {
                         </h4>
                         <ul>
                             <li>
-                                <h5>Emotions:</h5>
-                                <p>
-                                    An individual tags a property to a problem
-                                    this makes the owner vulnerable as the
-                                    potential purchaser would psychologically
-                                    capitalize on this weakness to bid down
-                                    their price
-                                </p>
+                                <details>
+                                    <summary>
+                                        <h5>Emotions:</h5>
+                                    </summary>
+                                    <p>
+                                        An individual tags a property to a
+                                        problem this makes the owner vulnerable
+                                        as the potential purchaser would
+                                        psychologically capitalize on this
+                                        weakness to bid down their price
+                                    </p>
+                                </details>
                             </li>
                             <li>
                                 <h5>Marketing Avenue:</h5>

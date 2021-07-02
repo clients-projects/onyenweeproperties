@@ -82,6 +82,22 @@
        ul{
 
         list-style: none;
+
+        details{
+
+            summary>*{
+                display: inline;
+
+
+               
+            }
+
+            summary{
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
        }
     }
 
