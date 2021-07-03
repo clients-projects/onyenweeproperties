@@ -62,10 +62,7 @@ const PropertyManagement = () => {
                         </h4>
                         <ul>
                             <li>
-                                <details open>
-                                    <summary>
                                         <h5>Emotions</h5>
-                                    </summary>
                                     <p>
                                         An individual tags a property to a
                                         problem this makes the owner vulnerable
@@ -73,7 +70,6 @@ const PropertyManagement = () => {
                                         psychologically capitalize on this
                                         weakness to bid down their price
                                     </p>
-                                </details>
                             </li>
                             <li>
                                 <details open>
@@ -143,10 +139,7 @@ const PropertyManagement = () => {
                                 </details>
                             </li>
                             <li>
-                                <details open>
-                                    <summary>
                                         <h5>Price Bidding Mechanism</h5>
-                                    </summary>
                                     <p>
                                         Property pricing can never be a talent
                                         rather a combination of the sellers
