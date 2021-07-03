@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import RealEstate1 from '../assets/realEstate/houseBg.jpg'
+import RealEstate1 from '../assets/propertyManagement.jpeg'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { ImEnter, ImExit } from 'react-icons/im'
 import { AiFillHourglass } from 'react-icons/ai'
