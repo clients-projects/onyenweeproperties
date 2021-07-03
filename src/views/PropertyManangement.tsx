@@ -72,10 +72,8 @@ const PropertyManagement = () => {
                                     </p>
                             </li>
                             <li>
-                                <details open>
-                                    <summary>
                                         <h5>Marketing Avenue</h5>
-                                    </summary>
+                               
                                     <p>
                                         Specific goods and services are better
                                         appreciated valued and sort for at the
@@ -87,7 +85,6 @@ const PropertyManagement = () => {
                                         property at a random market on an
                                         intimidation low price
                                     </p>
-                                </details>
                             </li>
                             <li>
                                         <h5>Price Bidding Mechanism</h5>
