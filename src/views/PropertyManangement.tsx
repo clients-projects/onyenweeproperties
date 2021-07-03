@@ -32,11 +32,11 @@ const PropertyManagement = () => {
                     other relevant property documents.
                 </p>
                 <p className='whoWeAre__text' style={{ marginTop: '2rem' }}>
-                    We guarantee you a peace of mind by securing a high quality
-                    tenants quickest return on property investment diligent
+                    We guarantee you peace of mind by securing high quality
+                    tenants, quickest return on property investment, diligent
                     routine inspection and maintenance. We are passionate when
-                    it comes to building your inflow, our commission and the
-                    property users easy access and testimonies contact us
+                    it comes to building your inflow, our commission and giving the
+                    property users easy access, and testimonies.
                 </p>
             </div>{' '}
             <div className='services features1'>
