@@ -1,11 +1,11 @@
-import House2 from '../assets/realEstate/houseBg.jpg'
+import House2 from '../assets/propertyManagement.jpeg'
 
 import House1 from '../assets/realEstate/RealEstate2.jpg'
 import House3 from '../assets/realEstate/building2.jpg'
 import House4 from '../assets/interior.jpeg'
 
 // import SpriteHeartFull from '../sass/img/sprite.svg#icon-heart-full'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Homes = () => {
     return (
@@ -33,13 +33,17 @@ const Homes = () => {
                     <div className='home'>
                         <img src={House3} alt='House 3' className='home__img' />
 
-                        <Link className='home__name' to='/construction'>Construction</Link>
+                        <Link className='home__name' to='/construction'>
+                            Construction
+                        </Link>
                     </div>
 
                     <div className='home'>
                         <img src={House4} alt='House 1' className='home__img' />
 
-                        <Link className='home__name' to='/interior'>Interior</Link>
+                        <Link className='home__name' to='/interior'>
+                            Interior
+                        </Link>
                     </div>
                 </div>
             </section>
