@@ -90,17 +90,13 @@ const PropertyManagement = () => {
                                 </details>
                             </li>
                             <li>
-                                <details open>
-                                    <summary>
                                         <h5>Price Bidding Mechanism</h5>
-                                    </summary>
                                     <p>
                                         A property purchaser will always bid low
                                         while dealing with an individuals
                                         believing you would lay off the property
                                         once his bid matches your emotions
                                     </p>
-                                </details>
                             </li>
                         </ul>
                         <h3>Why We Should Help You Sell</h3>
@@ -119,10 +115,8 @@ const PropertyManagement = () => {
                         </h4>
                         <ul>
                             <li>
-                                <details open>
-                                    <summary>
                                         <h5>Marketing Avenue</h5>
-                                    </summary>
+                                 
                                     <p>
                                         Onyenwee properties for over 30 years of
                                         dominant in property industry
@@ -136,7 +130,6 @@ const PropertyManagement = () => {
                                         magazines, radio stations as a medium of
                                         reach out to the public
                                     </p>
-                                </details>
                             </li>
                             <li>
                                         <h5>Price Bidding Mechanism</h5>
@@ -152,7 +145,6 @@ const PropertyManagement = () => {
                                         accomplishment via the purchaser and
                                         everything one goes home happy
                                     </p>
-                                </details>
                             </li>
                         </ul>
                     </div>
