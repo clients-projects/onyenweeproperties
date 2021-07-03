@@ -62,7 +62,7 @@ const PropertyManagement = () => {
                         </h4>
                         <ul>
                             <li>
-                                <details>
+                                <details open>
                                     <summary>
                                         <h5>Emotions</h5>
                                     </summary>
@@ -76,7 +76,7 @@ const PropertyManagement = () => {
                                 </details>
                             </li>
                             <li>
-                                <details>
+                                <details open>
                                     <summary>
                                         <h5>Marketing Avenue</h5>
                                     </summary>
@@ -94,7 +94,7 @@ const PropertyManagement = () => {
                                 </details>
                             </li>
                             <li>
-                                <details>
+                                <details open>
                                     <summary>
                                         <h5>Price Bidding Mechanism</h5>
                                     </summary>
@@ -123,7 +123,7 @@ const PropertyManagement = () => {
                         </h4>
                         <ul>
                             <li>
-                                <details>
+                                <details open>
                                     <summary>
                                         <h5>Marketing Avenue</h5>
                                     </summary>
@@ -143,7 +143,7 @@ const PropertyManagement = () => {
                                 </details>
                             </li>
                             <li>
-                                <details>
+                                <details open>
                                     <summary>
                                         <h5>Price Bidding Mechanism</h5>
                                     </summary>
