@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
-
 import RealEstate1 from '../assets/realEstate/RealEstate4.jpg'
 import Interior1 from '../assets/realEstate/interior1.jpg'
 import Interior2 from '../assets/realEstate/interior2.jpg'

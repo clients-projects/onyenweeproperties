@@ -16,6 +16,7 @@ const Home = () => {
     const [displayMessage, setDisplayMessage] = useState('')
 
     const inputHandler = (input: any) => {
+        console.log('inputName', input.target.name)
         const inputName = input.target.name
         const inputValue = input.target.value
 
