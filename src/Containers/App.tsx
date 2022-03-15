@@ -17,6 +17,7 @@ import RealEstate from '../views/RealEstate'
 
 function App() {
    const location: LastLocationType = useLocation()
+    console.log('update') 
 
   
     let AuthGuard = (
