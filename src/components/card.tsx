@@ -2,6 +2,7 @@ import RealEstate1 from '../assets/realEstate/RealEstate2.jpg'
 
 
 const Card = () => {
+    console.log('update from mac')
     return (
         <>
             <div className='card__img'>
